@@ -1,0 +1,362 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <meta name="description" content="Material da Aula 1.3 do Codex Course: compare aplicativo para desktop, navegador, CLI, IDE e nuvem e escolha o ambiente certo.">
+    <meta name="theme-color" content="#171815">
+    <title>Aula 1.3 — Aplicativo, navegador, CLI ou IDE? | Codex Course</title>
+    <link rel="icon" href="../recursos/bmc-reference/favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="m1-system.css?v=20260824d">
+  </head>
+  <body data-lesson="1.3">
+    <a class="skip-link" href="#conteudo">Ir para o conteúdo</a>
+
+    <div class="page-shell">
+      <header class="site-nav">
+        <div class="nav-inner">
+          <div class="brand-cluster">
+            <div class="publisher-brand">
+              <img src="../recursos/brand/logo-nocode.png" alt="NoCode StartUp" width="242" height="33">
+            </div>
+            <span class="brand-divider" aria-hidden="true"></span>
+            <a class="brand" href="m1-1.1-introducao.html" aria-label="Codex Course, início do módulo 1">
+              <span class="brand-mark codex-brand-mark" aria-hidden="true">
+                <img src="../recursos/brand/codex-mark.png" alt="" width="640" height="640">
+                <span class="codex-word">CODEX</span>
+              </span>
+              <span class="brand-label">Curso · Módulo 1</span>
+            </a>
+          </div>
+
+          <nav class="lesson-nav" aria-label="Aulas do módulo 1">
+            <a href="m1-1.1-introducao.html" aria-label="Aula 1.1, introdução">1.1</a>
+            <a href="m1-1.2-pensar-em-passos.html" aria-label="Aula 1.2, pensar em passos">1.2</a>
+            <a href="m1-1.3-app-navegador-cli-ide.html" aria-current="page" aria-label="Aula 1.3, superfícies do Codex">1.3</a>
+          </nav>
+        </div>
+        <div class="nav-progress" aria-hidden="true"></div>
+      </header>
+
+      <main id="conteudo">
+        <section class="lesson-hero" data-hero>
+          <div class="container hero-grid">
+            <div class="hero-copy" data-hero-copy>
+              <p class="lesson-id">Aula 1.3 · Escolha do ambiente</p>
+              <h1>Escolha o caminho.<br>Depois, evolua.</h1>
+              <p class="hero-lead">
+                O aplicativo para desktop (app), o navegador, a interface de linha de comando (CLI), o editor de desenvolvimento (IDE) e a nuvem são superfícies diferentes para trabalhos diferentes. Neste curso, começamos onde contexto, arquivo e revisão ficam mais visíveis.
+              </p>
+              <div class="hero-actions">
+                <a class="button" href="#comparador">Comparar ambientes <span aria-hidden="true">↓</span></a>
+                <a class="button secondary" href="#preparacao">Preparar o aplicativo</a>
+              </div>
+            </div>
+
+            <div class="hero-visual" data-hero-visual>
+              <div class="surface-stack" data-scale-media aria-label="Representação das superfícies do Codex">
+                <div class="surface-stack-item surface-stack-back">CLI <span>terminal</span></div>
+                <div class="surface-stack-item surface-stack-mid">IDE <span>ao lado do código</span></div>
+                <div class="surface-stack-item surface-stack-front">Aplicativo desktop <span>projetos, conversas e arquivos</span></div>
+              </div>
+              <aside class="hero-aside-note">
+                <strong>Escolha do curso</strong>
+                O aplicativo para desktop reduz a fricção inicial para o público do curso e mantém o trabalho revisável.
+              </aside>
+            </div>
+          </div>
+        </section>
+
+        <section class="chapter" id="comparador">
+          <div class="container">
+            <div class="twelve-grid">
+              <div class="chapter-heading">
+                <h2>A superfície certa depende do trabalho.</h2>
+              </div>
+              <p class="chapter-intro">
+                Abra cada opção. Compare a forma de trabalhar, o ponto forte e o papel que ela terá nesta formação.
+              </p>
+            </div>
+
+            <hr class="chapter-rule">
+
+            <div class="scenario-lab" data-scenario-lab data-reveal>
+              <div class="scenario-list" role="group" aria-label="Escolha um contexto de trabalho">
+                <p class="section-kicker">Qual é o trabalho de agora?</p>
+                <button type="button" aria-pressed="true" data-scenario-target="surface-app" data-scenario-title="Aplicativo desktop" data-scenario-reason="Combina arquivos locais, contexto duradouro e revisão visual com a menor barreira de entrada.">
+                  <span>01</span><strong>Tenho arquivos e quero acompanhar a entrega visualmente.</strong>
+                </button>
+                <button type="button" aria-pressed="false" data-scenario-target="surface-web" data-scenario-title="Navegador" data-scenario-reason="Funciona bem para pesquisa, análise e materiais que não dependem de uma pasta local.">
+                  <span>02</span><strong>Quero pesquisar e produzir sem usar uma pasta local.</strong>
+                </button>
+                <button type="button" aria-pressed="false" data-scenario-target="surface-cli" data-scenario-title="CLI" data-scenario-reason="Aproxima o agente de comandos, scripts e repositórios para quem já trabalha no terminal.">
+                  <span>03</span><strong>Já trabalho no terminal e preciso agir em um repositório.</strong>
+                </button>
+                <button type="button" aria-pressed="false" data-scenario-target="surface-ide" data-scenario-title="IDE" data-scenario-reason="Mantém conversa, arquivos e implementação no editor usado durante o desenvolvimento.">
+                  <span>04</span><strong>Quero revisar mudanças enquanto mantenho o código aberto.</strong>
+                </button>
+              </div>
+              <aside class="scenario-result" aria-live="polite">
+                <span>Recomendação para este contexto</span>
+                <strong data-scenario-result-title>Aplicativo desktop</strong>
+                <p data-scenario-result-reason>Combina arquivos locais, contexto duradouro e revisão visual com a menor barreira de entrada.</p>
+                <small>Escolha inicial, não compromisso permanente.</small>
+              </aside>
+            </div>
+
+            <div class="surface-matrix" role="region" aria-label="Resumo comparativo das superfícies do Codex" tabindex="0" data-reveal>
+              <table>
+                <caption class="sr-only">Comparação entre aplicativo para desktop, navegador, CLI, IDE e nuvem por contexto, barreira inicial e papel no curso.</caption>
+                <thead>
+                  <tr><th scope="col">Superfície</th><th scope="col">Contexto principal</th><th scope="col">Barreira inicial</th><th scope="col">Papel no curso</th></tr>
+                </thead>
+                <tbody>
+                  <tr><th scope="row">Aplicativo para desktop</th><td>Projetos, conversas e arquivos locais</td><td>Baixa</td><td><span class="surface-badge primary">Rota principal</span></td></tr>
+                  <tr><th scope="row">Navegador</th><td>Pesquisa e materiais na web</td><td>Baixa</td><td><span class="surface-badge">Alternativa</span></td></tr>
+                  <tr><th scope="row">CLI</th><td>Terminal, scripts e repositórios</td><td>Maior</td><td><span class="surface-badge">Opcional</span></td></tr>
+                  <tr><th scope="row">IDE</th><td>Código aberto no editor</td><td>Média</td><td><span class="surface-badge">Evolução</span></td></tr>
+                  <tr><th scope="row">Nuvem</th><td>Tarefas isoladas e em segundo plano</td><td>Alta</td><td><span class="surface-badge">Posterior</span></td></tr>
+                </tbody>
+              </table>
+            </div>
+
+            <div class="surface-accordion" data-accordion data-surface-decision aria-label="Detalhes das superfícies do Codex">
+              <section class="surface-item is-active" data-accordion-item>
+                <button class="surface-trigger" id="surface-trigger-app" type="button" data-accordion-trigger aria-expanded="true" aria-controls="surface-app">
+                  <span>Aplicativo desktop</span>
+                </button>
+                <div class="surface-content" id="surface-app" role="region" aria-labelledby="surface-trigger-app">
+                  <h3>O centro de comando do curso</h3>
+                  <p>Reúne projetos, conversas, arquivos e trabalhos mais longos em uma interface visual. É a rota principal porque favorece contexto, acompanhamento e revisão.</p>
+                  <div class="surface-fit">
+                    <div><strong>Bom para</strong><span>Projetos com arquivos, entregas iterativas e revisão visual.</span></div>
+                    <div><strong>Barreira de entrada</strong><span>Baixa para o público do curso.</span></div>
+                    <div><strong>Ponto de atenção</strong><span>Conferir pasta anexada e nível de permissão.</span></div>
+                    <div><strong>No curso</strong><span>Ambiente principal do início ao compartilhamento.</span></div>
+                  </div>
+                </div>
+              </section>
+
+              <section class="surface-item" data-accordion-item>
+                <button class="surface-trigger" id="surface-trigger-web" type="button" data-accordion-trigger aria-expanded="false" aria-controls="surface-web">
+                  <span>Navegador</span>
+                </button>
+                <div class="surface-content" id="surface-web" role="region" aria-labelledby="surface-trigger-web">
+                  <h3>Pesquisa e entrega dentro da web</h3>
+                  <p>É útil quando o trabalho envolve pesquisa, análise de arquivos e produção de materiais sem depender de uma pasta local.</p>
+                  <div class="surface-fit">
+                    <div><strong>Bom para</strong><span>Pesquisa, análise e documentos produzidos no navegador.</span></div>
+                    <div><strong>Barreira de entrada</strong><span>Baixa; usa uma experiência web conhecida.</span></div>
+                    <div><strong>Ponto de atenção</strong><span>O contexto disponível é diferente do projeto local.</span></div>
+                    <div><strong>No curso</strong><span>Alternativa quando a entrega não exige arquivos locais.</span></div>
+                  </div>
+                </div>
+              </section>
+
+              <section class="surface-item" data-accordion-item>
+                <button class="surface-trigger" id="surface-trigger-cli" type="button" data-accordion-trigger aria-expanded="false" aria-controls="surface-cli">
+                  <span>CLI</span>
+                </button>
+                <div class="surface-content" id="surface-cli" role="region" aria-labelledby="surface-trigger-cli">
+                  <h3>Codex dentro do terminal</h3>
+                  <p>A CLI aproxima o agente de repositórios, comandos, scripts e automações. É poderosa para quem já trabalha naturalmente nesse ambiente.</p>
+                  <div class="surface-fit">
+                    <div><strong>Bom para</strong><span>Repositórios locais, scripts, revisão e automação.</span></div>
+                    <div><strong>Barreira de entrada</strong><span>Maior para o público não técnico.</span></div>
+                    <div><strong>Ponto de atenção</strong><span>Comandos e caminhos exigem leitura cuidadosa.</span></div>
+                    <div><strong>No curso</strong><span>Opcional; não bloqueia a entrega central.</span></div>
+                  </div>
+                </div>
+              </section>
+
+              <section class="surface-item" data-accordion-item>
+                <button class="surface-trigger" id="surface-trigger-ide" type="button" data-accordion-trigger aria-expanded="false" aria-controls="surface-ide">
+                  <span>IDE</span>
+                </button>
+                <div class="surface-content" id="surface-ide" role="region" aria-labelledby="surface-trigger-ide">
+                  <h3>Codex ao lado do código aberto</h3>
+                  <p>A extensão de IDE aproveita o contexto do editor e reduz a troca entre conversa, arquivos e implementação para quem desenvolve software.</p>
+                  <div class="surface-fit">
+                    <div><strong>Bom para</strong><span>Implementação e revisão dentro de editores compatíveis.</span></div>
+                    <div><strong>Barreira de entrada</strong><span>Média ou alta para o público do curso.</span></div>
+                    <div><strong>Ponto de atenção</strong><span>O editor adiciona conceitos que não são necessários agora.</span></div>
+                    <div><strong>No curso</strong><span>Opcional e útil em uma evolução mais técnica.</span></div>
+                  </div>
+                </div>
+              </section>
+
+              <section class="surface-item" data-accordion-item>
+                <button class="surface-trigger" id="surface-trigger-cloud" type="button" data-accordion-trigger aria-expanded="false" aria-controls="surface-cloud">
+                  <span>Nuvem</span>
+                </button>
+                <div class="surface-content" id="surface-cloud" role="region" aria-labelledby="surface-trigger-cloud">
+                  <h3>Tarefas isoladas e em segundo plano</h3>
+                  <p>O Codex também pode executar tarefas em ambientes de nuvem isolados, inclusive em paralelo, quando o fluxo está conectado a um repositório.</p>
+                  <div class="surface-fit">
+                    <div><strong>Bom para</strong><span>Trabalhos demorados, paralelos e ligados a repositórios.</span></div>
+                    <div><strong>Barreira de entrada</strong><span>Alta; envolve um fluxo de desenvolvimento conectado.</span></div>
+                    <div><strong>Ponto de atenção</strong><span>Ambiente, integração e revisão precisam estar claros.</span></div>
+                    <div><strong>No curso</strong><span>Expansão posterior, quando surgir necessidade concreta.</span></div>
+                  </div>
+                </div>
+              </section>
+            </div>
+          </div>
+        </section>
+
+        <div class="principle-band" aria-label="Princípio de escolha">
+          <span>Menos fricção</span><i aria-hidden="true"></i>
+          <span>Mais contexto</span><i aria-hidden="true"></i>
+          <span>Revisão visível</span><i aria-hidden="true"></i>
+          <span>Autonomia consciente</span>
+        </div>
+
+        <section class="chapter paper" id="preparacao">
+          <div class="container scroll-story">
+            <div class="story-heading">
+              <h2>Quatro pontos para reconhecer no aplicativo.</h2>
+              <p>
+                Os nomes e a posição dos controles podem mudar. A função de cada parte é mais importante do que memorizar uma tela.
+              </p>
+            </div>
+
+            <div class="story-panels">
+              <article class="story-panel">
+                <span class="story-number">01</span>
+                <h3>Projeto</h3>
+                <p>É o espaço que mantém conversas relacionadas no mesmo contexto. Separe projetos que pertencem a objetivos diferentes.</p>
+              </article>
+              <article class="story-panel">
+                <span class="story-number">02</span>
+                <h3>Chat (conversa)</h3>
+                <p>É onde você define o trabalho, responde perguntas, acompanha escolhas e orienta a próxima etapa.</p>
+              </article>
+              <article class="story-panel">
+                <span class="story-number">03</span>
+                <h3>Arquivos</h3>
+                <p>Uma pasta anexada fornece o contexto local que o Codex pode ler e, conforme a permissão, alterar.</p>
+              </article>
+              <article class="story-panel">
+                <span class="story-number">04</span>
+                <h3>Permissões</h3>
+                <p>Definem quando o agente pode agir e quando precisa pedir sua aprovação antes de ultrapassar um limite.</p>
+                <div class="callout">
+                  <strong>Antes de começar:</strong> confira o nível de permissão disponível na sua conta e mantenha “Pedir aprovação” quando quiser revisar ações sensíveis.
+                </div>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <section class="chapter">
+          <div class="container">
+            <div class="twelve-grid">
+              <div class="chapter-heading">
+                <h2>Uma representação, não um mapa da interface.</h2>
+              </div>
+              <p class="chapter-intro">
+                Use este desenho para lembrar a relação entre projeto, conversa, pasta e permissão. Os nomes e a posição dos controles podem variar conforme a versão do aplicativo.
+              </p>
+            </div>
+
+            <hr class="chapter-rule">
+
+            <div class="app-wireframe" data-scale-media aria-label="Representação conceitual do aplicativo desktop">
+              <div class="wireframe-bar">
+                <span>Projeto · Codex Course</span>
+                <span>Permissão · pedir aprovação</span>
+              </div>
+              <div class="wireframe-body">
+                <aside class="wireframe-side" aria-label="Lista conceitual de conversas">
+                  <div class="wire-line medium"></div>
+                  <div class="wire-line"></div>
+                  <div class="wire-line short"></div>
+                  <div class="wire-line"></div>
+                  <div class="wire-line medium"></div>
+                </aside>
+                <div class="wireframe-main">
+                  <div class="wire-chat">
+                    <strong>Contexto compartilhado</strong>
+                    <p>Este projeto usa a pasta do curso e mantém as decisões relacionadas à mesma entrega.</p>
+                  </div>
+                  <div class="wire-composer">Descreva o próximo trabalho e o critério de pronto…</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="chapter" aria-labelledby="checklist-title">
+          <div class="container">
+            <div class="twelve-grid">
+              <div class="chapter-heading">
+                <h2 id="checklist-title">Prepare o ambiente para o Módulo 2.</h2>
+              </div>
+              <p class="chapter-intro">
+                Marque os itens concluídos. O estado fica salvo somente neste navegador.
+              </p>
+            </div>
+
+            <hr class="chapter-rule">
+
+            <div class="checklist" data-checklist>
+              <div class="checklist-summary">
+                <div><span>Progresso de preparação</span><strong data-checklist-count>0 de 5 concluídos</strong></div>
+                <progress data-checklist-progress max="5" value="0" aria-label="Progresso de preparação">0 de 5</progress>
+              </div>
+              <button class="check-item" type="button" aria-pressed="false">
+                <span class="check-box" aria-hidden="true">OK</span>
+                <span class="check-label">Aplicativo desktop instalado e conectado</span>
+                <span class="check-note">Ambiente principal</span>
+              </button>
+              <button class="check-item" type="button" aria-pressed="false">
+                <span class="check-box" aria-hidden="true">OK</span>
+                <span class="check-label">Projeto separado criado para o curso</span>
+                <span class="check-note">Contexto focado</span>
+              </button>
+              <button class="check-item" type="button" aria-pressed="false">
+                <span class="check-box" aria-hidden="true">OK</span>
+                <span class="check-label">Pasta do curso preparada sem dados sensíveis</span>
+                <span class="check-note">Espaço seguro</span>
+              </button>
+              <button class="check-item" type="button" aria-pressed="false">
+                <span class="check-box" aria-hidden="true">OK</span>
+                <span class="check-label">Nível de permissão conferido</span>
+                <span class="check-note">Autonomia consciente</span>
+              </button>
+              <button class="check-item" type="button" aria-pressed="false">
+                <span class="check-box" aria-hidden="true">OK</span>
+                <span class="check-label">CLI e IDE reconhecidos como opcionais</span>
+                <span class="check-note">Sem barreira técnica</span>
+              </button>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="lesson-footer">
+        <div class="container">
+          <div class="footer-callout">
+            <h2>Ambiente escolhido. Contexto pronto. Próximo passo: praticar.</h2>
+            <a class="footer-next" href="../../projeto-inicial/README.md">
+              <span>Próxima atividade</span>
+              <strong>Conhecer o caso Lume <span aria-hidden="true">→</span></strong>
+            </a>
+          </div>
+          <div class="footer-meta">
+            <span>Codex Course · Módulo 1 · Material do aluno</span>
+            <nav aria-label="Links complementares">
+              <a href="m1-1.2-pensar-em-passos.html">Aula anterior</a>
+              <a href="https://learn.chatgpt.com/docs/app">Aplicativo desktop</a>
+              <a href="https://learn.chatgpt.com/docs/permission-modes">Permissões</a>
+            </nav>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/ScrollTrigger.min.js"></script>
+    <script src="m1-system.js?v=20260824d"></script>
+  </body>
+</html>

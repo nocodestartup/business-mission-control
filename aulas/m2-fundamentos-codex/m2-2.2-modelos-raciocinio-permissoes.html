@@ -1,0 +1,332 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <meta name="description" content="Material da Aula 2.2 do Codex Course: ajuste modelo, raciocínio e permissões de acordo com a tarefa.">
+    <meta name="theme-color" content="#171815">
+    <title>Aula 2.2: Modelos, raciocínio e permissões | Codex Course</title>
+    <link rel="icon" href="../recursos/bmc-reference/favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="m2-system.css?v=20260829a">
+  </head>
+  <body data-lesson="2.2">
+    <a class="skip-link" href="#conteudo">Ir para o conteúdo</a>
+
+    <div class="page-shell">
+      <header class="site-nav">
+        <div class="nav-inner">
+          <div class="brand-cluster">
+            <div class="publisher-brand">
+              <img src="../recursos/brand/logo-nocode.png" alt="NoCode StartUp" width="242" height="33">
+            </div>
+            <span class="brand-divider" aria-hidden="true"></span>
+            <a class="brand" href="m2-2.1-projetos-chats-arquivos.html" aria-label="Codex Course, início do módulo 2">
+              <span class="codex-brand-mark" aria-hidden="true">
+                <img src="../recursos/brand/codex-mark.png" alt="" width="640" height="640">
+                <span class="codex-word">CODEX</span>
+              </span>
+              <span class="brand-label">Curso · Módulo 2</span>
+            </a>
+          </div>
+
+          <nav class="lesson-nav" aria-label="Aulas do módulo 2">
+            <a href="m2-2.1-projetos-chats-arquivos.html" aria-label="Aula 2.1, projetos, tarefas e arquivos">2.1</a>
+            <a href="m2-2.2-modelos-raciocinio-permissoes.html" aria-current="page" aria-label="Aula 2.2, modelos, raciocínio e permissões">2.2</a>
+            <a href="m2-2.3-preparando-mission-control.html" aria-label="Aula 2.3, preparando o Mission Control">2.3</a>
+          </nav>
+        </div>
+        <div class="nav-progress" aria-hidden="true"></div>
+      </header>
+
+      <noscript>
+        <p class="no-script-note">Sem JavaScript, você ainda consegue ler todos os cenários e montar a política. Apenas a conferência automática fica indisponível.</p>
+      </noscript>
+
+      <main id="conteudo">
+        <section class="lesson-hero">
+          <div class="container hero-grid">
+            <div class="hero-copy">
+              <p class="lesson-id">Aula 2.2 · Modelos, raciocínio e permissões</p>
+              <h1>Escolha o esforço.<br>Limite o acesso.</h1>
+              <p class="hero-lead">
+                São duas decisões diferentes: quanto raciocínio a tarefa exige e o que o Codex pode fazer antes de pedir sua aprovação.
+              </p>
+              <div class="hero-actions">
+                <a class="button" href="#profundidade">Comparar cenários <span aria-hidden="true">↓</span></a>
+                <a class="button secondary" href="#politica">Definir a política</a>
+              </div>
+              <p class="hero-note">Pergunta-âncora: como dou autonomia ao Codex sem perder controle?</p>
+            </div>
+
+            <div class="hero-visual">
+              <div class="control-equation" aria-label="Diferença entre profundidade e permissão">
+                <div class="equation-row">
+                  <span>Profundidade</span>
+                  <div>
+                    <strong>Quanto analisar?</strong>
+                    <small>Modelo e raciocínio acompanham a dificuldade da tarefa e a quantidade de fontes.</small>
+                  </div>
+                </div>
+                <div class="equation-row">
+                  <span>Permissão</span>
+                  <div>
+                    <strong>O que pode fazer?</strong>
+                    <small>Workspace, sandbox e aprovações limitam arquivos, internet e ações sensíveis.</small>
+                  </div>
+                </div>
+                <div class="equation-row">
+                  <span>Responsável</span>
+                  <div>
+                    <strong>Quem assume a decisão?</strong>
+                    <small>Você define o objetivo, lê os pedidos de acesso e confere o que pode mudar.</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="chapter paper" id="profundidade">
+          <div class="container">
+            <div class="twelve-grid">
+              <div class="chapter-heading">
+                <p class="eyebrow">Escolha do perfil</p>
+                <h2>Comece pelo padrão. Aumente quando houver <span class="accent-word">motivo.</span></h2>
+              </div>
+              <p class="chapter-intro">
+                Não existe vantagem em usar o perfil mais forte para tudo. Comece pelo padrão e aumente o raciocínio quando a tarefa realmente ficar mais difícil.
+              </p>
+            </div>
+
+            <hr class="chapter-rule">
+
+            <div class="scenario-picker" data-scenario-picker>
+              <div class="scenario-tabs" role="tablist" aria-label="Cenários de complexidade">
+                <button id="scenario-tab-fast" type="button" role="tab" aria-selected="false" aria-controls="scenario-fast" tabindex="-1">
+                  <span>01 / RÁPIDO</span>
+                  Classificar uma lista
+                </button>
+                <button id="scenario-tab-balanced" type="button" role="tab" aria-selected="true" aria-controls="scenario-balanced">
+                  <span>02 / EQUILIBRADO</span>
+                  Inspecionar o kit
+                </button>
+                <button id="scenario-tab-deep" type="button" role="tab" aria-selected="false" aria-controls="scenario-deep" tabindex="-1">
+                  <span>03 / PROFUNDO</span>
+                  Revisar riscos do plano
+                </button>
+              </div>
+
+              <div class="scenario-deck">
+                <article class="scenario-card" id="scenario-fast" role="tabpanel" aria-labelledby="scenario-tab-fast">
+                  <span class="scenario-label">Trabalho claro e repetível</span>
+                  <h3>Classificar uma lista com regras já aprovadas</h3>
+                  <p>A lista é curta, as categorias já foram definidas e você consegue conferir o resultado item por item. Aqui, o mais importante é ganhar tempo.</p>
+                  <div class="scenario-metrics">
+                    <div><span>Perfil</span><strong>Rápido</strong></div>
+                    <div><span>Raciocínio</span><strong>Leve</strong></div>
+                    <div><span>Revisão</span><strong>Amostra + exceções</strong></div>
+                  </div>
+                </article>
+
+                <article class="scenario-card" id="scenario-balanced" role="tabpanel" aria-labelledby="scenario-tab-balanced">
+                  <span class="scenario-label">Caso atual</span>
+                  <h3>Inspecionar fontes e registrar lacunas</h3>
+                  <p>Há vários arquivos para relacionar, mas ainda não vamos escolher uma solução. O perfil padrão ou equilibrado é suficiente para organizar o material e apontar o que falta.</p>
+                  <div class="scenario-metrics">
+                    <div><span>Perfil</span><strong>Equilibrado</strong></div>
+                    <div><span>Raciocínio</span><strong>Padrão</strong></div>
+                    <div><span>Revisão</span><strong>Todos os seis itens</strong></div>
+                  </div>
+                </article>
+
+                <article class="scenario-card" id="scenario-deep" role="tabpanel" aria-labelledby="scenario-tab-deep">
+                  <span class="scenario-label">Decisões com impacto</span>
+                  <h3>Revisar um plano com riscos e conflitos</h3>
+                  <p>As fontes divergem, as decisões afetam várias pessoas e a revisão precisa encontrar falhas antes da execução. Nesse caso, vale aumentar a profundidade e deixar os critérios bem claros.</p>
+                  <div class="scenario-metrics">
+                    <div><span>Perfil</span><strong>Profundo</strong></div>
+                    <div><span>Raciocínio</span><strong>Maior</strong></div>
+                    <div><span>Revisão</span><strong>Achados + evidências</strong></div>
+                  </div>
+                </article>
+              </div>
+            </div>
+
+            <div class="callout top-gap-md">
+              <p><strong>Antes de aumentar o raciocínio, confira o pedido.</strong> Um modo mais profundo não conserta objetivo vago, fonte sem origem ou critério de pronto ausente.</p>
+            </div>
+          </div>
+        </section>
+
+        <div class="principle-band" aria-label="Política de escolha">
+          <span>Comece no padrão</span><i aria-hidden="true"></i>
+          <span>Observe a entrega</span><i aria-hidden="true"></i>
+          <span>Aumente quando precisar</span>
+        </div>
+
+        <section class="chapter" id="camadas-controle">
+          <div class="container">
+            <div class="twelve-grid">
+              <div class="chapter-heading">
+                <p class="eyebrow">Limites de ação</p>
+                <h2>Três camadas controlam <span class="accent-word">onde parar.</span></h2>
+              </div>
+              <p class="chapter-intro">
+                Permissão não se resume a um botão. A pasta escolhida, o isolamento do ambiente e os pedidos de aprovação trabalham juntos.
+              </p>
+            </div>
+
+            <hr class="chapter-rule">
+
+            <div class="control-layers">
+              <article class="layer-card reveal" data-index="01">
+                <h3>Workspace</h3>
+                <p>A pasta do projeto indica quais arquivos locais fazem parte do trabalho. Uma pasta menor evita ruído e exposição desnecessária.</p>
+                <footer>Escolha somente a pasta de que a tarefa precisa.</footer>
+              </article>
+              <article class="layer-card reveal" data-index="02">
+                <h3>Sandbox</h3>
+                <p>O ambiente aplica limites reais para leitura, edição, comandos e internet. Mesmo um pedido bem escrito precisa dessa proteção.</p>
+                <footer>Use limites técnicos junto com instruções claras.</footer>
+              </article>
+              <article class="layer-card reveal" data-index="03">
+                <h3>Aprovação</h3>
+                <p>Quando uma ação sai dos limites combinados, o Codex para e mostra o destino, o motivo e o possível impacto.</p>
+                <footer>Leia cada pedido antes de aprovar.</footer>
+              </article>
+            </div>
+
+            <div class="callout top-gap-md">
+              <p class="eyebrow">Ponto de partida recomendado</p>
+              <p>Na maioria dos trabalhos locais, permita ações dentro do workspace e peça aprovação para internet ou acesso fora dele. O nome do controle pode mudar, mas o limite precisa continuar claro.</p>
+            </div>
+          </div>
+        </section>
+
+        <section class="chapter paper" id="politica">
+          <div class="container">
+            <div class="twelve-grid">
+              <div class="chapter-heading">
+                <p class="eyebrow">Exercício · Menor acesso suficiente</p>
+                <h2>Decida o destino de cada <span class="accent-word">ação.</span></h2>
+              </div>
+              <p class="chapter-intro">
+                A tarefa atual é “Inspecionar o kit da Lume”. Para cada ação abaixo, pense se ela ajuda diretamente nesse resultado.
+              </p>
+            </div>
+
+            <hr class="chapter-rule">
+
+            <form class="policy-form" data-policy>
+              <fieldset class="policy-item" data-policy-item data-expected="inside">
+                <legend class="visually-hidden">Política para ler arquivos sintéticos dentro da pasta</legend>
+                <div class="policy-question">
+                  <strong>Ler os arquivos sintéticos da pasta</strong>
+                  <small>É a ação central da inspeção.</small>
+                </div>
+                <div class="policy-options">
+                  <label><input type="radio" name="policy-read" value="inside">Dentro do pedido</label>
+                  <label><input type="radio" name="policy-read" value="approval">Pedir aprovação</label>
+                  <label><input type="radio" name="policy-read" value="block">Bloquear</label>
+                </div>
+              </fieldset>
+
+              <fieldset class="policy-item" data-policy-item data-expected="block">
+                <legend class="visually-hidden">Política para editar uma fonte durante a inspeção</legend>
+                <div class="policy-question">
+                  <strong>Editar uma fonte durante a inspeção</strong>
+                  <small>Muda a fonte antes mesmo de entendermos o conteúdo.</small>
+                </div>
+                <div class="policy-options">
+                  <label><input type="radio" name="policy-edit" value="inside">Dentro do pedido</label>
+                  <label><input type="radio" name="policy-edit" value="approval">Pedir aprovação</label>
+                  <label><input type="radio" name="policy-edit" value="block">Bloquear</label>
+                </div>
+              </fieldset>
+
+              <fieldset class="policy-item" data-policy-item data-expected="approval">
+                <legend class="visually-hidden">Política para consultar documentação oficial na internet</legend>
+                <div class="policy-question">
+                  <strong>Consultar documentação oficial na internet</strong>
+                  <small>Só é necessária quando surge uma dúvida sobre o produto atual.</small>
+                </div>
+                <div class="policy-options">
+                  <label><input type="radio" name="policy-internet" value="inside">Dentro do pedido</label>
+                  <label><input type="radio" name="policy-internet" value="approval">Pedir aprovação</label>
+                  <label><input type="radio" name="policy-internet" value="block">Bloquear</label>
+                </div>
+              </fieldset>
+
+              <fieldset class="policy-item" data-policy-item data-expected="approval">
+                <legend class="visually-hidden">Política para acessar outra pasta com necessidade justificada</legend>
+                <div class="policy-question">
+                  <strong>Acessar outra pasta com necessidade justificada</strong>
+                  <small>Sai da pasta escolhida para esta atividade.</small>
+                </div>
+                <div class="policy-options">
+                  <label><input type="radio" name="policy-folder" value="inside">Dentro do pedido</label>
+                  <label><input type="radio" name="policy-folder" value="approval">Pedir aprovação</label>
+                  <label><input type="radio" name="policy-folder" value="block">Bloquear</label>
+                </div>
+              </fieldset>
+
+              <fieldset class="policy-item" data-policy-item data-expected="block">
+                <legend class="visually-hidden">Política para publicar, enviar ou excluir</legend>
+                <div class="policy-question">
+                  <strong>Publicar, enviar mensagem ou excluir arquivo</strong>
+                  <small>Nenhuma dessas ações é necessária para montar o inventário.</small>
+                </div>
+                <div class="policy-options">
+                  <label><input type="radio" name="policy-external" value="inside">Dentro do pedido</label>
+                  <label><input type="radio" name="policy-external" value="approval">Pedir aprovação</label>
+                  <label><input type="radio" name="policy-external" value="block">Bloquear</label>
+                </div>
+              </fieldset>
+
+              <div class="policy-actions">
+                <button class="button" type="button" data-check-policy>Verificar política</button>
+                <p class="policy-feedback" data-policy-feedback aria-live="polite">Quando terminar, confira se cada escolha é necessária para a tarefa.</p>
+              </div>
+            </form>
+
+            <div class="policy-reference" aria-label="Política recomendada">
+              <article>
+                <span class="tag evidence">Dentro do pedido</span>
+                <p>Ler a pasta do kit e resumir sua estrutura.</p>
+              </article>
+              <article>
+                <span class="tag rule">Pedir aprovação</span>
+                <p>Internet ou outra pasta, somente quando houver um motivo claro.</p>
+              </article>
+              <article>
+                <span class="tag danger">Bloquear</span>
+                <p>Editar fontes, excluir, enviar, publicar ou usar dados reais.</p>
+              </article>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="lesson-footer">
+        <div class="container">
+          <div class="footer-callout">
+            <h2>Uma boa configuração deixa claro o que pode seguir, o que precisa de aprovação e o que fica bloqueado.</h2>
+            <a class="footer-next" href="m2-2.3-preparando-mission-control.html">
+              <span>Próxima aula</span>
+              <strong>Executar o preflight <span aria-hidden="true">→</span></strong>
+            </a>
+          </div>
+          <div class="footer-meta">
+            <span>Codex Course · Módulo 2 · Material do aluno</span>
+            <nav aria-label="Links complementares">
+              <a href="m2-2.1-projetos-chats-arquivos.html">Aula anterior</a>
+              <a href="../../projeto-inicial/mapa_logico_inicial.md">Rever o mapa lógico</a>
+            </nav>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script src="m2-system.js?v=20260829a"></script>
+  </body>
+</html>

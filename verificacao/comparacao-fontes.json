@@ -1,0 +1,67 @@
+{
+  "metodo": "Todas as abas: coordenadas, valores, tipos e formulas/caches; Markdown byte a byte. Estilos e metadados de aplicativo nao definem equivalencia analitica.",
+  "fontes": [
+    {
+      "arquivo": "01-briefing_da_empresa.md",
+      "sha256_distribuido": "a70572a49a9f346aa91515c81c1a5a66d4b525bdf0198ce46c9563cb58775021",
+      "sha256_origem_exemplo": "a70572a49a9f346aa91515c81c1a5a66d4b525bdf0198ce46c9563cb58775021",
+      "conteudo_equivalente": true,
+      "abas": []
+    },
+    {
+      "arquivo": "02-atendimento_e_propostas_maio.xlsx",
+      "sha256_distribuido": "724b2d5a8ef889f1e2e3d24ae1789c988e989d992c00b16af3ba688d98b5bc83",
+      "sha256_origem_exemplo": "fe2fd53cb666a618ede3f288de11de5cf09c360d97acec09cfa5e184666f6a3d",
+      "conteudo_equivalente": true,
+      "abas": [
+        {
+          "aba": "contatos",
+          "celulas": 2499
+        },
+        {
+          "aba": "propostas",
+          "celulas": 1391
+        },
+        {
+          "aba": "dicionario",
+          "celulas": 179
+        },
+        {
+          "aba": "historico_mensal",
+          "celulas": 78
+        }
+      ]
+    },
+    {
+      "arquivo": "03-ordens_de_servico_maio.xlsx",
+      "sha256_distribuido": "aab106617745b1888066f52fe21ca98f7bcc7e10f90a042c0300d86b51f61e6b",
+      "sha256_origem_exemplo": "2ea4e80c29915957cc7a88265ffa902d10163455eea102368d00baa40d8ba91c",
+      "conteudo_equivalente": true,
+      "abas": [
+        {
+          "aba": "ordens",
+          "celulas": 2082
+        },
+        {
+          "aba": "agenda",
+          "celulas": 997
+        },
+        {
+          "aba": "dicionario",
+          "celulas": 173
+        },
+        {
+          "aba": "historico_mensal",
+          "celulas": 91
+        }
+      ]
+    },
+    {
+      "arquivo": "04-feedbacks_e_rotina_maio.md",
+      "sha256_distribuido": "7fc21672408892e0a4b86e6f2e47d7d1b050175f4c212ab85d07d503f0370611",
+      "sha256_origem_exemplo": "7fc21672408892e0a4b86e6f2e47d7d1b050175f4c212ab85d07d503f0370611",
+      "conteudo_equivalente": true,
+      "abas": []
+    }
+  ]
+}

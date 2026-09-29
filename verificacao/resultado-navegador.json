@@ -1,0 +1,1542 @@
+{
+  "date": "2026-09-28T21:52:57.528Z",
+  "method": "Chrome headless; HTTP loopback limitado a copia isolada; todas as requisicoes externas bloqueadas.",
+  "checks": [
+    {
+      "name": "aulas/m1-inicio/m1-1.1-introducao.html: conteudo",
+      "passed": true
+    },
+    {
+      "name": "aulas/m1-inicio/m1-1.1-introducao.html: desktop",
+      "passed": true
+    },
+    {
+      "name": "aulas/m1-inicio/m1-1.1-introducao.html: celular",
+      "passed": true,
+      "detail": {
+        "width": 390,
+        "content": 390,
+        "ok": true,
+        "offenders": []
+      }
+    },
+    {
+      "name": "aulas/m1-inicio/m1-1.1-introducao.html: 375px",
+      "passed": true,
+      "detail": {
+        "width": 375,
+        "content": 375,
+        "ok": true,
+        "offenders": []
+      }
+    },
+    {
+      "name": "aulas/m1-inicio/m1-1.1-introducao.html: imagens",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "aulas/m1-inicio/m1-1.2-pensar-em-passos.html: conteudo",
+      "passed": true
+    },
+    {
+      "name": "aulas/m1-inicio/m1-1.2-pensar-em-passos.html: desktop",
+      "passed": true
+    },
+    {
+      "name": "aulas/m1-inicio/m1-1.2-pensar-em-passos.html: celular",
+      "passed": true,
+      "detail": {
+        "width": 390,
+        "content": 390,
+        "ok": true,
+        "offenders": []
+      }
+    },
+    {
+      "name": "aulas/m1-inicio/m1-1.2-pensar-em-passos.html: 375px",
+      "passed": true,
+      "detail": {
+        "width": 375,
+        "content": 375,
+        "ok": true,
+        "offenders": []
+      }
+    },
+    {
+      "name": "aulas/m1-inicio/m1-1.2-pensar-em-passos.html: imagens",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "aulas/m1-inicio/m1-1.3-app-navegador-cli-ide.html: conteudo",
+      "passed": true
+    },
+    {
+      "name": "aulas/m1-inicio/m1-1.3-app-navegador-cli-ide.html: desktop",
+      "passed": true
+    },
+    {
+      "name": "aulas/m1-inicio/m1-1.3-app-navegador-cli-ide.html: celular",
+      "passed": true,
+      "detail": {
+        "width": 390,
+        "content": 390,
+        "ok": true,
+        "offenders": [
+          {
+            "tag": "TD",
+            "class": "",
+            "right": 630,
+            "text": "Média"
+          },
+          {
+            "tag": "TD",
+            "class": "",
+            "right": 775,
+            "text": "Evolução"
+          },
+          {
+            "tag": "SPAN",
+            "class": "surface-badge",
+            "right": 713,
+            "text": "Evolução"
+          },
+          {
+            "tag": "TR",
+            "class": "",
+            "right": 775,
+            "text": "NuvemTarefas isoladas e em segundo planoAltaPosterior"
+          },
+          {
+            "tag": "TD",
+            "class": "",
+            "right": 479,
+            "text": "Tarefas isoladas e em segundo plano"
+          },
+          {
+            "tag": "TD",
+            "class": "",
+            "right": 630,
+            "text": "Alta"
+          },
+          {
+            "tag": "TD",
+            "class": "",
+            "right": 775,
+            "text": "Posterior"
+          },
+          {
+            "tag": "SPAN",
+            "class": "surface-badge",
+            "right": 714,
+            "text": "Posterior"
+          }
+        ]
+      }
+    },
+    {
+      "name": "aulas/m1-inicio/m1-1.3-app-navegador-cli-ide.html: 375px",
+      "passed": true,
+      "detail": {
+        "width": 375,
+        "content": 375,
+        "ok": true,
+        "offenders": [
+          {
+            "tag": "TD",
+            "class": "",
+            "right": 630,
+            "text": "Média"
+          },
+          {
+            "tag": "TD",
+            "class": "",
+            "right": 775,
+            "text": "Evolução"
+          },
+          {
+            "tag": "SPAN",
+            "class": "surface-badge",
+            "right": 713,
+            "text": "Evolução"
+          },
+          {
+            "tag": "TR",
+            "class": "",
+            "right": 775,
+            "text": "NuvemTarefas isoladas e em segundo planoAltaPosterior"
+          },
+          {
+            "tag": "TD",
+            "class": "",
+            "right": 479,
+            "text": "Tarefas isoladas e em segundo plano"
+          },
+          {
+            "tag": "TD",
+            "class": "",
+            "right": 630,
+            "text": "Alta"
+          },
+          {
+            "tag": "TD",
+            "class": "",
+            "right": 775,
+            "text": "Posterior"
+          },
+          {
+            "tag": "SPAN",
+            "class": "surface-badge",
+            "right": 714,
+            "text": "Posterior"
+          }
+        ]
+      }
+    },
+    {
+      "name": "aulas/m1-inicio/m1-1.3-app-navegador-cli-ide.html: imagens",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "aulas/m2-fundamentos-codex/m2-2.1-projetos-chats-arquivos.html: conteudo",
+      "passed": true
+    },
+    {
+      "name": "aulas/m2-fundamentos-codex/m2-2.1-projetos-chats-arquivos.html: desktop",
+      "passed": true
+    },
+    {
+      "name": "aulas/m2-fundamentos-codex/m2-2.1-projetos-chats-arquivos.html: celular",
+      "passed": true,
+      "detail": {
+        "width": 390,
+        "content": 390,
+        "ok": true,
+        "offenders": []
+      }
+    },
+    {
+      "name": "aulas/m2-fundamentos-codex/m2-2.1-projetos-chats-arquivos.html: 375px",
+      "passed": true,
+      "detail": {
+        "width": 375,
+        "content": 375,
+        "ok": true,
+        "offenders": []
+      }
+    },
+    {
+      "name": "aulas/m2-fundamentos-codex/m2-2.1-projetos-chats-arquivos.html: imagens",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "aulas/m2-fundamentos-codex/m2-2.2-modelos-raciocinio-permissoes.html: conteudo",
+      "passed": true
+    },
+    {
+      "name": "aulas/m2-fundamentos-codex/m2-2.2-modelos-raciocinio-permissoes.html: desktop",
+      "passed": true
+    },
+    {
+      "name": "aulas/m2-fundamentos-codex/m2-2.2-modelos-raciocinio-permissoes.html: celular",
+      "passed": true,
+      "detail": {
+        "width": 390,
+        "content": 390,
+        "ok": true,
+        "offenders": [
+          {
+            "tag": "SMALL",
+            "class": "",
+            "right": 463,
+            "text": "Nenhuma dessas ações é necessária para montar o inventário."
+          },
+          {
+            "tag": "DIV",
+            "class": "policy-options",
+            "right": 463,
+            "text": "\n                  Dentro do pedido\n                  Pedir aprov"
+          },
+          {
+            "tag": "LABEL",
+            "class": "",
+            "right": 463,
+            "text": "Dentro do pedido"
+          },
+          {
+            "tag": "LABEL",
+            "class": "",
+            "right": 463,
+            "text": "Pedir aprovação"
+          },
+          {
+            "tag": "LABEL",
+            "class": "",
+            "right": 463,
+            "text": "Bloquear"
+          },
+          {
+            "tag": "DIV",
+            "class": "policy-actions",
+            "right": 484,
+            "text": "\n                Verificar política\n                Quando termin"
+          },
+          {
+            "tag": "BUTTON",
+            "class": "button",
+            "right": 484,
+            "text": "Verificar política"
+          },
+          {
+            "tag": "P",
+            "class": "policy-feedback",
+            "right": 446,
+            "text": "Quando terminar, confira se cada escolha é necessária para a tare"
+          }
+        ]
+      }
+    },
+    {
+      "name": "aulas/m2-fundamentos-codex/m2-2.2-modelos-raciocinio-permissoes.html: 375px",
+      "passed": true,
+      "detail": {
+        "width": 375,
+        "content": 375,
+        "ok": true,
+        "offenders": [
+          {
+            "tag": "SMALL",
+            "class": "",
+            "right": 463,
+            "text": "Nenhuma dessas ações é necessária para montar o inventário."
+          },
+          {
+            "tag": "DIV",
+            "class": "policy-options",
+            "right": 463,
+            "text": "\n                  Dentro do pedido\n                  Pedir aprov"
+          },
+          {
+            "tag": "LABEL",
+            "class": "",
+            "right": 463,
+            "text": "Dentro do pedido"
+          },
+          {
+            "tag": "LABEL",
+            "class": "",
+            "right": 463,
+            "text": "Pedir aprovação"
+          },
+          {
+            "tag": "LABEL",
+            "class": "",
+            "right": 463,
+            "text": "Bloquear"
+          },
+          {
+            "tag": "DIV",
+            "class": "policy-actions",
+            "right": 484,
+            "text": "\n                Verificar política\n                Quando termin"
+          },
+          {
+            "tag": "BUTTON",
+            "class": "button",
+            "right": 484,
+            "text": "Verificar política"
+          },
+          {
+            "tag": "P",
+            "class": "policy-feedback",
+            "right": 446,
+            "text": "Quando terminar, confira se cada escolha é necessária para a tare"
+          }
+        ]
+      }
+    },
+    {
+      "name": "aulas/m2-fundamentos-codex/m2-2.2-modelos-raciocinio-permissoes.html: imagens",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "aulas/m2-fundamentos-codex/m2-2.3-preparando-mission-control.html: conteudo",
+      "passed": true
+    },
+    {
+      "name": "aulas/m2-fundamentos-codex/m2-2.3-preparando-mission-control.html: desktop",
+      "passed": true
+    },
+    {
+      "name": "aulas/m2-fundamentos-codex/m2-2.3-preparando-mission-control.html: celular",
+      "passed": true,
+      "detail": {
+        "width": 390,
+        "content": 390,
+        "ok": true,
+        "offenders": []
+      }
+    },
+    {
+      "name": "aulas/m2-fundamentos-codex/m2-2.3-preparando-mission-control.html: 375px",
+      "passed": true,
+      "detail": {
+        "width": 375,
+        "content": 375,
+        "ok": true,
+        "offenders": []
+      }
+    },
+    {
+      "name": "aulas/m2-fundamentos-codex/m2-2.3-preparando-mission-control.html: imagens",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "aulas/m3-planejamento/m3-3.1-dicas-boas-praticas.html: conteudo",
+      "passed": true
+    },
+    {
+      "name": "aulas/m3-planejamento/m3-3.1-dicas-boas-praticas.html: desktop",
+      "passed": true
+    },
+    {
+      "name": "aulas/m3-planejamento/m3-3.1-dicas-boas-praticas.html: celular",
+      "passed": true,
+      "detail": {
+        "width": 390,
+        "content": 390,
+        "ok": true,
+        "offenders": []
+      }
+    },
+    {
+      "name": "aulas/m3-planejamento/m3-3.1-dicas-boas-praticas.html: 375px",
+      "passed": true,
+      "detail": {
+        "width": 375,
+        "content": 375,
+        "ok": true,
+        "offenders": []
+      }
+    },
+    {
+      "name": "aulas/m3-planejamento/m3-3.1-dicas-boas-praticas.html: imagens",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "aulas/m3-planejamento/m3-3.2-contexto-criterios-aceite.html: conteudo",
+      "passed": true
+    },
+    {
+      "name": "aulas/m3-planejamento/m3-3.2-contexto-criterios-aceite.html: desktop",
+      "passed": true
+    },
+    {
+      "name": "aulas/m3-planejamento/m3-3.2-contexto-criterios-aceite.html: celular",
+      "passed": true,
+      "detail": {
+        "width": 390,
+        "content": 390,
+        "ok": true,
+        "offenders": []
+      }
+    },
+    {
+      "name": "aulas/m3-planejamento/m3-3.2-contexto-criterios-aceite.html: 375px",
+      "passed": true,
+      "detail": {
+        "width": 375,
+        "content": 375,
+        "ok": true,
+        "offenders": []
+      }
+    },
+    {
+      "name": "aulas/m3-planejamento/m3-3.2-contexto-criterios-aceite.html: imagens",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "aulas/m3-planejamento/m3-3.3-planejando-mission-control.html: conteudo",
+      "passed": true
+    },
+    {
+      "name": "aulas/m3-planejamento/m3-3.3-planejando-mission-control.html: desktop",
+      "passed": true
+    },
+    {
+      "name": "aulas/m3-planejamento/m3-3.3-planejando-mission-control.html: celular",
+      "passed": true,
+      "detail": {
+        "width": 390,
+        "content": 390,
+        "ok": true,
+        "offenders": []
+      }
+    },
+    {
+      "name": "aulas/m3-planejamento/m3-3.3-planejando-mission-control.html: 375px",
+      "passed": true,
+      "detail": {
+        "width": 375,
+        "content": 375,
+        "ok": true,
+        "offenders": []
+      }
+    },
+    {
+      "name": "aulas/m3-planejamento/m3-3.3-planejando-mission-control.html: imagens",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "aulas/m4-oportunidades-ia/m4-4.1-conhecendo-a-empresa.html: conteudo",
+      "passed": true
+    },
+    {
+      "name": "aulas/m4-oportunidades-ia/m4-4.1-conhecendo-a-empresa.html: desktop",
+      "passed": true
+    },
+    {
+      "name": "aulas/m4-oportunidades-ia/m4-4.1-conhecendo-a-empresa.html: celular",
+      "passed": true,
+      "detail": {
+        "width": 390,
+        "content": 390,
+        "ok": true,
+        "offenders": []
+      }
+    },
+    {
+      "name": "aulas/m4-oportunidades-ia/m4-4.1-conhecendo-a-empresa.html: 375px",
+      "passed": true,
+      "detail": {
+        "width": 375,
+        "content": 375,
+        "ok": true,
+        "offenders": []
+      }
+    },
+    {
+      "name": "aulas/m4-oportunidades-ia/m4-4.1-conhecendo-a-empresa.html: imagens",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "aulas/m4-oportunidades-ia/m4-4.2-encontrando-gargalos.html: conteudo",
+      "passed": true
+    },
+    {
+      "name": "aulas/m4-oportunidades-ia/m4-4.2-encontrando-gargalos.html: desktop",
+      "passed": true
+    },
+    {
+      "name": "aulas/m4-oportunidades-ia/m4-4.2-encontrando-gargalos.html: celular",
+      "passed": true,
+      "detail": {
+        "width": 390,
+        "content": 390,
+        "ok": true,
+        "offenders": []
+      }
+    },
+    {
+      "name": "aulas/m4-oportunidades-ia/m4-4.2-encontrando-gargalos.html: 375px",
+      "passed": true,
+      "detail": {
+        "width": 375,
+        "content": 375,
+        "ok": true,
+        "offenders": []
+      }
+    },
+    {
+      "name": "aulas/m4-oportunidades-ia/m4-4.2-encontrando-gargalos.html: imagens",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "aulas/m4-oportunidades-ia/m4-4.3-transformando-gargalos-em-oportunidades.html: conteudo",
+      "passed": true
+    },
+    {
+      "name": "aulas/m4-oportunidades-ia/m4-4.3-transformando-gargalos-em-oportunidades.html: desktop",
+      "passed": true
+    },
+    {
+      "name": "aulas/m4-oportunidades-ia/m4-4.3-transformando-gargalos-em-oportunidades.html: celular",
+      "passed": true,
+      "detail": {
+        "width": 390,
+        "content": 390,
+        "ok": true,
+        "offenders": []
+      }
+    },
+    {
+      "name": "aulas/m4-oportunidades-ia/m4-4.3-transformando-gargalos-em-oportunidades.html: 375px",
+      "passed": true,
+      "detail": {
+        "width": 375,
+        "content": 375,
+        "ok": true,
+        "offenders": []
+      }
+    },
+    {
+      "name": "aulas/m4-oportunidades-ia/m4-4.3-transformando-gargalos-em-oportunidades.html: imagens",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "aulas/m4-oportunidades-ia/m4-4.4-priorizando-o-plano-de-30-dias.html: conteudo",
+      "passed": true
+    },
+    {
+      "name": "aulas/m4-oportunidades-ia/m4-4.4-priorizando-o-plano-de-30-dias.html: desktop",
+      "passed": true
+    },
+    {
+      "name": "aulas/m4-oportunidades-ia/m4-4.4-priorizando-o-plano-de-30-dias.html: celular",
+      "passed": true,
+      "detail": {
+        "width": 390,
+        "content": 390,
+        "ok": true,
+        "offenders": []
+      }
+    },
+    {
+      "name": "aulas/m4-oportunidades-ia/m4-4.4-priorizando-o-plano-de-30-dias.html: 375px",
+      "passed": true,
+      "detail": {
+        "width": 375,
+        "content": 375,
+        "ok": true,
+        "offenders": []
+      }
+    },
+    {
+      "name": "aulas/m4-oportunidades-ia/m4-4.4-priorizando-o-plano-de-30-dias.html: imagens",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "aulas/m5-sites/m5-5.1-o-que-e-sites.html: conteudo",
+      "passed": true
+    },
+    {
+      "name": "aulas/m5-sites/m5-5.1-o-que-e-sites.html: desktop",
+      "passed": true
+    },
+    {
+      "name": "aulas/m5-sites/m5-5.1-o-que-e-sites.html: celular",
+      "passed": true,
+      "detail": {
+        "width": 390,
+        "content": 390,
+        "ok": true,
+        "offenders": []
+      }
+    },
+    {
+      "name": "aulas/m5-sites/m5-5.1-o-que-e-sites.html: 375px",
+      "passed": true,
+      "detail": {
+        "width": 375,
+        "content": 375,
+        "ok": true,
+        "offenders": []
+      }
+    },
+    {
+      "name": "aulas/m5-sites/m5-5.1-o-que-e-sites.html: imagens",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "aulas/m5-sites/m5-5.2-criando-a-primeira-versao.html: conteudo",
+      "passed": true
+    },
+    {
+      "name": "aulas/m5-sites/m5-5.2-criando-a-primeira-versao.html: desktop",
+      "passed": true
+    },
+    {
+      "name": "aulas/m5-sites/m5-5.2-criando-a-primeira-versao.html: celular",
+      "passed": true,
+      "detail": {
+        "width": 390,
+        "content": 390,
+        "ok": true,
+        "offenders": []
+      }
+    },
+    {
+      "name": "aulas/m5-sites/m5-5.2-criando-a-primeira-versao.html: 375px",
+      "passed": true,
+      "detail": {
+        "width": 375,
+        "content": 375,
+        "ok": true,
+        "offenders": []
+      }
+    },
+    {
+      "name": "aulas/m5-sites/m5-5.2-criando-a-primeira-versao.html: imagens",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "aulas/m5-sites/m5-5.3-criando-interacoes-uteis.html: conteudo",
+      "passed": true
+    },
+    {
+      "name": "aulas/m5-sites/m5-5.3-criando-interacoes-uteis.html: desktop",
+      "passed": true
+    },
+    {
+      "name": "aulas/m5-sites/m5-5.3-criando-interacoes-uteis.html: celular",
+      "passed": true,
+      "detail": {
+        "width": 390,
+        "content": 390,
+        "ok": true,
+        "offenders": []
+      }
+    },
+    {
+      "name": "aulas/m5-sites/m5-5.3-criando-interacoes-uteis.html: 375px",
+      "passed": true,
+      "detail": {
+        "width": 375,
+        "content": 375,
+        "ok": true,
+        "offenders": []
+      }
+    },
+    {
+      "name": "aulas/m5-sites/m5-5.3-criando-interacoes-uteis.html: imagens",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "aulas/m5-sites/m5-5.4-refinando-com-evidencias.html: conteudo",
+      "passed": true
+    },
+    {
+      "name": "aulas/m5-sites/m5-5.4-refinando-com-evidencias.html: desktop",
+      "passed": true
+    },
+    {
+      "name": "aulas/m5-sites/m5-5.4-refinando-com-evidencias.html: celular",
+      "passed": true,
+      "detail": {
+        "width": 390,
+        "content": 390,
+        "ok": true,
+        "offenders": []
+      }
+    },
+    {
+      "name": "aulas/m5-sites/m5-5.4-refinando-com-evidencias.html: 375px",
+      "passed": true,
+      "detail": {
+        "width": 375,
+        "content": 375,
+        "ok": true,
+        "offenders": []
+      }
+    },
+    {
+      "name": "aulas/m5-sites/m5-5.4-refinando-com-evidencias.html: imagens",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "aulas/m6-ecossistema-codex/m6-6.1-instrucoes-persistentes-e-skills.html: conteudo",
+      "passed": true
+    },
+    {
+      "name": "aulas/m6-ecossistema-codex/m6-6.1-instrucoes-persistentes-e-skills.html: desktop",
+      "passed": true
+    },
+    {
+      "name": "aulas/m6-ecossistema-codex/m6-6.1-instrucoes-persistentes-e-skills.html: celular",
+      "passed": true,
+      "detail": {
+        "width": 390,
+        "content": 390,
+        "ok": true,
+        "offenders": []
+      }
+    },
+    {
+      "name": "aulas/m6-ecossistema-codex/m6-6.1-instrucoes-persistentes-e-skills.html: 375px",
+      "passed": true,
+      "detail": {
+        "width": 375,
+        "content": 375,
+        "ok": true,
+        "offenders": []
+      }
+    },
+    {
+      "name": "aulas/m6-ecossistema-codex/m6-6.1-instrucoes-persistentes-e-skills.html: imagens",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "aulas/m6-ecossistema-codex/m6-6.2-escolhendo-a-expansao-certa.html: conteudo",
+      "passed": true
+    },
+    {
+      "name": "aulas/m6-ecossistema-codex/m6-6.2-escolhendo-a-expansao-certa.html: desktop",
+      "passed": true
+    },
+    {
+      "name": "aulas/m6-ecossistema-codex/m6-6.2-escolhendo-a-expansao-certa.html: celular",
+      "passed": true,
+      "detail": {
+        "width": 390,
+        "content": 390,
+        "ok": true,
+        "offenders": []
+      }
+    },
+    {
+      "name": "aulas/m6-ecossistema-codex/m6-6.2-escolhendo-a-expansao-certa.html: 375px",
+      "passed": true,
+      "detail": {
+        "width": 375,
+        "content": 375,
+        "ok": true,
+        "offenders": []
+      }
+    },
+    {
+      "name": "aulas/m6-ecossistema-codex/m6-6.2-escolhendo-a-expansao-certa.html: imagens",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "aulas/m7-validacao-compartilhamento/m7-7.1-checklist-seguro.html: conteudo",
+      "passed": true
+    },
+    {
+      "name": "aulas/m7-validacao-compartilhamento/m7-7.1-checklist-seguro.html: desktop",
+      "passed": true
+    },
+    {
+      "name": "aulas/m7-validacao-compartilhamento/m7-7.1-checklist-seguro.html: celular",
+      "passed": true,
+      "detail": {
+        "width": 390,
+        "content": 390,
+        "ok": true,
+        "offenders": []
+      }
+    },
+    {
+      "name": "aulas/m7-validacao-compartilhamento/m7-7.1-checklist-seguro.html: 375px",
+      "passed": true,
+      "detail": {
+        "width": 375,
+        "content": 375,
+        "ok": true,
+        "offenders": []
+      }
+    },
+    {
+      "name": "aulas/m7-validacao-compartilhamento/m7-7.1-checklist-seguro.html: imagens",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "aulas/m7-validacao-compartilhamento/m7-7.2-validando-e-publicando.html: conteudo",
+      "passed": true
+    },
+    {
+      "name": "aulas/m7-validacao-compartilhamento/m7-7.2-validando-e-publicando.html: desktop",
+      "passed": true
+    },
+    {
+      "name": "aulas/m7-validacao-compartilhamento/m7-7.2-validando-e-publicando.html: celular",
+      "passed": true,
+      "detail": {
+        "width": 390,
+        "content": 390,
+        "ok": true,
+        "offenders": []
+      }
+    },
+    {
+      "name": "aulas/m7-validacao-compartilhamento/m7-7.2-validando-e-publicando.html: 375px",
+      "passed": true,
+      "detail": {
+        "width": 375,
+        "content": 375,
+        "ok": true,
+        "offenders": []
+      }
+    },
+    {
+      "name": "aulas/m7-validacao-compartilhamento/m7-7.2-validando-e-publicando.html: imagens",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "aulas/m8-fim/m8-8.1-o-que-aprendemos-e-proximos-passos.html: conteudo",
+      "passed": true
+    },
+    {
+      "name": "aulas/m8-fim/m8-8.1-o-que-aprendemos-e-proximos-passos.html: desktop",
+      "passed": true
+    },
+    {
+      "name": "aulas/m8-fim/m8-8.1-o-que-aprendemos-e-proximos-passos.html: celular",
+      "passed": true,
+      "detail": {
+        "width": 390,
+        "content": 390,
+        "ok": true,
+        "offenders": []
+      }
+    },
+    {
+      "name": "aulas/m8-fim/m8-8.1-o-que-aprendemos-e-proximos-passos.html: 375px",
+      "passed": true,
+      "detail": {
+        "width": 375,
+        "content": 375,
+        "ok": true,
+        "offenders": []
+      }
+    },
+    {
+      "name": "aulas/m8-fim/m8-8.1-o-que-aprendemos-e-proximos-passos.html: imagens",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "Site: inicializacao",
+      "passed": true
+    },
+    {
+      "name": "Site: Figtree local",
+      "passed": true
+    },
+    {
+      "name": "Site: contraste textual nas sete amostras",
+      "passed": true,
+      "detail": [
+        {
+          "selector": "h1",
+          "ratio": 15.42,
+          "minimum": 3
+        },
+        {
+          "selector": ".source-copy strong",
+          "ratio": 16.99,
+          "minimum": 4.5
+        },
+        {
+          "selector": ".source-hash",
+          "ratio": 9.87,
+          "minimum": 4.5
+        },
+        {
+          "selector": ".tag-evidence",
+          "ratio": 6.24,
+          "minimum": 4.5
+        },
+        {
+          "selector": ".tag-hypothesis",
+          "ratio": 4.75,
+          "minimum": 4.5
+        },
+        {
+          "selector": ".tag-rule",
+          "ratio": 6.03,
+          "minimum": 4.5
+        },
+        {
+          "selector": "#matrix-status",
+          "ratio": 5.22,
+          "minimum": 4.5
+        }
+      ]
+    },
+    {
+      "name": "Site: tres oportunidades",
+      "passed": true
+    },
+    {
+      "name": "Site: dossie inicial",
+      "passed": true
+    },
+    {
+      "name": "Site: quatro fontes podem ser abertas",
+      "passed": true
+    },
+    {
+      "name": "Site: download 01-briefing_da_empresa.md",
+      "passed": true
+    },
+    {
+      "name": "Site: download 02-atendimento_e_propostas_maio.xlsx",
+      "passed": true
+    },
+    {
+      "name": "Site: download 03-ordens_de_servico_maio.xlsx",
+      "passed": true
+    },
+    {
+      "name": "Site: download 04-feedbacks_e_rotina_maio.md",
+      "passed": true
+    },
+    {
+      "name": "Site: triagem alcancada por Tab",
+      "passed": true
+    },
+    {
+      "name": "Site: foco visivel",
+      "passed": true,
+      "detail": {
+        "outline": "solid",
+        "width": "3px"
+      }
+    },
+    {
+      "name": "Site: Enter sincroniza dossie",
+      "passed": true
+    },
+    {
+      "name": "Site: rastro sincronizado",
+      "passed": true
+    },
+    {
+      "name": "Site: fonte, hipotese e responsavel",
+      "passed": true
+    },
+    {
+      "name": "Site: filtro vazio",
+      "passed": true
+    },
+    {
+      "name": "Site: selecao preservada fora do filtro",
+      "passed": true
+    },
+    {
+      "name": "Site: retorno restaura conjunto",
+      "passed": true
+    },
+    {
+      "name": "Site: filtro atendimento",
+      "passed": true
+    },
+    {
+      "name": "Site: filtro comercial",
+      "passed": true
+    },
+    {
+      "name": "Site: indicador sincronizado",
+      "passed": true
+    },
+    {
+      "name": "Site: comparacao base e meta",
+      "passed": true
+    },
+    {
+      "name": "Site: largura 375",
+      "passed": true,
+      "detail": {
+        "width": 375,
+        "content": 375,
+        "ok": true,
+        "offenders": []
+      }
+    },
+    {
+      "name": "Site: largura 390",
+      "passed": true,
+      "detail": {
+        "width": 390,
+        "content": 390,
+        "ok": true,
+        "offenders": []
+      }
+    },
+    {
+      "name": "Site: largura 768",
+      "passed": true,
+      "detail": {
+        "width": 768,
+        "content": 768,
+        "ok": true,
+        "offenders": []
+      }
+    },
+    {
+      "name": "Site: largura 1024",
+      "passed": true,
+      "detail": {
+        "width": 1024,
+        "content": 1024,
+        "ok": true,
+        "offenders": []
+      }
+    },
+    {
+      "name": "Site: largura 1440",
+      "passed": true,
+      "detail": {
+        "width": 1440,
+        "content": 1440,
+        "ok": true,
+        "offenders": []
+      }
+    },
+    {
+      "name": "Site: movimento reduzido",
+      "passed": true
+    },
+    {
+      "name": "Site: sem animacao longa com movimento reduzido",
+      "passed": true
+    },
+    {
+      "name": "Site: impressao revela tres dossies",
+      "passed": true
+    },
+    {
+      "name": "Site: PDF gerado",
+      "passed": true
+    },
+    {
+      "name": "Site sem JavaScript: tres dossies",
+      "passed": true
+    },
+    {
+      "name": "Site sem JavaScript: fontes legiveis",
+      "passed": true
+    },
+    {
+      "name": "Site sem JavaScript: celular",
+      "passed": true
+    },
+    {
+      "name": "Site: falha de inicializacao explicita",
+      "passed": true
+    },
+    {
+      "name": "Site: falha preserva tres dossies",
+      "passed": true
+    },
+    {
+      "name": "Sem erros JavaScript nas paginas",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "Sem recurso local com erro HTTP",
+      "passed": true,
+      "detail": []
+    }
+  ],
+  "errors": [],
+  "consoleErrors": [],
+  "localFailures": [],
+  "screenshots": [
+    "aula-5-4-mobile.png",
+    "site-desktop.png",
+    "site-mobile.png"
+  ],
+  "limitations": [
+    "Sem teste com leitor de tela ou dispositivos fisicos.",
+    "Somente Chrome; sem certificacao de PDF acessivel.",
+    "Links externos nao foram validados; fonte web opcional das aulas bloqueada neste ensaio."
+  ],
+  "runnerSha256": "dcb24008cbbcff97b751001439b91c32d8e37907dff4e46745a38816466b8b52",
+  "testedArtifacts": [
+    {
+      "file": "aulas/README.md",
+      "sha256": "b568b30ba1bcc1522d5b96461b668766fcc54be00e97d3c9cf15c51e9ef1e6be"
+    },
+    {
+      "file": "aulas/m1-inicio/m1-1.1-introducao.html",
+      "sha256": "db1cdddd28094e71e21bc2d54ed8c0a133d67f12fbe39dc2371b918dde50c961"
+    },
+    {
+      "file": "aulas/m1-inicio/m1-1.2-pensar-em-passos.html",
+      "sha256": "94da2f60aa84da26681b43fd20b8a1df5e6c162c931a4fe2b191b9963037cab1"
+    },
+    {
+      "file": "aulas/m1-inicio/m1-1.3-app-navegador-cli-ide.html",
+      "sha256": "dbcb45d32db1891ea214cdb456bd75d6fcba15455594ec05bca2182e85360a38"
+    },
+    {
+      "file": "aulas/m1-inicio/m1-system.css",
+      "sha256": "c85c0378d9f99e05a05f3af4cf0e1f388766eea92267b84541b754fd233a7698"
+    },
+    {
+      "file": "aulas/m1-inicio/m1-system.js",
+      "sha256": "e2af991e25aae53bf454bb588402bc7fa2f29ce9192ed9e4085c6936f7b7b260"
+    },
+    {
+      "file": "aulas/m2-fundamentos-codex/m2-2.1-projetos-chats-arquivos.html",
+      "sha256": "d488450e2cc3b3d883aa0a25b41e0f5b1405374976e29132b39c61899d9973aa"
+    },
+    {
+      "file": "aulas/m2-fundamentos-codex/m2-2.2-modelos-raciocinio-permissoes.html",
+      "sha256": "920e40fe51a87645cb234a8865d2be458b6a60ecc732c5505bcb85b4e9b2d84c"
+    },
+    {
+      "file": "aulas/m2-fundamentos-codex/m2-2.3-preparando-mission-control.html",
+      "sha256": "6cbdf5000e0d1fc51b7ef7f0d1de2b4e7031c08012dbcf012af9c02954f14f12"
+    },
+    {
+      "file": "aulas/m2-fundamentos-codex/m2-system.css",
+      "sha256": "0c388cf4b149c632de5ab2c957cd3de621af6aa6ec8c8a64a33120206b167d20"
+    },
+    {
+      "file": "aulas/m2-fundamentos-codex/m2-system.js",
+      "sha256": "4c2c67fd70a43c6f4fdb6defbf48975ffadb0ed8d745d81e78cf8e400ce68ef7"
+    },
+    {
+      "file": "aulas/m3-planejamento/m3-3.1-dicas-boas-praticas.html",
+      "sha256": "bbceae887b07f3257fe546e9f9d08cf0d509e2c4edfa7153f58bb4d824ee2b2d"
+    },
+    {
+      "file": "aulas/m3-planejamento/m3-3.2-contexto-criterios-aceite.html",
+      "sha256": "38754298ffca6c3d79413d020baac57b888b6a28ac06c78a73c7fd6ade79c1f5"
+    },
+    {
+      "file": "aulas/m3-planejamento/m3-3.3-planejando-mission-control.html",
+      "sha256": "90ee25fd593c6bc77d587d61b3f17b148c11e4a31565051026ea0be67702ae76"
+    },
+    {
+      "file": "aulas/m3-planejamento/m3-system.css",
+      "sha256": "0b732754b35e8c58fe8ba14219c4477d259402c9779ecaa7e2721e489bd768cf"
+    },
+    {
+      "file": "aulas/m3-planejamento/m3-system.js",
+      "sha256": "e62453fcc9fde32c5d0155176551a02c0287a87c41a4555fcd4ade67914e9704"
+    },
+    {
+      "file": "aulas/m4-oportunidades-ia/m4-4.1-conhecendo-a-empresa.html",
+      "sha256": "06683d9f358b822bf26e618fc67d31e9e611b7c7e053e351b18337a6512a403d"
+    },
+    {
+      "file": "aulas/m4-oportunidades-ia/m4-4.2-encontrando-gargalos.html",
+      "sha256": "1095bf78dde2f137024643c7f4c57a14fa1cc39c6efc386bf3eda95aa970c71b"
+    },
+    {
+      "file": "aulas/m4-oportunidades-ia/m4-4.3-transformando-gargalos-em-oportunidades.html",
+      "sha256": "909213e1c3a21b47f834e54640583c1bab6d563e5ee20d2fa37edb3bfa800dea"
+    },
+    {
+      "file": "aulas/m4-oportunidades-ia/m4-4.4-priorizando-o-plano-de-30-dias.html",
+      "sha256": "00ad5f35b110acc0a2d080b3fbd13aac87d13326f3a7ad0e295a1f7432b9c977"
+    },
+    {
+      "file": "aulas/m4-oportunidades-ia/m4-system.css",
+      "sha256": "84511402e23b9765e6ab4ba6fdf4c94906e3ea86fe5797ac7932189421b898c4"
+    },
+    {
+      "file": "aulas/m4-oportunidades-ia/m4-system.js",
+      "sha256": "0760b8cf742e614277be36ee12835787651302b847415a2423ec1ff0e3b4e94d"
+    },
+    {
+      "file": "aulas/m5-sites/m5-5.1-o-que-e-sites.html",
+      "sha256": "3f22107cf19062c9f7dc38d3210808311565d1504f30be982505fc7e0e15686c"
+    },
+    {
+      "file": "aulas/m5-sites/m5-5.2-criando-a-primeira-versao.html",
+      "sha256": "b979f85c6d57452bc3e20dc3c8bb28ccda17b248ae7ccbb9578a2a56f974c03d"
+    },
+    {
+      "file": "aulas/m5-sites/m5-5.3-criando-interacoes-uteis.html",
+      "sha256": "206d40eb13fa2a745f6ef43b4b3a0041dd951c5a7dfb3aff33d81479a79d6516"
+    },
+    {
+      "file": "aulas/m5-sites/m5-5.4-refinando-com-evidencias.html",
+      "sha256": "6fc2da4de24412ec37b6536877051b844973ce4bc51ff0f475cbd6512bf75c17"
+    },
+    {
+      "file": "aulas/m5-sites/m5-system.css",
+      "sha256": "e3a23906df6216665991a2837c7411bf59f3a31816ce3265db4beca4bd514d57"
+    },
+    {
+      "file": "aulas/m5-sites/m5-system.js",
+      "sha256": "21d82c1e13145b9ce5c08cdb9d3ab423d37fc97baad73060f2197db17cfa1048"
+    },
+    {
+      "file": "aulas/m6-ecossistema-codex/m6-6.1-instrucoes-persistentes-e-skills.html",
+      "sha256": "d439a4b64d171025c4700f88c1463d7514f1acce7025194e409118574045d57a"
+    },
+    {
+      "file": "aulas/m6-ecossistema-codex/m6-6.2-escolhendo-a-expansao-certa.html",
+      "sha256": "ff5c6c7adad646ebc8378f6532530bca6a935d57ea56498c41dc2762fecb2cb8"
+    },
+    {
+      "file": "aulas/m6-ecossistema-codex/m6-system.css",
+      "sha256": "905a3fca1e8e2349be7d491420f7c2a9ffcbb3585393003cb02bbf1112e352e4"
+    },
+    {
+      "file": "aulas/m6-ecossistema-codex/m6-system.js",
+      "sha256": "f34a08c6e33aced114167e55b21f49db044fbe885e1848ddd5f55f73f09ea7d6"
+    },
+    {
+      "file": "aulas/m7-validacao-compartilhamento/m7-7.1-checklist-seguro.html",
+      "sha256": "8f421c4860836ca1447de71d721e6b0fc523d1bd285ce5adcc5b2f2fa8a88298"
+    },
+    {
+      "file": "aulas/m7-validacao-compartilhamento/m7-7.2-validando-e-publicando.html",
+      "sha256": "5cf2265821dd6fbd98764d5f739bdfeec85858a45fce0231a7f5319fe7d8aeeb"
+    },
+    {
+      "file": "aulas/m7-validacao-compartilhamento/m7-system.css",
+      "sha256": "b1a208dea38398a97a1de4f41a62033b2134c6fe2771fe32f5dee30ece97e59d"
+    },
+    {
+      "file": "aulas/m7-validacao-compartilhamento/m7-system.js",
+      "sha256": "17314d3b025f8ecc3686a6d4666976e80bd074482eb0bd7b67e2727bab501552"
+    },
+    {
+      "file": "aulas/m8-fim/m8-8.1-o-que-aprendemos-e-proximos-passos.html",
+      "sha256": "bd77e4be386652923555386b560a912ae5a8ade79083ea57e8ee390b61cf0648"
+    },
+    {
+      "file": "aulas/m8-fim/m8-system.css",
+      "sha256": "9f0c3b9a4ce89855fb37b65a90517711f2d97c270766b1a78013962854fa35ae"
+    },
+    {
+      "file": "aulas/m8-fim/m8-system.js",
+      "sha256": "e47ce964d42c17839733a0f00e143ee7fa3a94d9fc88b4e1fe2dff865703ee81"
+    },
+    {
+      "file": "aulas/recursos/bmc-reference/favicon.svg",
+      "sha256": "8b2ee9d8a6c5a8711428cd54b41acc079741b36bd73a15613c2296b8a68c7307"
+    },
+    {
+      "file": "aulas/recursos/bmc-reference/og.png",
+      "sha256": "21479a0ecae874de639826dd107deafd7c39267555609783e670ad323bb7a01e"
+    },
+    {
+      "file": "aulas/recursos/brand/codex-mark.png",
+      "sha256": "375016542ebe78b63c7f36b8f6aee3058f2b706d861e5153fd74f9c27f63b8b7"
+    },
+    {
+      "file": "aulas/recursos/brand/github-mark.svg",
+      "sha256": "6a9577cd4f7fa6b75bde1025af85b944e9dd1388373b55ccba6e9f80ac2eae60"
+    },
+    {
+      "file": "aulas/recursos/brand/logo-nocode.png",
+      "sha256": "b82e596cce58a4edc131042e93e623c679818a47d6a6d4cf81cd78bf87ec682c"
+    },
+    {
+      "file": "projeto-concluido/site/fonts/figtree/LICENSE",
+      "sha256": "ee23e6c84000126692e112ff067b456470493349f993ceaa8b4d3766dd6fad5d"
+    },
+    {
+      "file": "projeto-concluido/site/fonts/figtree/files/figtree-latin-ext-wght-normal.woff2",
+      "sha256": "bf7828e2c258cffcfa50a048ee388a36b95bc16b452e8d36fa797635dbe15965"
+    },
+    {
+      "file": "projeto-concluido/site/fonts/figtree/files/figtree-latin-wght-normal.woff2",
+      "sha256": "4ba7d3d096695818fe0686be4f1e82c6b05134e18a22260336130335027462dd"
+    },
+    {
+      "file": "projeto-concluido/site/fonts/figtree/index.css",
+      "sha256": "9a87893a64bb26f374227a25c37676a44e4693b2e442169c7e06c343c6b4af4f"
+    },
+    {
+      "file": "projeto-concluido/site/fonts/figtree/package.json",
+      "sha256": "005519b8588d04565b5500e81a2c6b872a14cbb6b92c18620695403121e4e4d4"
+    },
+    {
+      "file": "projeto-concluido/site/index.html",
+      "sha256": "4b750d0899ac1e107bd594bac1540ae412262df72e76c84b83ba81651a6af895"
+    },
+    {
+      "file": "projeto-concluido/site/interactions.js",
+      "sha256": "c24d711e1687f17e8248502d81cec413efa9e307f7768f9c89b6aa26999b75a2"
+    },
+    {
+      "file": "projeto-concluido/site/styles.css",
+      "sha256": "e65af43ef62defb776c09d846bdeb2a17aa54fd75cbe276d3a6cb0bff8f697a7"
+    },
+    {
+      "file": "projeto-inicial/01-briefing_da_empresa.md",
+      "sha256": "a70572a49a9f346aa91515c81c1a5a66d4b525bdf0198ce46c9563cb58775021"
+    },
+    {
+      "file": "projeto-inicial/02-atendimento_e_propostas_maio.xlsx",
+      "sha256": "724b2d5a8ef889f1e2e3d24ae1789c988e989d992c00b16af3ba688d98b5bc83"
+    },
+    {
+      "file": "projeto-inicial/03-ordens_de_servico_maio.xlsx",
+      "sha256": "aab106617745b1888066f52fe21ca98f7bcc7e10f90a042c0300d86b51f61e6b"
+    },
+    {
+      "file": "projeto-inicial/04-feedbacks_e_rotina_maio.md",
+      "sha256": "7fc21672408892e0a4b86e6f2e47d7d1b050175f4c212ab85d07d503f0370611"
+    },
+    {
+      "file": "projeto-inicial/README.md",
+      "sha256": "b5fd390523dfe0c5f7ba6237318ef5e922cf109d4162f05e3549d802007d8310"
+    },
+    {
+      "file": "projeto-inicial/checklist_validacao_publicacao.md",
+      "sha256": "4df223f071df4f3c1151d56ef970d7cb3696790e939e705bf27f669049c1a7d9"
+    },
+    {
+      "file": "projeto-inicial/criterios_de_aceite.md",
+      "sha256": "269a4dc2ccc7f181addffcbd4714bb93cfb474e81e7a865a198f75219cbc09ce"
+    },
+    {
+      "file": "projeto-inicial/mapa_logico_inicial.md",
+      "sha256": "b093582d5979c1f37518132464f65d1392de1a9ce5514475bb2054cc8e14f0e3"
+    },
+    {
+      "file": "projeto-inicial/metas_e_indicadores.md",
+      "sha256": "b2aa68c6740f42001487eedf4f848ff3c1a8ea5a560de2c1b12878f023bfb377"
+    },
+    {
+      "file": "projeto-inicial/prompt_base_planejamento.md",
+      "sha256": "24c0ce1138bd110f6ce34f61718c410d4e09b3b2247d777af408c64075a0d563"
+    },
+    {
+      "file": "referencias-visuais/PROMPT-APLICAR-VISUAL-BMC.md",
+      "sha256": "6512f1502ce7869901eeb2fa3799767557189d1ce46a18b497cad435d01513fd"
+    },
+    {
+      "file": "referencias-visuais/bmc-original/CAPTURAS.md",
+      "sha256": "c58bd4443e4a5a9b6704422dc75e81836689ba20a621d4e5496513059c815635"
+    },
+    {
+      "file": "referencias-visuais/bmc-original/CRITERIOS-VISUAIS.md",
+      "sha256": "6d0c47107608e4e0320f0541561d4680b470161e9016868391f906aba51b3c52"
+    },
+    {
+      "file": "referencias-visuais/bmc-original/DADOS-DE-APRESENTACAO.json",
+      "sha256": "ad11a730ef7235f334a2f668e3a99973cf5845f0cbe1ada5274b34b960541279"
+    },
+    {
+      "file": "referencias-visuais/bmc-original/DEPENDENCIAS.json",
+      "sha256": "2ced8f0b2daa9bbfe2fac4d6110a23bd35b631e9de2fa72fa1caf441c33e24ac"
+    },
+    {
+      "file": "referencias-visuais/bmc-original/DESIGN.md",
+      "sha256": "efe39e62ffb2a9687c32a484f71b2308ca5e5b0b4cddbae9f6f48e38510dc419"
+    },
+    {
+      "file": "referencias-visuais/bmc-original/GUIA-DO-ALUNO.md",
+      "sha256": "3bb44bc39ffc4dee33b2435f3be69905c4cd18c0482b52a44b2d72ceb4bd1f78"
+    },
+    {
+      "file": "referencias-visuais/bmc-original/README.md",
+      "sha256": "42cf902320aa11fcf64c0c7406fc2f682e0023b73939f2bbb34887ae884d6d5a"
+    },
+    {
+      "file": "referencias-visuais/bmc-original/REGISTRO-VISUAL.md",
+      "sha256": "ba8a4a1547215098e525119fd266a36d182b9d7a0d77f7ba0636eaa738ee2949"
+    },
+    {
+      "file": "referencias-visuais/bmc-original/app/globals.css",
+      "sha256": "70303e9fedd2e81a361922427441cc5219f11aee06f0ac546a504c5769d43790"
+    },
+    {
+      "file": "referencias-visuais/bmc-original/app/layout.tsx",
+      "sha256": "25f05cc74cbf2c692017f0ccd48626f96349f4f3a8c95e7b87c279f19f253e6c"
+    },
+    {
+      "file": "referencias-visuais/bmc-original/app/metric-sparkline-data.ts",
+      "sha256": "a31acc2069dc2157917a5b202e84884ba6f7842e83973629521e979ec45a785c"
+    },
+    {
+      "file": "referencias-visuais/bmc-original/app/metric-sparkline.tsx",
+      "sha256": "4ff5d79902e8c8d62db22850729ef847ae8a26900dda5ad3065babd29753afce"
+    },
+    {
+      "file": "referencias-visuais/bmc-original/app/mission-control-app.tsx",
+      "sha256": "31867cfda002a8863ddb52a7bdd8224864550deab3cb43af36b88a984f48aa1a"
+    },
+    {
+      "file": "referencias-visuais/bmc-original/app/page.tsx",
+      "sha256": "6e108f0ececd7ed36ebde13fe59c076e33706bbfeb8cdb91898cbfd976be6f71"
+    },
+    {
+      "file": "referencias-visuais/bmc-original/app/report-dashboard.tsx",
+      "sha256": "9f589b92d311f28c7aeb6ff78a10009517a989ef63d96e6cb2ab92fe13d9bb67"
+    },
+    {
+      "file": "referencias-visuais/bmc-original/capturas/desktop-completo.png",
+      "sha256": "c1d19a249096cf8bd4d53d93049d8745852a3dcd58bf222723c90eed8fad1e01"
+    },
+    {
+      "file": "referencias-visuais/bmc-original/capturas/desktop-inicio.png",
+      "sha256": "18d0313fcf70b4d61088abf125594ca76578ed98b667ffc3cb908c313dbe1d18"
+    },
+    {
+      "file": "referencias-visuais/bmc-original/capturas/desktop-selecao.png",
+      "sha256": "51cec2d5ab63e5e2d898de93f192ee1223b161bbc161ad6124ebbd3968dafdde"
+    },
+    {
+      "file": "referencias-visuais/bmc-original/capturas/mobile-completo.png",
+      "sha256": "99c0b1c34614e070744a4529c83ce8a74fab9388e255adc1146cd4fbc0eec1c7"
+    },
+    {
+      "file": "referencias-visuais/bmc-original/capturas/mobile-inicio.png",
+      "sha256": "0aeca47c71d62243a00db617a223ef8a605127630d61e07c9564c3d5f2bb1a8f"
+    },
+    {
+      "file": "referencias-visuais/bmc-original/capturas/mobile-selecao.png",
+      "sha256": "db0e5e290fcbe64c166f4c15df3695f98272681c1a382af023d4c127eb098cda"
+    },
+    {
+      "file": "referencias-visuais/bmc-original/fonts/figtree/LICENSE",
+      "sha256": "ee23e6c84000126692e112ff067b456470493349f993ceaa8b4d3766dd6fad5d"
+    },
+    {
+      "file": "referencias-visuais/bmc-original/fonts/figtree/files/figtree-latin-ext-wght-normal.woff2",
+      "sha256": "bf7828e2c258cffcfa50a048ee388a36b95bc16b452e8d36fa797635dbe15965"
+    },
+    {
+      "file": "referencias-visuais/bmc-original/fonts/figtree/files/figtree-latin-wght-normal.woff2",
+      "sha256": "4ba7d3d096695818fe0686be4f1e82c6b05134e18a22260336130335027462dd"
+    },
+    {
+      "file": "referencias-visuais/bmc-original/fonts/figtree/index.css",
+      "sha256": "9a87893a64bb26f374227a25c37676a44e4693b2e442169c7e06c343c6b4af4f"
+    },
+    {
+      "file": "referencias-visuais/bmc-original/fonts/figtree/package.json",
+      "sha256": "005519b8588d04565b5500e81a2c6b872a14cbb6b92c18620695403121e4e4d4"
+    },
+    {
+      "file": "referencias-visuais/bmc-original/lib/server/reports/types.ts",
+      "sha256": "7e49400a07e12d24a8b27493b6fb56d6cd8ac42cfe747e34273fa7f7db3033da"
+    },
+    {
+      "file": "referencias-visuais/bmc-original/public/favicon.svg",
+      "sha256": "8b2ee9d8a6c5a8711428cd54b41acc079741b36bd73a15613c2296b8a68c7307"
+    },
+    {
+      "file": "referencias-visuais/bmc-visual-kit.zip",
+      "sha256": "8e81c94935bd966b4d28219201fd409a5dc83e67db4c89506c9ac2e1f9b0201a"
+    }
+  ],
+  "browser": "153.0.8010.53",
+  "summary": {
+    "passed": 148,
+    "failed": 0
+  }
+}

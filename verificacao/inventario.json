@@ -1,0 +1,627 @@
+{
+  "versao": "1.0.0",
+  "algoritmo": "SHA-256",
+  "nota": "O inventario nao inclui a si proprio. O SHA-256 externo cobre o ZIP completo, incluindo este inventario.",
+  "arquivos": [
+    {
+      "arquivo": ".gitattributes",
+      "bytes": 84,
+      "sha256": "187c9e73477e7e8c850950fcda53bf3874645b421370dcd546a315d972b85716"
+    },
+    {
+      "arquivo": ".gitignore",
+      "bytes": 146,
+      "sha256": "77cef21938b4006326fd0c757dc830c99d71a24754480f64abf01e91663bbd0f"
+    },
+    {
+      "arquivo": "aulas/m1-inicio/m1-1.1-introducao.html",
+      "bytes": 41499,
+      "sha256": "db1cdddd28094e71e21bc2d54ed8c0a133d67f12fbe39dc2371b918dde50c961"
+    },
+    {
+      "arquivo": "aulas/m1-inicio/m1-1.2-pensar-em-passos.html",
+      "bytes": 16376,
+      "sha256": "94da2f60aa84da26681b43fd20b8a1df5e6c162c931a4fe2b191b9963037cab1"
+    },
+    {
+      "arquivo": "aulas/m1-inicio/m1-1.3-app-navegador-cli-ide.html",
+      "bytes": 22140,
+      "sha256": "dbcb45d32db1891ea214cdb456bd75d6fcba15455594ec05bca2182e85360a38"
+    },
+    {
+      "arquivo": "aulas/m1-inicio/m1-system.css",
+      "bytes": 86423,
+      "sha256": "c85c0378d9f99e05a05f3af4cf0e1f388766eea92267b84541b754fd233a7698"
+    },
+    {
+      "arquivo": "aulas/m1-inicio/m1-system.js",
+      "bytes": 15314,
+      "sha256": "e2af991e25aae53bf454bb588402bc7fa2f29ce9192ed9e4085c6936f7b7b260"
+    },
+    {
+      "arquivo": "aulas/m2-fundamentos-codex/m2-2.1-projetos-chats-arquivos.html",
+      "bytes": 16230,
+      "sha256": "d488450e2cc3b3d883aa0a25b41e0f5b1405374976e29132b39c61899d9973aa"
+    },
+    {
+      "arquivo": "aulas/m2-fundamentos-codex/m2-2.2-modelos-raciocinio-permissoes.html",
+      "bytes": 17991,
+      "sha256": "920e40fe51a87645cb234a8865d2be458b6a60ecc732c5505bcb85b4e9b2d84c"
+    },
+    {
+      "arquivo": "aulas/m2-fundamentos-codex/m2-2.3-preparando-mission-control.html",
+      "bytes": 16205,
+      "sha256": "6cbdf5000e0d1fc51b7ef7f0d1de2b4e7031c08012dbcf012af9c02954f14f12"
+    },
+    {
+      "arquivo": "aulas/m2-fundamentos-codex/m2-system.css",
+      "bytes": 30779,
+      "sha256": "0c388cf4b149c632de5ab2c957cd3de621af6aa6ec8c8a64a33120206b167d20"
+    },
+    {
+      "arquivo": "aulas/m2-fundamentos-codex/m2-system.js",
+      "bytes": 11418,
+      "sha256": "4c2c67fd70a43c6f4fdb6defbf48975ffadb0ed8d745d81e78cf8e400ce68ef7"
+    },
+    {
+      "arquivo": "aulas/m3-planejamento/m3-3.1-dicas-boas-praticas.html",
+      "bytes": 11445,
+      "sha256": "bbceae887b07f3257fe546e9f9d08cf0d509e2c4edfa7153f58bb4d824ee2b2d"
+    },
+    {
+      "arquivo": "aulas/m3-planejamento/m3-3.2-contexto-criterios-aceite.html",
+      "bytes": 14824,
+      "sha256": "38754298ffca6c3d79413d020baac57b888b6a28ac06c78a73c7fd6ade79c1f5"
+    },
+    {
+      "arquivo": "aulas/m3-planejamento/m3-3.3-planejando-mission-control.html",
+      "bytes": 20490,
+      "sha256": "90ee25fd593c6bc77d587d61b3f17b148c11e4a31565051026ea0be67702ae76"
+    },
+    {
+      "arquivo": "aulas/m3-planejamento/m3-system.css",
+      "bytes": 25593,
+      "sha256": "0b732754b35e8c58fe8ba14219c4477d259402c9779ecaa7e2721e489bd768cf"
+    },
+    {
+      "arquivo": "aulas/m3-planejamento/m3-system.js",
+      "bytes": 9534,
+      "sha256": "e62453fcc9fde32c5d0155176551a02c0287a87c41a4555fcd4ade67914e9704"
+    },
+    {
+      "arquivo": "aulas/m4-oportunidades-ia/m4-4.1-conhecendo-a-empresa.html",
+      "bytes": 19675,
+      "sha256": "06683d9f358b822bf26e618fc67d31e9e611b7c7e053e351b18337a6512a403d"
+    },
+    {
+      "arquivo": "aulas/m4-oportunidades-ia/m4-4.2-encontrando-gargalos.html",
+      "bytes": 18831,
+      "sha256": "1095bf78dde2f137024643c7f4c57a14fa1cc39c6efc386bf3eda95aa970c71b"
+    },
+    {
+      "arquivo": "aulas/m4-oportunidades-ia/m4-4.3-transformando-gargalos-em-oportunidades.html",
+      "bytes": 16433,
+      "sha256": "909213e1c3a21b47f834e54640583c1bab6d563e5ee20d2fa37edb3bfa800dea"
+    },
+    {
+      "arquivo": "aulas/m4-oportunidades-ia/m4-4.4-priorizando-o-plano-de-30-dias.html",
+      "bytes": 16025,
+      "sha256": "00ad5f35b110acc0a2d080b3fbd13aac87d13326f3a7ad0e295a1f7432b9c977"
+    },
+    {
+      "arquivo": "aulas/m4-oportunidades-ia/m4-system.css",
+      "bytes": 14088,
+      "sha256": "84511402e23b9765e6ab4ba6fdf4c94906e3ea86fe5797ac7932189421b898c4"
+    },
+    {
+      "arquivo": "aulas/m4-oportunidades-ia/m4-system.js",
+      "bytes": 4488,
+      "sha256": "0760b8cf742e614277be36ee12835787651302b847415a2423ec1ff0e3b4e94d"
+    },
+    {
+      "arquivo": "aulas/m5-sites/m5-5.1-o-que-e-sites.html",
+      "bytes": 8079,
+      "sha256": "3f22107cf19062c9f7dc38d3210808311565d1504f30be982505fc7e0e15686c"
+    },
+    {
+      "arquivo": "aulas/m5-sites/m5-5.2-criando-a-primeira-versao.html",
+      "bytes": 8589,
+      "sha256": "b979f85c6d57452bc3e20dc3c8bb28ccda17b248ae7ccbb9578a2a56f974c03d"
+    },
+    {
+      "arquivo": "aulas/m5-sites/m5-5.3-criando-interacoes-uteis.html",
+      "bytes": 7926,
+      "sha256": "206d40eb13fa2a745f6ef43b4b3a0041dd951c5a7dfb3aff33d81479a79d6516"
+    },
+    {
+      "arquivo": "aulas/m5-sites/m5-5.4-refinando-com-evidencias.html",
+      "bytes": 9307,
+      "sha256": "6fc2da4de24412ec37b6536877051b844973ce4bc51ff0f475cbd6512bf75c17"
+    },
+    {
+      "arquivo": "aulas/m5-sites/m5-system.css",
+      "bytes": 14474,
+      "sha256": "e3a23906df6216665991a2837c7411bf59f3a31816ce3265db4beca4bd514d57"
+    },
+    {
+      "arquivo": "aulas/m5-sites/m5-system.js",
+      "bytes": 4479,
+      "sha256": "21d82c1e13145b9ce5c08cdb9d3ab423d37fc97baad73060f2197db17cfa1048"
+    },
+    {
+      "arquivo": "aulas/m6-ecossistema-codex/m6-6.1-instrucoes-persistentes-e-skills.html",
+      "bytes": 10199,
+      "sha256": "d439a4b64d171025c4700f88c1463d7514f1acce7025194e409118574045d57a"
+    },
+    {
+      "arquivo": "aulas/m6-ecossistema-codex/m6-6.2-escolhendo-a-expansao-certa.html",
+      "bytes": 11441,
+      "sha256": "ff5c6c7adad646ebc8378f6532530bca6a935d57ea56498c41dc2762fecb2cb8"
+    },
+    {
+      "arquivo": "aulas/m6-ecossistema-codex/m6-system.css",
+      "bytes": 3773,
+      "sha256": "905a3fca1e8e2349be7d491420f7c2a9ffcbb3585393003cb02bbf1112e352e4"
+    },
+    {
+      "arquivo": "aulas/m6-ecossistema-codex/m6-system.js",
+      "bytes": 4789,
+      "sha256": "f34a08c6e33aced114167e55b21f49db044fbe885e1848ddd5f55f73f09ea7d6"
+    },
+    {
+      "arquivo": "aulas/m7-validacao-compartilhamento/m7-7.1-checklist-seguro.html",
+      "bytes": 14464,
+      "sha256": "8f421c4860836ca1447de71d721e6b0fc523d1bd285ce5adcc5b2f2fa8a88298"
+    },
+    {
+      "arquivo": "aulas/m7-validacao-compartilhamento/m7-7.2-validando-e-publicando.html",
+      "bytes": 19512,
+      "sha256": "5cf2265821dd6fbd98764d5f739bdfeec85858a45fce0231a7f5319fe7d8aeeb"
+    },
+    {
+      "arquivo": "aulas/m7-validacao-compartilhamento/m7-system.css",
+      "bytes": 5902,
+      "sha256": "b1a208dea38398a97a1de4f41a62033b2134c6fe2771fe32f5dee30ece97e59d"
+    },
+    {
+      "arquivo": "aulas/m7-validacao-compartilhamento/m7-system.js",
+      "bytes": 3973,
+      "sha256": "17314d3b025f8ecc3686a6d4666976e80bd074482eb0bd7b67e2727bab501552"
+    },
+    {
+      "arquivo": "aulas/m8-fim/m8-8.1-o-que-aprendemos-e-proximos-passos.html",
+      "bytes": 13931,
+      "sha256": "bd77e4be386652923555386b560a912ae5a8ade79083ea57e8ee390b61cf0648"
+    },
+    {
+      "arquivo": "aulas/m8-fim/m8-system.css",
+      "bytes": 3470,
+      "sha256": "9f0c3b9a4ce89855fb37b65a90517711f2d97c270766b1a78013962854fa35ae"
+    },
+    {
+      "arquivo": "aulas/m8-fim/m8-system.js",
+      "bytes": 4687,
+      "sha256": "e47ce964d42c17839733a0f00e143ee7fa3a94d9fc88b4e1fe2dff865703ee81"
+    },
+    {
+      "arquivo": "aulas/README.md",
+      "bytes": 2762,
+      "sha256": "b568b30ba1bcc1522d5b96461b668766fcc54be00e97d3c9cf15c51e9ef1e6be"
+    },
+    {
+      "arquivo": "aulas/recursos/bmc-reference/favicon.svg",
+      "bytes": 400,
+      "sha256": "8b2ee9d8a6c5a8711428cd54b41acc079741b36bd73a15613c2296b8a68c7307"
+    },
+    {
+      "arquivo": "aulas/recursos/bmc-reference/og.png",
+      "bytes": 1385453,
+      "sha256": "21479a0ecae874de639826dd107deafd7c39267555609783e670ad323bb7a01e"
+    },
+    {
+      "arquivo": "aulas/recursos/brand/codex-mark.png",
+      "bytes": 11297,
+      "sha256": "375016542ebe78b63c7f36b8f6aee3058f2b706d861e5153fd74f9c27f63b8b7"
+    },
+    {
+      "arquivo": "aulas/recursos/brand/github-mark.svg",
+      "bytes": 959,
+      "sha256": "6a9577cd4f7fa6b75bde1025af85b944e9dd1388373b55ccba6e9f80ac2eae60"
+    },
+    {
+      "arquivo": "aulas/recursos/brand/logo-nocode.png",
+      "bytes": 3318,
+      "sha256": "b82e596cce58a4edc131042e93e623c679818a47d6a6d4cf81cd78bf87ec682c"
+    },
+    {
+      "arquivo": "CHANGELOG.md",
+      "bytes": 775,
+      "sha256": "6ff3f668445d43e8f653655746866e7f437fad4bda20b250f03c36296e84c858"
+    },
+    {
+      "arquivo": "CREDITOS.md",
+      "bytes": 1241,
+      "sha256": "a440c2008291a299994d15015b38136489f76d9321443a3a52eab3c70fabffac"
+    },
+    {
+      "arquivo": "modelos/HANDOFF.md",
+      "bytes": 3843,
+      "sha256": "0dc2d4e91017a018dc643ebc15a856bdec5e3cd40f33a409d41d3063f4a82754"
+    },
+    {
+      "arquivo": "modelos/README.md",
+      "bytes": 707,
+      "sha256": "8a0edd00f9ee08b943c20e43830fe1da67c18eab7abb25f585d52aa97f1c0500"
+    },
+    {
+      "arquivo": "modelos/registro-visual.md",
+      "bytes": 1731,
+      "sha256": "ba8a4a1547215098e525119fd266a36d182b9d7a0d77f7ba0636eaa738ee2949"
+    },
+    {
+      "arquivo": "modelos/relatorio-m7.md",
+      "bytes": 1102,
+      "sha256": "c2d04e3c7dd9340ede3badacaf3a789c5355ed9425e1985ef0734595a84e8327"
+    },
+    {
+      "arquivo": "projeto-concluido/ANALISE.md",
+      "bytes": 10653,
+      "sha256": "53be191452d474fda2c8a1888f3005301a78c6f0da8454924ad1a868bfeb7881"
+    },
+    {
+      "arquivo": "projeto-concluido/HANDOFF.md",
+      "bytes": 1792,
+      "sha256": "234d1b9da76e0389fca4f7c72f8617bf55bfed7a937cfd67af0362e7e3966852"
+    },
+    {
+      "arquivo": "projeto-concluido/PLANEJAMENTO.md",
+      "bytes": 2341,
+      "sha256": "dab0c2ba6c102369eb687a4a177e3fd5980fb0c112f33de73cf2f7a2e45e4b7d"
+    },
+    {
+      "arquivo": "projeto-concluido/README.md",
+      "bytes": 1359,
+      "sha256": "d05b99bd83e00756f33a6b066ccd348658ea582f65289585282ff69ec6880ec0"
+    },
+    {
+      "arquivo": "projeto-concluido/site/fonts/figtree/files/figtree-latin-ext-wght-normal.woff2",
+      "bytes": 10280,
+      "sha256": "bf7828e2c258cffcfa50a048ee388a36b95bc16b452e8d36fa797635dbe15965"
+    },
+    {
+      "arquivo": "projeto-concluido/site/fonts/figtree/files/figtree-latin-wght-normal.woff2",
+      "bytes": 20156,
+      "sha256": "4ba7d3d096695818fe0686be4f1e82c6b05134e18a22260336130335027462dd"
+    },
+    {
+      "arquivo": "projeto-concluido/site/fonts/figtree/index.css",
+      "bytes": 836,
+      "sha256": "9a87893a64bb26f374227a25c37676a44e4693b2e442169c7e06c343c6b4af4f"
+    },
+    {
+      "arquivo": "projeto-concluido/site/fonts/figtree/LICENSE",
+      "bytes": 4498,
+      "sha256": "ee23e6c84000126692e112ff067b456470493349f993ceaa8b4d3766dd6fad5d"
+    },
+    {
+      "arquivo": "projeto-concluido/site/fonts/figtree/package.json",
+      "bytes": 1469,
+      "sha256": "005519b8588d04565b5500e81a2c6b872a14cbb6b92c18620695403121e4e4d4"
+    },
+    {
+      "arquivo": "projeto-concluido/site/index.html",
+      "bytes": 60629,
+      "sha256": "4b750d0899ac1e107bd594bac1540ae412262df72e76c84b83ba81651a6af895"
+    },
+    {
+      "arquivo": "projeto-concluido/site/interactions.js",
+      "bytes": 10735,
+      "sha256": "c24d711e1687f17e8248502d81cec413efa9e307f7768f9c89b6aa26999b75a2"
+    },
+    {
+      "arquivo": "projeto-concluido/site/styles.css",
+      "bytes": 58656,
+      "sha256": "e65af43ef62defb776c09d846bdeb2a17aa54fd75cbe276d3a6cb0bff8f697a7"
+    },
+    {
+      "arquivo": "projeto-inicial/01-briefing_da_empresa.md",
+      "bytes": 5571,
+      "sha256": "a70572a49a9f346aa91515c81c1a5a66d4b525bdf0198ce46c9563cb58775021"
+    },
+    {
+      "arquivo": "projeto-inicial/02-atendimento_e_propostas_maio.xlsx",
+      "bytes": 40191,
+      "sha256": "724b2d5a8ef889f1e2e3d24ae1789c988e989d992c00b16af3ba688d98b5bc83"
+    },
+    {
+      "arquivo": "projeto-inicial/03-ordens_de_servico_maio.xlsx",
+      "bytes": 29840,
+      "sha256": "aab106617745b1888066f52fe21ca98f7bcc7e10f90a042c0300d86b51f61e6b"
+    },
+    {
+      "arquivo": "projeto-inicial/04-feedbacks_e_rotina_maio.md",
+      "bytes": 10939,
+      "sha256": "7fc21672408892e0a4b86e6f2e47d7d1b050175f4c212ab85d07d503f0370611"
+    },
+    {
+      "arquivo": "projeto-inicial/checklist_validacao_publicacao.md",
+      "bytes": 1953,
+      "sha256": "4df223f071df4f3c1151d56ef970d7cb3696790e939e705bf27f669049c1a7d9"
+    },
+    {
+      "arquivo": "projeto-inicial/criterios_de_aceite.md",
+      "bytes": 2728,
+      "sha256": "269a4dc2ccc7f181addffcbd4714bb93cfb474e81e7a865a198f75219cbc09ce"
+    },
+    {
+      "arquivo": "projeto-inicial/mapa_logico_inicial.md",
+      "bytes": 1953,
+      "sha256": "b093582d5979c1f37518132464f65d1392de1a9ce5514475bb2054cc8e14f0e3"
+    },
+    {
+      "arquivo": "projeto-inicial/metas_e_indicadores.md",
+      "bytes": 3902,
+      "sha256": "b2aa68c6740f42001487eedf4f848ff3c1a8ea5a560de2c1b12878f023bfb377"
+    },
+    {
+      "arquivo": "projeto-inicial/prompt_base_planejamento.md",
+      "bytes": 2370,
+      "sha256": "24c0ce1138bd110f6ce34f61718c410d4e09b3b2247d777af408c64075a0d563"
+    },
+    {
+      "arquivo": "projeto-inicial/README.md",
+      "bytes": 2098,
+      "sha256": "b5fd390523dfe0c5f7ba6237318ef5e922cf109d4162f05e3549d802007d8310"
+    },
+    {
+      "arquivo": "PUBLICACAO.md",
+      "bytes": 1643,
+      "sha256": "a19c20ddce14356a51653c39f16830e04456f6b8e29d3c3063ea8cee9d0fb4c6"
+    },
+    {
+      "arquivo": "README.md",
+      "bytes": 3083,
+      "sha256": "d37497e70dbea23dce92a4b5fad3aad16083fcbf3ab007f84a8b1b45f3729dfd"
+    },
+    {
+      "arquivo": "referencias-visuais/bmc-original/app/globals.css",
+      "bytes": 68448,
+      "sha256": "70303e9fedd2e81a361922427441cc5219f11aee06f0ac546a504c5769d43790"
+    },
+    {
+      "arquivo": "referencias-visuais/bmc-original/app/layout.tsx",
+      "bytes": 1560,
+      "sha256": "25f05cc74cbf2c692017f0ccd48626f96349f4f3a8c95e7b87c279f19f253e6c"
+    },
+    {
+      "arquivo": "referencias-visuais/bmc-original/app/metric-sparkline-data.ts",
+      "bytes": 6201,
+      "sha256": "a31acc2069dc2157917a5b202e84884ba6f7842e83973629521e979ec45a785c"
+    },
+    {
+      "arquivo": "referencias-visuais/bmc-original/app/metric-sparkline.tsx",
+      "bytes": 20369,
+      "sha256": "4ff5d79902e8c8d62db22850729ef847ae8a26900dda5ad3065babd29753afce"
+    },
+    {
+      "arquivo": "referencias-visuais/bmc-original/app/mission-control-app.tsx",
+      "bytes": 83757,
+      "sha256": "31867cfda002a8863ddb52a7bdd8224864550deab3cb43af36b88a984f48aa1a"
+    },
+    {
+      "arquivo": "referencias-visuais/bmc-original/app/page.tsx",
+      "bytes": 127,
+      "sha256": "6e108f0ececd7ed36ebde13fe59c076e33706bbfeb8cdb91898cbfd976be6f71"
+    },
+    {
+      "arquivo": "referencias-visuais/bmc-original/app/report-dashboard.tsx",
+      "bytes": 53240,
+      "sha256": "9f589b92d311f28c7aeb6ff78a10009517a989ef63d96e6cb2ab92fe13d9bb67"
+    },
+    {
+      "arquivo": "referencias-visuais/bmc-original/capturas/desktop-completo.png",
+      "bytes": 801438,
+      "sha256": "c1d19a249096cf8bd4d53d93049d8745852a3dcd58bf222723c90eed8fad1e01"
+    },
+    {
+      "arquivo": "referencias-visuais/bmc-original/capturas/desktop-inicio.png",
+      "bytes": 150804,
+      "sha256": "18d0313fcf70b4d61088abf125594ca76578ed98b667ffc3cb908c313dbe1d18"
+    },
+    {
+      "arquivo": "referencias-visuais/bmc-original/capturas/desktop-selecao.png",
+      "bytes": 130515,
+      "sha256": "51cec2d5ab63e5e2d898de93f192ee1223b161bbc161ad6124ebbd3968dafdde"
+    },
+    {
+      "arquivo": "referencias-visuais/bmc-original/capturas/mobile-completo.png",
+      "bytes": 688841,
+      "sha256": "99c0b1c34614e070744a4529c83ce8a74fab9388e255adc1146cd4fbc0eec1c7"
+    },
+    {
+      "arquivo": "referencias-visuais/bmc-original/capturas/mobile-inicio.png",
+      "bytes": 63741,
+      "sha256": "0aeca47c71d62243a00db617a223ef8a605127630d61e07c9564c3d5f2bb1a8f"
+    },
+    {
+      "arquivo": "referencias-visuais/bmc-original/capturas/mobile-selecao.png",
+      "bytes": 97055,
+      "sha256": "db0e5e290fcbe64c166f4c15df3695f98272681c1a382af023d4c127eb098cda"
+    },
+    {
+      "arquivo": "referencias-visuais/bmc-original/CAPTURAS.md",
+      "bytes": 2358,
+      "sha256": "c58bd4443e4a5a9b6704422dc75e81836689ba20a621d4e5496513059c815635"
+    },
+    {
+      "arquivo": "referencias-visuais/bmc-original/CRITERIOS-VISUAIS.md",
+      "bytes": 2860,
+      "sha256": "6d0c47107608e4e0320f0541561d4680b470161e9016868391f906aba51b3c52"
+    },
+    {
+      "arquivo": "referencias-visuais/bmc-original/DADOS-DE-APRESENTACAO.json",
+      "bytes": 34455,
+      "sha256": "ad11a730ef7235f334a2f668e3a99973cf5845f0cbe1ada5274b34b960541279"
+    },
+    {
+      "arquivo": "referencias-visuais/bmc-original/DEPENDENCIAS.json",
+      "bytes": 274,
+      "sha256": "2ced8f0b2daa9bbfe2fac4d6110a23bd35b631e9de2fa72fa1caf441c33e24ac"
+    },
+    {
+      "arquivo": "referencias-visuais/bmc-original/DESIGN.md",
+      "bytes": 10177,
+      "sha256": "efe39e62ffb2a9687c32a484f71b2308ca5e5b0b4cddbae9f6f48e38510dc419"
+    },
+    {
+      "arquivo": "referencias-visuais/bmc-original/fonts/figtree/files/figtree-latin-ext-wght-normal.woff2",
+      "bytes": 10280,
+      "sha256": "bf7828e2c258cffcfa50a048ee388a36b95bc16b452e8d36fa797635dbe15965"
+    },
+    {
+      "arquivo": "referencias-visuais/bmc-original/fonts/figtree/files/figtree-latin-wght-normal.woff2",
+      "bytes": 20156,
+      "sha256": "4ba7d3d096695818fe0686be4f1e82c6b05134e18a22260336130335027462dd"
+    },
+    {
+      "arquivo": "referencias-visuais/bmc-original/fonts/figtree/index.css",
+      "bytes": 836,
+      "sha256": "9a87893a64bb26f374227a25c37676a44e4693b2e442169c7e06c343c6b4af4f"
+    },
+    {
+      "arquivo": "referencias-visuais/bmc-original/fonts/figtree/LICENSE",
+      "bytes": 4498,
+      "sha256": "ee23e6c84000126692e112ff067b456470493349f993ceaa8b4d3766dd6fad5d"
+    },
+    {
+      "arquivo": "referencias-visuais/bmc-original/fonts/figtree/package.json",
+      "bytes": 1469,
+      "sha256": "005519b8588d04565b5500e81a2c6b872a14cbb6b92c18620695403121e4e4d4"
+    },
+    {
+      "arquivo": "referencias-visuais/bmc-original/GUIA-DO-ALUNO.md",
+      "bytes": 3467,
+      "sha256": "3bb44bc39ffc4dee33b2435f3be69905c4cd18c0482b52a44b2d72ceb4bd1f78"
+    },
+    {
+      "arquivo": "referencias-visuais/bmc-original/lib/server/reports/types.ts",
+      "bytes": 4892,
+      "sha256": "7e49400a07e12d24a8b27493b6fb56d6cd8ac42cfe747e34273fa7f7db3033da"
+    },
+    {
+      "arquivo": "referencias-visuais/bmc-original/public/favicon.svg",
+      "bytes": 400,
+      "sha256": "8b2ee9d8a6c5a8711428cd54b41acc079741b36bd73a15613c2296b8a68c7307"
+    },
+    {
+      "arquivo": "referencias-visuais/bmc-original/README.md",
+      "bytes": 223,
+      "sha256": "42cf902320aa11fcf64c0c7406fc2f682e0023b73939f2bbb34887ae884d6d5a"
+    },
+    {
+      "arquivo": "referencias-visuais/bmc-original/REGISTRO-VISUAL.md",
+      "bytes": 1731,
+      "sha256": "ba8a4a1547215098e525119fd266a36d182b9d7a0d77f7ba0636eaa738ee2949"
+    },
+    {
+      "arquivo": "referencias-visuais/bmc-visual-kit.zip",
+      "bytes": 1923089,
+      "sha256": "8e81c94935bd966b4d28219201fd409a5dc83e67db4c89506c9ac2e1f9b0201a"
+    },
+    {
+      "arquivo": "referencias-visuais/PROMPT-APLICAR-VISUAL-BMC.md",
+      "bytes": 3113,
+      "sha256": "6512f1502ce7869901eeb2fa3799767557189d1ce46a18b497cad435d01513fd"
+    },
+    {
+      "arquivo": "RELEASE-v1.0.0.md",
+      "bytes": 866,
+      "sha256": "be3bc01997539dbd7c7b212ed9949816975700dd3f693562781773bca6ef210b"
+    },
+    {
+      "arquivo": "verificacao/comparacao-fontes.json",
+      "bytes": 2068,
+      "sha256": "74d5730dc940fc7a8486b0aaa37fdf9f22cebe2f48417e1b8a32ce6cd2fe0d37"
+    },
+    {
+      "arquivo": "verificacao/empacotar.py",
+      "bytes": 1828,
+      "sha256": "c7b989976b85a9c4ee679824fd4d25c78ce2aa71944c507ae6aacad4afcd8993"
+    },
+    {
+      "arquivo": "verificacao/evidencias/aula-5-4-mobile.png",
+      "bytes": 54283,
+      "sha256": "b41595dacb990547f1008e08ed4743ad20904893fa76b34056c37151e5eb3f71"
+    },
+    {
+      "arquivo": "verificacao/evidencias/impressao-pagina-1.png",
+      "bytes": 54175,
+      "sha256": "b815c772798e87a6bf146328204cfb3e966a35cedaeb0eacd08d5ee7476f32e4"
+    },
+    {
+      "arquivo": "verificacao/evidencias/impressao-sem-js-pagina-1.png",
+      "bytes": 50284,
+      "sha256": "57a7b6b5f78704e116538a3fd9a6f6692afa630bd02da5ec952fb9bb46bb79b7"
+    },
+    {
+      "arquivo": "verificacao/evidencias/site-desktop.png",
+      "bytes": 153175,
+      "sha256": "c693a21d86a523aa5ead0bbc9154b9816db76f2b9ae50a185a950c5889ddd9db"
+    },
+    {
+      "arquivo": "verificacao/evidencias/site-mobile.png",
+      "bytes": 66583,
+      "sha256": "78040569dceb38998011ebaed56708fd64f36d810e1e6ea87a29f2473e141248"
+    },
+    {
+      "arquivo": "verificacao/fontes.test.mjs",
+      "bytes": 15912,
+      "sha256": "5e3e020ea8fba6f4290bef2bd1c0f7107138d00c2b039272fa039768f6c87940"
+    },
+    {
+      "arquivo": "verificacao/helpers/xlsx-reader.mjs",
+      "bytes": 7616,
+      "sha256": "2e861803861c68c9d664b432670270c4719b71bc268ee46f95bcd5bb13d179f1"
+    },
+    {
+      "arquivo": "verificacao/impressao.json",
+      "bytes": 1473,
+      "sha256": "767e6561238ed7452f6a195a4eea6332530b6a65ffc8836761f3372e885c54d1"
+    },
+    {
+      "arquivo": "verificacao/navegador.cjs",
+      "bytes": 14245,
+      "sha256": "dcb24008cbbcff97b751001439b91c32d8e37907dff4e46745a38816466b8b52"
+    },
+    {
+      "arquivo": "verificacao/README.md",
+      "bytes": 3139,
+      "sha256": "5336ecc4805dc8ba5c33c8b2a84dc021ff31bd1a61763d398c22993ea856eb88"
+    },
+    {
+      "arquivo": "verificacao/RELATORIO.md",
+      "bytes": 6403,
+      "sha256": "befba38f636e15d0a15a3d4beff2bff7491439b6bf2ff5e02b4eb9a251c276ad"
+    },
+    {
+      "arquivo": "verificacao/repositorio.json",
+      "bytes": 268,
+      "sha256": "f179ba630152a78ec5bd67c7259ad7f9ac4bd58fd670d7080a268e8f7b591c4b"
+    },
+    {
+      "arquivo": "verificacao/resultado-navegador.json",
+      "bytes": 44163,
+      "sha256": "7d9a268c2d184f26ca16e47f6831e94f00467089f5f239ddaea9c85004f64050"
+    },
+    {
+      "arquivo": "verificacao/verificar.py",
+      "bytes": 8096,
+      "sha256": "8122d5075d60906bb152dbbc2c59dfbfa78e1c4b19ee640d1ea2c93445806b1f"
+    },
+    {
+      "arquivo": "VERSION",
+      "bytes": 6,
+      "sha256": "59854984853104df5c353e2f681a15fc7924742f9a2e468c29af248dce45ce03"
+    }
+  ]
+}

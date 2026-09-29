@@ -1,0 +1,47 @@
+{
+  "metodo": "Extracao textual de todas as paginas; inspecao visual das amostras das paginas 1 e 15. PDFs completos permanecem nas evidencias locais de manutencao e nao integram o pacote. Nao certifica acessibilidade de PDF.",
+  "resultados": [
+    {
+      "arquivo_gerado": "site-impressao.pdf",
+      "paginas": 17,
+      "sha256_pdf": "297ccdd73fd8f4f2382039bd5b2583256714fa199f6667b586e8acd05a25af76",
+      "clausulas_localizadas": {
+        "228": true,
+        "90": true,
+        "214": true,
+        "F01": true,
+        "F02": true,
+        "F03": true,
+        "F04": true,
+        "Triagem assistida": true,
+        "Rascunho de proposta": true,
+        "não medido": true,
+        "Preço": true,
+        "agenda": true,
+        "mensagens externas": true
+      },
+      "imagem_distribuida": "evidencias/impressao-pagina-1.png"
+    },
+    {
+      "arquivo_gerado": "site-sem-javascript.pdf",
+      "paginas": 18,
+      "sha256_pdf": "2ac05f7bd117787aec44be8785ecc59f2740fdbd9e47d95b0ab7b7ad6f1e833b",
+      "clausulas_localizadas": {
+        "228": true,
+        "90": true,
+        "214": true,
+        "F01": true,
+        "F02": true,
+        "F03": true,
+        "F04": true,
+        "Triagem assistida": true,
+        "Rascunho de proposta": true,
+        "não medido": true,
+        "Preço": true,
+        "agenda": true,
+        "mensagens externas": true
+      },
+      "imagem_distribuida": "evidencias/impressao-sem-js-pagina-1.png"
+    }
+  ]
+}

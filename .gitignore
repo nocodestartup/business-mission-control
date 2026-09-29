@@ -1,0 +1,16 @@
+.env
+.env.*
+!.env.example
+.openai/
+.codex/
+.playwright-cli/
+node_modules/
+__pycache__/
+.cache/
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.bak
+~$*
+/output/

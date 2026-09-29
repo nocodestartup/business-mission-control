@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Separe regras duráveis do estado corrente e use uma skill explícita para preparar handoffs seguros.">
+  <title>Aula 6.1: Instruções persistentes e skills | Codex Course</title>
+  <link rel="icon" href="../recursos/bmc-reference/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="m6-system.css">
+  <script src="m6-system.js" defer></script>
+</head>
+<body data-lesson="6.1">
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+  <header class="site-nav"><div class="nav-inner"><div class="brand-cluster"><span class="publisher-brand"><img src="../recursos/brand/logo-nocode.png" alt="NoCode StartUp"></span><span class="brand-divider" aria-hidden="true"></span><a class="brand" href="m6-6.1-instrucoes-persistentes-e-skills.html"><span class="codex-brand-mark"><img src="../recursos/brand/codex-mark.png" alt=""><span class="codex-word">CODEX</span></span><span class="brand-label">Módulo 6 · Ecossistema</span></a></div><nav class="lesson-nav" aria-label="Aulas do módulo 6"><a href="m6-6.1-instrucoes-persistentes-e-skills.html" aria-current="page" aria-label="Aula 6.1">6.1</a><a href="m6-6.2-escolhendo-a-expansao-certa.html" aria-label="Aula 6.2">6.2</a></nav></div><div class="nav-progress" aria-hidden="true"></div></header>
+  <noscript><p class="no-script-note">O conteúdo e os prompts permanecem disponíveis. A cópia automática fica desativada.</p></noscript>
+  <main id="conteudo">
+    <section class="lesson-hero"><div class="container hero-grid"><div class="hero-copy"><h1>Como faço o Codex lembrar meu jeito de trabalhar?</h1><p class="hero-lead">Uma regra durável orienta muitos trabalhos. Um handoff descreve o trabalho que está em andamento. Misturar os dois faz o projeto carregar pendências antigas como se fossem princípios.</p><p class="hero-note"><strong>Resultado:</strong> uma regra curta e a skill <code>handoff</code> da Lume criada no Codex.</p><div class="hero-actions"><a class="button" href="#separar">Separar regra e estado</a></div></div><div class="hero-visual memory-map"><h2 class="sr-only">Diferença entre instrução persistente e estado atual</h2><article><span class="tag rule">Durável</span><h3>Instrução do projeto</h3><p>Como trabalhar enquanto a regra continuar verdadeira.</p></article><div class="bridge" aria-hidden="true">≠</div><article><span class="tag state">Corrente</span><h3>HANDOFF.md</h3><p>O que foi revisado, o que falta e qual resultado vem depois.</p></article></div></div></section>
+
+    <section class="chapter paper" id="separar"><div class="container"><div class="section-heading"><div><p class="eyebrow">Dois horizontes</p><h2>Faça o teste da validade.</h2></div><p>Pergunte: “isso continua verdadeiro depois que a próxima entrega terminar?”. Se não, pertence ao estado corrente.</p></div>
+      <div class="rule-stack">
+        <div class="rule-row"><strong>Instrução</strong><span>Sempre separar evidência, inferência, hipótese e regra.</span></div>
+        <div class="rule-row"><strong>Instrução</strong><span>Nunca publicar nem ampliar acesso sem autorização explícita.</span></div>
+        <div class="rule-row"><strong>Handoff</strong><span>A versão candidata do Site está em determinado caminho e aguarda auditoria.</span></div>
+        <div class="rule-row"><strong>Handoff</strong><span>O filtro por área ainda precisa de teste por teclado.</span></div>
+      </div>
+      <div class="callout"><strong>Regra curta, verificável e mantida.</strong> Não transforme toda preferência em instrução. Quanto mais regras persistem, maior a responsabilidade de revisar conflitos e remover o que ficou obsoleto.</div>
+    </div></section>
+
+    <section class="chapter"><div class="container"><div class="section-heading"><div><p class="eyebrow">Skill explícita</p><h2>Empacote o fluxo que já se repetiu.</h2></div><p>Skills são pastas de instruções e recursos para fluxos repetíveis. Neste curso, a skill <code>handoff</code> evolui um processo que você já fez manualmente; ela não substitui sua revisão.</p></div>
+      <ol class="trace"><li><h3>Leia o escopo</h3><p>Abra o <code>SKILL.md</code> original de Matt Pocock no GitHub. Ele prepara a próxima sessão e salva um documento temporário.</p></li><li><h3>Peça no Codex</h3><p>Com o projeto da Lume aberto, envie o pedido abaixo com <code>$skill-creator</code>. O Codex cria a adaptação em <code>.agents/skills/handoff/</code>. Você não precisa baixar nem mover arquivos.</p></li><li><h3>Confira a skill</h3><p>Leia no Codex o <code>SKILL.md</code> criado. Confirme que o único destino de escrita do handoff é o <code>HANDOFF.md</code> na raiz da Lume e que a skill mostrará o diff.</p></li><li><h3>Invoque depois</h3><p>Depois de revisar o resultado da conversa, use <code>$handoff</code> com o foco da próxima missão. Confira o diff do <code>HANDOFF.md</code> antes de abrir a nova conversa.</p></li></ol>
+      <div class="resource-grid" aria-label="Fonte e documentação da skill"><article class="resource-card"><h3>Handoff · Matt Pocock</h3><p>Fonte do escopo. A versão criada na Lume adapta o destino de escrita ao projeto.</p><a class="resource-link" href="https://github.com/mattpocock/skills/blob/main/skills/productivity/handoff/SKILL.md" target="_blank" rel="noopener noreferrer"><img src="../recursos/brand/github-mark.svg" alt="">Ler SKILL.md no GitHub <span aria-hidden="true">↗</span></a></article><article class="resource-card"><h3>Skills no Codex</h3><p>Veja como criar uma skill no app e onde o projeto a carrega.</p><a class="resource-link" href="https://learn.chatgpt.com/docs/build-skills" target="_blank" rel="noopener noreferrer"><img src="../recursos/brand/codex-mark.png" alt="">Ler documentação oficial <span aria-hidden="true">↗</span></a></article></div>
+      <div class="two-col"><article class="card"><span class="tag evidence">O que a skill da Lume faz</span><h3>Atualiza o handoff do projeto.</h3><p>Registra no <code>HANDOFF.md</code> somente o estado já revisado na conversa e mostra o diff para conferência.</p></article><article class="card"><span class="tag rule">Limites</span><h3>A decisão continua humana.</h3><p>A skill preserva pendências e não aprova hipóteses, publica o Site ou altera o acesso.</p></article></div>
+      <p class="skill-invocation">Prévia para depois da revisão: $handoff iniciar M7 · Validação e publicação</p>
+      <p class="source-note">Referência atual: <a href="https://developers.openai.com/plugins/concepts/skills" rel="noreferrer">skills na documentação oficial da OpenAI</a>.</p>
+    </div></section>
+
+    <section class="chapter paper"><div class="container"><div class="section-heading"><div><p class="eyebrow">Nova conversa</p><h2>Vincule com uma fronteira verificável.</h2></div><p>Abra <strong>M6 · Método reutilizável e expansões</strong>. A conversa deve ler o handoff do M5, diferenciar regra de estado e confirmar a proteção da skill antes de qualquer uso.</p></div>
+      <div class="prompt-card"><header><strong>Pedido para iniciar o M6</strong><button type="button" data-copy-source="prompt-m6-inicio" hidden>Copiar pedido</button></header><pre id="prompt-m6-inicio">Leia primeiro o HANDOFF.md na raiz do projeto da Lume. Confirme em uma frase o resultado encerrado no M5, a versão candidata, os limites e a próxima missão.
+
+Depois, compare o estado corrente do handoff com as regras realmente duráveis do projeto. Proponha no máximo três instruções persistentes, curtas e verificáveis. Não coloque em instruções permanentes versão, pendência, prazo, próxima conversa ou qualquer estado que deva mudar.
+
+Em seguida, use $skill-creator para criar uma skill chamada handoff neste projeto da Lume. Tome como referência de escopo a skill de Matt Pocock em https://github.com/mattpocock/skills/blob/main/skills/productivity/handoff/SKILL.md: resumir a conversa para a próxima missão, apontar para artefatos existentes e omitir dados sensíveis. A original salva no diretório temporário; adapte a versão da Lume para ler e atualizar diretamente o HANDOFF.md já existente na raiz deste projeto, sem alterar outro handoff. Registre apenas resultados e decisões já revisados nesta conversa, preserve pendências e estado de publicação real, use meu foco da próxima missão e mostre o diff depois de escrever. Configure a skill para invocação apenas explícita com $handoff. Registre a fonte da adaptação e preserve a licença MIT se reutilizar texto da original. Não publique, não mude acesso e não trate hipótese como fato. Crie a skill em .agents/skills/handoff/ por dentro do Codex, sem baixar ou copiar arquivos manualmente. Se não conseguir conferir a fonte, informe a limitação e peça o trecho de escopo; não invente instruções da fonte.
+
+Mostre o plano e aguarde minha aprovação antes de criar ou alterar instruções e antes de vincular a skill. Não use a skill ainda.</pre></div><p class="copy-status" data-copy-feedback="prompt-m6-inicio" aria-live="polite">Você também pode selecionar e copiar o texto manualmente.</p>
+      <div class="exercise"><label for="regra-duravel">Escreva uma regra que continuará verdadeira depois do M7.</label><textarea id="regra-duravel" placeholder="Separe fatos observados, inferências, hipóteses de teste e regras; cite a origem de cada fato."></textarea><p><button type="button" data-copy-source="regra-duravel" hidden>Copiar minha regra</button></p><p class="copy-status" data-copy-feedback="regra-duravel" aria-live="polite">Teste se a frase ainda faz sentido em outro projeto.</p></div>
+    </div></section>
+  </main>
+  <footer class="lesson-footer"><div class="container"><p class="eyebrow">Próxima aula</p><h2>Com o método persistido, escolha a menor expansão que atende uma necessidade real.</h2><div class="footer-meta"><nav aria-label="Continuidade"><a href="m6-6.2-escolhendo-a-expansao-certa.html">Ir para 6.2</a></nav><span>Continue na conversa M6.</span></div></div></footer>
+</body>
+</html>

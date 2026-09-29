@@ -1,0 +1,181 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <meta name="description" content="Aula 4.2 do Codex Course: encontre esperas, repetição e informação ausente na Lume e monte uma lista de gargalos rastreáveis.">
+    <meta name="theme-color" content="#171815">
+    <title>Aula 4.2: Encontrando Gargalos | Codex Course</title>
+    <link rel="icon" href="../recursos/bmc-reference/favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="m4-system.css">
+    <script src="m4-system.js" defer></script>
+  </head>
+  <body data-lesson="4.2">
+    <a class="skip-link" href="#conteudo">Ir para o conteúdo</a>
+    <div class="page-shell">
+      <header class="site-nav">
+        <div class="nav-inner">
+          <div class="brand-cluster">
+            <div class="publisher-brand"><img src="../recursos/brand/logo-nocode.png" alt="NoCode StartUp" width="242" height="33"></div>
+            <span class="brand-divider" aria-hidden="true"></span>
+            <a class="brand" href="m4-4.1-conhecendo-a-empresa.html" aria-label="Codex Course, início do módulo 4">
+              <span class="codex-brand-mark" aria-hidden="true"><img src="../recursos/brand/codex-mark.png" alt="" width="640" height="640"><span class="codex-word">CODEX</span></span>
+              <span class="brand-label">Curso · Módulo 4</span>
+            </a>
+          </div>
+          <nav class="lesson-nav" aria-label="Aulas do módulo 4">
+            <a href="m4-4.1-conhecendo-a-empresa.html" aria-label="Aula 4.1, conhecendo a empresa">4.1</a>
+            <a href="m4-4.2-encontrando-gargalos.html" aria-current="page" aria-label="Aula 4.2, encontrando gargalos">4.2</a>
+            <a href="m4-4.3-transformando-gargalos-em-oportunidades.html" aria-label="Aula 4.3, transformando gargalos em oportunidades">4.3</a>
+            <a href="m4-4.4-priorizando-o-plano-de-30-dias.html" aria-label="Aula 4.4, priorizando o plano de 30 dias">4.4</a>
+          </nav>
+        </div>
+        <div class="nav-progress" aria-hidden="true"></div>
+      </header>
+      <noscript><p class="no-script-note">Os rastros e o exercício continuam disponíveis. Abra os detalhes e copie os textos manualmente quando precisar.</p></noscript>
+      <main id="conteudo">
+        <section class="lesson-hero">
+          <div class="container hero-grid">
+            <div class="hero-copy">
+              <p class="lesson-id">Aula 4.2 · Encontrando gargalos</p>
+              <h1>Dê nome<br>ao que trava.</h1>
+              <p class="hero-lead">Você vai sair de “o atendimento precisa melhorar” para uma lista de gargalos: etapa, sinal observado, fonte, consequência a verificar e decisão humana.</p>
+              <div class="hero-actions"><a class="button" href="#processo">Seguir o processo <span aria-hidden="true">↓</span></a><a class="button secondary" href="#exercicio">Registrar gargalos</a></div>
+              <p class="hero-note">Pergunta-âncora: onde a operação perde tempo, dinheiro ou qualidade?</p>
+            </div>
+            <aside class="hero-visual" aria-label="Funil de evidências até o gargalo">
+              <p class="eyebrow">Funil de evidências · localize o problema</p>
+              <ol class="funnel">
+                <li><strong>Etapa</strong><span>Em que momento o trabalho espera ou volta?</span></li>
+                <li><strong>Sinal e fonte</strong><span>Qual registro mostra o problema?</span></li>
+                <li><strong>Limite da conclusão</strong><span>O que precisa ser confirmado antes de agir?</span></li>
+              </ol>
+              <p class="source-note">Entrega: lista de gargalos priorizáveis. Os dados não medem receita perdida; não converta atraso em dinheiro sem evidência.</p>
+            </aside>
+          </div>
+        </section>
+<aside class="container source-legend" aria-label="Como conferir as fontes"><p class="source-note"><strong>Rótulos usados nesta aula:</strong> F01 = <code>01-briefing_da_empresa.md</code>; F02 = <code>02-atendimento_e_propostas_maio.xlsx</code>; F03 = <code>03-ordens_de_servico_maio.xlsx</code>; F04 = <code>04-feedbacks_e_rotina_maio.md</code>. Esta é uma convenção do exemplo. Os IDs são atribuídos por cada relatório: confira ID, nome, aba ou seção e impressão digital do arquivo juntos, sem deduzir o ID pelo prefixo do nome.</p></aside>
+
+        <section class="chapter paper" id="processo">
+          <div class="container">
+            <div class="section-heading"><p class="eyebrow">01 · Leia o processo atual</p><h2>Observe o trabalho nas passagens entre as equipes.</h2></div>
+            <ol class="process-list">
+              <li><h3>Entrada e triagem · Atendimento</h3><p>Reúne tipo de serviço, região e urgência informada. Contexto ausente exige voltar à conversa; a classificação precisa de conferência.</p></li>
+              <li><h3>Proposta · Comercial e Direção</h3><p>Prepara o rascunho e mantém a fila de acompanhamento. Preço, condição e promessa de prazo passam por uma pessoa.</p></li>
+              <li><h3>Ordem e visita · Operação</h3><p>Confere equipamento, sintoma e contato antes da visita. Data marcada não torna a ordem completa; mudança de agenda exige aprovação.</p></li>
+              <li><h3>Retorno · Atendimento</h3><p>Informa andamento e solicita documentos. A resposta usa informação confirmada e passa por revisão antes do envio.</p></li>
+            </ol>
+            <p class="source-note">Fonte: F01, <a href="../../projeto-inicial/01-briefing_da_empresa.md">01-briefing_da_empresa.md</a>, seção “Processo atual”.</p>
+            <aside class="callout"><strong>Decisão humana é parte do processo.</strong><p>Investigue a espera por informação ou o retrabalho que antecede uma aprovação. A necessidade de alguém conferir preço ou agenda não é, por si só, um problema a eliminar.</p></aside>
+          </div>
+        </section>
+
+        <section class="chapter" id="gargalos">
+          <div class="container">
+            <div class="section-heading"><p class="eyebrow">02 · Do sinal ao gargalo</p><h2>Descreva o problema sem pular para a solução.</h2></div>
+            <p>“Automatizar atendimento” já escolhe uma solução ampla. “A primeira resposta tem mediana de 228 minutos em maio” localiza um sinal que conseguimos conferir. A causa ainda precisa ser investigada.</p>
+            <div class="two-col">
+              <article class="card">
+                <span class="tag evidence">Espera · Triagem</span><h3>Primeira resposta e contexto incompleto</h3>
+                <p><strong>Observado:</strong> mediana de 228 minutos nos 214 contatos; 81 cadastros incompletos. Os dois sinais aparecem no mesmo recorte, mas isso não prova que um causou o outro.</p>
+                <p><strong>A validar:</strong> em quais contatos houve espera por informação? Quem consegue distinguir esse motivo de outras filas?</p>
+                <p><strong>Decisão humana:</strong> confirmar o contexto, a classificação e a resposta.</p>
+                <details open><summary>Abrir o rastro da triagem</summary><p class="source-note">F02, <a href="../../projeto-inicial/02-atendimento_e_propostas_maio.xlsx">02-atendimento_e_propostas_maio.xlsx</a>, abas <code>contatos</code> e <code>dicionario</code>.</p><p>A mediana usa <code>tempo_primeira_resposta_min</code>. A completude da planilha exige <code>cliente_ref</code>, <code>tipo_servico</code> e <code>regiao</code>. São 81 de 214, cerca de 38%. Essa definição difere dos campos de triagem descritos em F01, que incluem urgência.</p></details>
+              </article>
+              <article class="card">
+                <span class="tag evidence">Perda de acompanhamento · Comercial</span><h3>Propostas envelhecem sem registro de retorno</h3>
+                <p><strong>Observado:</strong> 28 propostas têm cinco ou mais dias no corte e nenhum acompanhamento registrado.</p>
+                <p><strong>A validar:</strong> o contato não ocorreu ou ocorreu sem registro? O conjunto não permite afirmar que houve perda de venda.</p>
+                <p><strong>Decisão humana:</strong> escolher a próxima ação e revisar qualquer mensagem.</p>
+                <details open><summary>Abrir o rastro das propostas</summary><p class="source-note">F02, <a href="../../projeto-inicial/02-atendimento_e_propostas_maio.xlsx">02-atendimento_e_propostas_maio.xlsx</a>, abas <code>propostas</code> e <code>dicionario</code>.</p><p>Conte as linhas com <code>dias_em_aberto_no_corte</code> maior ou igual a 5 e <code>ultimo_follow_up_em</code> vazio. O campo <code>sem_follow_up_apos_5_dias</code> registra essa condição.</p></details>
+              </article>
+              <article class="card">
+                <span class="tag evidence">Repetição · Preparo comercial</span><h3>O rascunho exige adaptação manual</h3>
+                <p><strong>Observado:</strong> média de 12 minutos nas 21 medições sintéticas de preparo, com escopos padronizados.</p>
+                <p><strong>A validar:</strong> quais partes se repetem e quais exigem análise específica? A média não inclui espera por documentos, aprovação ou negociação.</p>
+                <p><strong>Decisão humana:</strong> conferir escopo, preço, condição e prazo antes de aprovar.</p>
+                <details open><summary>Abrir o rastro do preparo</summary><p class="source-note">F02 · <code>propostas</code>, 21 valores preenchidos de <code>tempo_preparo_min</code>. F04, <a href="../../projeto-inicial/04-feedbacks_e_rotina_maio.md">04-feedbacks_e_rotina_maio.md</a>, “Amostra sintética de preparo manual de propostas”.</p><p>A rotina medida começa com a solicitação completa e termina com o rascunho entregue para revisão. Estender 12 minutos às 126 propostas gera 25,2 horas estimadas, uma inferência de carga de trabalho.</p></details>
+              </article>
+              <article class="card">
+                <span class="tag evidence">Informação ausente · Operação</span><h3>Ordens incompletas e agenda alterada</h3>
+                <p><strong>Observado:</strong> 27 ordens incompletas; 23 mudanças de agenda somam 19 horas de ajuste no recorte de 138 ordens.</p>
+                <p><strong>A validar:</strong> os registros incompletos coincidem com as mudanças? Não atribua causa, retorno técnico ou custo financeiro sem esse vínculo.</p>
+                <p><strong>Decisão humana:</strong> conferir os dados técnicos e aprovar qualquer mudança de agenda.</p>
+                <details open><summary>Abrir o rastro da operação</summary><p class="source-note">F03, <a href="../../projeto-inicial/03-ordens_de_servico_maio.xlsx">03-ordens_de_servico_maio.xlsx</a>, abas <code>ordens</code>, <code>agenda</code> e <code>dicionario</code>.</p><p>A ordem completa exige equipamento, sintoma e contato confirmado. Na agenda, conte <code>houve_mudanca</code> verdadeiro e some <code>tempo_ajuste_min</code>: 1.140 minutos ÷ 60 = 19 horas.</p></details>
+              </article>
+            </div>
+            <aside class="callout"><strong>Mais um sinal de repetição: 42 de 96 conversas.</strong><p>Em F04, “Contagem observada no conjunto sintético”, as categorias Status e Documentos somam 42 conversas. Isso sugere investigar o preparo das respostas. Não mede tempo economizado e não autoriza envio automático.</p></aside>
+          </div>
+        </section>
+
+        <section class="chapter paper" id="diagnostico">
+          <div class="container">
+            <div class="section-heading"><p class="eyebrow">03 · Confira a conclusão</p><h2>Uma evidência sustenta o sinal.<br>A causa pede outra pergunta.</h2></div>
+            <div class="two-col">
+              <article class="card"><span class="tag inference">Conclusão que extrapola</span><h3>“A equipe perde vendas porque demora.”</h3><p>Há um dado de tempo de resposta. Faltam dados que liguem esse tempo a uma venda perdida. Também não há base para avaliar o desempenho individual.</p></article>
+              <article class="card"><span class="tag evidence">Diagnóstico conferível</span><h3>“Há espera na primeira resposta.”</h3><p>“Em maio, a mediana é 228 minutos nos 214 contatos de F02. Vou verificar os motivos de espera com o Atendimento antes de propor um teste.”</p></article>
+            </div>
+            <p>Use a mesma estrutura nos outros gargalos: <strong>etapa + sinal observado + fonte + limite da conclusão + pergunta de validação</strong>. Isso produz uma lista comparável para a próxima aula.</p>
+          </div>
+        </section>
+
+        <section class="chapter" id="exercicio">
+          <div class="container">
+            <div class="section-heading"><p class="eyebrow">Entrega · Lista de gargalos</p><h2>Escolha três problemas que você consegue explicar.</h2></div>
+            <aside class="callout"><strong>Abra uma nova conversa.</strong><p>Nomeie como <code>M4 · Diagnóstico de gargalos</code>. O handoff transporta o plano, o resumo revisado e os limites; esta conversa fica dedicada a um único resultado.</p></aside>
+            <p>Leia o handoff antes de pedir a lista e depois escreva três gargalos com suas palavras. Um deles pode ficar pendente se a evidência ainda não for suficiente.</p>
+            <div class="prompt-card">
+              <header><h3>Pedido para diagnosticar o processo</h3><button class="button" type="button" data-copy-source="prompt-gargalos" hidden>Copiar pedido</button></header>
+              <pre id="prompt-gargalos">Leia primeiro o HANDOFF.md na raiz deste projeto e somente os arquivos que ele indicar para esta missão.
+Confirme em uma frase o resultado esperado, as fontes autorizadas, os limites e o critério de conclusão. Se o plano do M3 ou o resumo da Aula 4.1 ainda não estiverem revisados, pare e informe a pendência.
+Depois, com base no resumo conferido e nos quatro arquivos 01–04 do kit sintético da Lume, descreva o processo atual e liste gargalos de espera, repetição, retrabalho ou informação ausente.
+Para cada gargalo, informe: etapa, sinal observado, número e período quando houver, classificação da afirmação, fonte com nome do arquivo e aba ou seção, limite da conclusão, pergunta de validação e decisão que continua humana.
+Confira os dicionários. Separe campos de triagem de critérios de completude. Não generalize as 21 medições de preparo nem as 96 conversas para toda a operação.
+Não infira perda de receita, causa de atraso ou desempenho individual. Se dois problemas aparecem juntos, registre que isso não comprova causalidade.
+Ainda não escolha ferramenta nem automação. Não altere as fontes, preço, prazo, agenda ou mensagens. Entregue uma lista curta para minha revisão.</pre>
+              <p class="copy-status" data-copy-feedback="prompt-gargalos" aria-live="polite"></p>
+            </div>
+            <div class="exercise">
+              <label for="lista-gargalos"><strong>Minha lista de gargalos conferidos</strong></label>
+              <p id="gargalos-dica">Complete cada bloco. Suas respostas ficam somente nesta página até recarregar; copie a lista para guardar.</p>
+              <textarea id="lista-gargalos" rows="15" aria-describedby="gargalos-dica">Gargalo 1 / etapa:
+Sinal, período e fonte:
+Limite da conclusão e pergunta:
+Decisão humana:
+
+Gargalo 2 / etapa:
+Sinal, período e fonte:
+Limite da conclusão e pergunta:
+Decisão humana:
+
+Gargalo 3 / etapa:
+Sinal, período e fonte:
+Limite da conclusão e pergunta:
+Decisão humana:</textarea>
+              <button class="button" type="button" data-copy-source="lista-gargalos" hidden>Copiar meus gargalos</button>
+              <p class="copy-status" data-copy-feedback="lista-gargalos" aria-live="polite"></p>
+              <label class="check-item"><input type="checkbox"><span>Cada gargalo tem uma etapa, uma fonte localizável, uma pergunta aberta e um responsável pela decisão humana.</span></label>
+              <label class="check-item"><input type="checkbox"><span>Não tratei coincidência como causa nem atraso como perda financeira comprovada.</span></label>
+            </div>
+            <aside class="callout"><strong>Encerre este resultado antes de avançar.</strong><p>Quando os três gargalos estiverem revisados, atualize o handoff e só então abra a conversa das Aulas 4.3–4.4.</p></aside>
+            <div class="prompt-card">
+              <header><h3>Pedido para encerrar o diagnóstico</h3><button class="button" type="button" data-copy-source="prompt-handoff-4-2" hidden>Copiar pedido</button></header>
+              <pre id="prompt-handoff-4-2">Atualize somente o HANDOFF.md na raiz deste projeto para encerrar "M4 · Diagnóstico de gargalos".
+Marque a Aula 4.2 como revisada somente se existirem três gargalos com etapa, sinal, fonte, limite da conclusão, pergunta de validação e decisão humana. Registre cada gargalo de forma compacta e mantenha visíveis dúvidas ou fontes insuficientes.
+Preserve as decisões e os limites já registrados. Não transforme coincidência em causa, atraso em perda financeira ou pendência em conclusão.
+Defina o próximo resultado como "M4 · Oportunidades e plano de 30 dias", cobrindo as Aulas 4.3 e 4.4 na mesma conversa.
+Inclua um prompt inicial que mande ler o HANDOFF.md, confirmar os três gargalos revisados e parar se o diagnóstico ainda estiver pendente.
+Não duplique respostas extensas nem altere as fontes da Lume ou qualquer handoff técnico do produto privado. Depois de atualizar, informe o caminho alterado, o resultado encerrado e a próxima missão.</pre>
+              <p class="copy-status" data-copy-feedback="prompt-handoff-4-2" aria-live="polite">Você também pode selecionar e copiar o texto manualmente.</p>
+            </div>
+          </div>
+        </section>
+
+        <section class="chapter paper synthesis">
+          <div class="container"><p class="eyebrow">Leve esta ideia</p><h2>Um gargalo bem descrito cabe em uma frase e volta até a fonte.</h2><p>Com o diagnóstico revisado no handoff, a próxima aula abre uma nova conversa para comparar oportunidades e montar o plano de 30 dias.</p></div>
+        </section>
+      </main>
+      <footer class="lesson-footer"><div class="container"><div class="footer-meta"><span>Codex Course · Módulo 4 · Aula 4.2</span><span>Entrega: lista de gargalos com evidências</span></div><a class="button secondary" href="m4-4.1-conhecendo-a-empresa.html">Voltar: conhecendo a empresa</a><a class="button" href="m4-4.3-transformando-gargalos-em-oportunidades.html">Continuar: transformar em oportunidades <span aria-hidden="true">→</span></a></div></footer>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,1287 @@
+{
+  "report": {
+    "schemaVersion": "2.0",
+    "company": {
+      "name": "Lume Manutenção Comercial",
+      "period": "2026-05"
+    },
+    "executiveSummary": {
+      "headline": "Qual teste começa primeiro?",
+      "recommendation": "Fila interna de acompanhamento como primeiro teste proposto.",
+      "rationale": "As notas organizam hipóteses de prioridade. Nenhum piloto foi iniciado e nenhum resultado posterior foi medido.",
+      "nextAction": "A Direção revisa escopo, responsáveis e critérios antes de autorizar um piloto.",
+      "sourceIds": [
+        "F01",
+        "F02",
+        "F03",
+        "F04"
+      ],
+      "citations": [
+        {
+          "sourceId": "F01",
+          "locator": {
+            "type": "markdown",
+            "startLine": 71,
+            "endLine": 89,
+            "section": "Limites de autonomia"
+          }
+        },
+        {
+          "sourceId": "F02",
+          "locator": {
+            "type": "xlsx",
+            "sheetName": "dicionario",
+            "startRow": 9,
+            "endRow": 10
+          }
+        },
+        {
+          "sourceId": "F03",
+          "locator": {
+            "type": "xlsx",
+            "sheetName": "dicionario",
+            "startRow": 5,
+            "endRow": 8
+          }
+        },
+        {
+          "sourceId": "F04",
+          "locator": {
+            "type": "markdown",
+            "startLine": 147,
+            "endLine": 175,
+            "section": "Amostra sintética de preparo manual de propostas"
+          }
+        }
+      ]
+    },
+    "bottlenecks": [
+      {
+        "id": "B1",
+        "title": "Espera e contexto incompleto",
+        "description": "214 contatos, mediana de 228 minutos e 81 cadastros incompletos em maio. A coexistência não demonstra causa.",
+        "classification": "evidence",
+        "hypothesis": null,
+        "nextAction": "Conferir quais campos faltavam nos contatos acima de quatro horas.",
+        "sourceIds": [
+          "F02"
+        ],
+        "citations": [
+          {
+            "sourceId": "F02",
+            "locator": {
+              "type": "xlsx",
+              "sheetName": "dicionario",
+              "startRow": 5,
+              "endRow": 8
+            }
+          }
+        ]
+      },
+      {
+        "id": "B2",
+        "title": "Propostas sem acompanhamento",
+        "description": "28 de 126 propostas estavam sem acompanhamento após cinco dias no corte de maio.",
+        "classification": "evidence",
+        "hypothesis": null,
+        "nextAction": "Conferir cada caso antes de decidir a ação.",
+        "sourceIds": [
+          "F02"
+        ],
+        "citations": [
+          {
+            "sourceId": "F02",
+            "locator": {
+              "type": "xlsx",
+              "sheetName": "dicionario",
+              "startRow": 9,
+              "endRow": 10
+            }
+          }
+        ]
+      },
+      {
+        "id": "B3",
+        "title": "Informação e coordenação",
+        "description": "27 de 138 ordens incompletas; 23 mudanças de agenda somaram 19 horas de ajuste. Esses sinais não provam causalidade.",
+        "classification": "evidence",
+        "hypothesis": null,
+        "nextAction": "Conferir a sequência dos casos; sem oportunidade direta neste recorte.",
+        "sourceIds": [
+          "F03"
+        ],
+        "citations": [
+          {
+            "sourceId": "F03",
+            "locator": {
+              "type": "xlsx",
+              "sheetName": "dicionario",
+              "startRow": 5,
+              "endRow": 8
+            }
+          }
+        ]
+      }
+    ],
+    "opportunities": [
+      {
+        "id": "O1",
+        "title": "Fila interna de acompanhamento",
+        "description": "Lista interna de propostas com cinco dias ou mais e acompanhamento vazio. Comercial confere e decide a ação.",
+        "decision": "Primeiro teste proposto",
+        "classification": "hypothesis",
+        "hypothesis": "A regra pode tornar a fila visível para revisão humana.",
+        "nextAction": "Confirmar escopo e responsável proposto antes de iniciar.",
+        "impact": 4,
+        "speed": 5,
+        "effort": 2,
+        "risk": 2,
+        "score": 17,
+        "bottleneckIds": [
+          "B2"
+        ],
+        "sourceIds": [
+          "F02"
+        ],
+        "citations": [
+          {
+            "sourceId": "F02",
+            "locator": {
+              "type": "xlsx",
+              "sheetName": "dicionario",
+              "startRow": 9,
+              "endRow": 10
+            }
+          }
+        ]
+      },
+      {
+        "id": "O2",
+        "title": "Triagem assistida",
+        "description": "Sinaliza lacunas e prepara perguntas. Atendimento valida dados, prioridade e resposta.",
+        "decision": "Opção secundária",
+        "classification": "hypothesis",
+        "hypothesis": "O apoio pode ajudar a reunir contexto; não foi demonstrada redução da espera.",
+        "nextAction": "Revisar entradas sintéticas e campos mínimos.",
+        "impact": 4,
+        "speed": 4,
+        "effort": 3,
+        "risk": 3,
+        "score": 14,
+        "bottleneckIds": [
+          "B1"
+        ],
+        "sourceIds": [
+          "F01",
+          "F02"
+        ],
+        "citations": [
+          {
+            "sourceId": "F01",
+            "locator": {
+              "type": "markdown",
+              "startLine": 71,
+              "endLine": 89,
+              "section": "Limites de autonomia"
+            }
+          },
+          {
+            "sourceId": "F02",
+            "locator": {
+              "type": "xlsx",
+              "sheetName": "dicionario",
+              "startRow": 5,
+              "endRow": 8
+            }
+          }
+        ]
+      },
+      {
+        "id": "O3",
+        "title": "Rascunho de proposta",
+        "description": "Rascunho interno de escopo, sem preço, prazo, disponibilidade ou envio automático.",
+        "decision": "Opção secundária",
+        "classification": "hypothesis",
+        "hypothesis": "O apoio pode reduzir preparo; a base é uma amostra sintética de 21 medições.",
+        "nextAction": "Revisar modelo, entradas e controles antes de testar.",
+        "impact": 3,
+        "speed": 4,
+        "effort": 3,
+        "risk": 3,
+        "score": 13,
+        "bottleneckIds": [
+          "B2"
+        ],
+        "sourceIds": [
+          "F02",
+          "F04"
+        ],
+        "citations": [
+          {
+            "sourceId": "F02",
+            "locator": {
+              "type": "xlsx",
+              "sheetName": "dicionario",
+              "startRow": 11,
+              "endRow": 12
+            }
+          },
+          {
+            "sourceId": "F04",
+            "locator": {
+              "type": "markdown",
+              "startLine": 147,
+              "endLine": 175,
+              "section": "Amostra sintética de preparo manual de propostas"
+            }
+          }
+        ]
+      }
+    ],
+    "plan": [
+      {
+        "id": "P1",
+        "phase": "Alinhar",
+        "window": "Dias 1–5",
+        "action": "Confirmar escopo, responsáveis propostos, revisão e critérios.",
+        "expectedOutcome": "Avançar somente com autorização.",
+        "classification": "hypothesis",
+        "sourceIds": [
+          "F01",
+          "F02"
+        ],
+        "citations": [
+          {
+            "sourceId": "F01",
+            "locator": {
+              "type": "markdown",
+              "startLine": 71,
+              "endLine": 89,
+              "section": "Limites de autonomia"
+            }
+          },
+          {
+            "sourceId": "F02",
+            "locator": {
+              "type": "xlsx",
+              "sheetName": "dicionario",
+              "startRow": 9,
+              "endRow": 10
+            }
+          }
+        ]
+      },
+      {
+        "id": "P2",
+        "phase": "Preparar",
+        "window": "Dias 6–12",
+        "action": "Preparar a fila e executar testes secos com dados sintéticos.",
+        "expectedOutcome": "Protótipo interno conferido.",
+        "classification": "hypothesis",
+        "sourceIds": [
+          "F01",
+          "F02"
+        ],
+        "citations": [
+          {
+            "sourceId": "F01",
+            "locator": {
+              "type": "markdown",
+              "startLine": 71,
+              "endLine": 89,
+              "section": "Limites de autonomia"
+            }
+          },
+          {
+            "sourceId": "F02",
+            "locator": {
+              "type": "xlsx",
+              "sheetName": "dicionario",
+              "startRow": 9,
+              "endRow": 10
+            }
+          }
+        ]
+      },
+      {
+        "id": "P3",
+        "phase": "Testar",
+        "window": "Dias 13–23",
+        "action": "Medir registros comparáveis somente após autorização do piloto.",
+        "expectedOutcome": "Revisão humana e registro de incidentes.",
+        "classification": "hypothesis",
+        "sourceIds": [
+          "F01",
+          "F02"
+        ],
+        "citations": [
+          {
+            "sourceId": "F01",
+            "locator": {
+              "type": "markdown",
+              "startLine": 71,
+              "endLine": 89,
+              "section": "Limites de autonomia"
+            }
+          },
+          {
+            "sourceId": "F02",
+            "locator": {
+              "type": "xlsx",
+              "sheetName": "dicionario",
+              "startRow": 9,
+              "endRow": 10
+            }
+          }
+        ]
+      },
+      {
+        "id": "P4",
+        "phase": "Decidir",
+        "window": "Dias 24–30",
+        "action": "Classificar cada resultado como medido, não medido ou não comparável.",
+        "expectedOutcome": "Direção decide continuar, ajustar, interromper ou não concluir.",
+        "classification": "hypothesis",
+        "sourceIds": [
+          "F01",
+          "F02"
+        ],
+        "citations": [
+          {
+            "sourceId": "F01",
+            "locator": {
+              "type": "markdown",
+              "startLine": 71,
+              "endLine": 89,
+              "section": "Limites de autonomia"
+            }
+          },
+          {
+            "sourceId": "F02",
+            "locator": {
+              "type": "xlsx",
+              "sheetName": "dicionario",
+              "startRow": 9,
+              "endRow": 10
+            }
+          }
+        ]
+      }
+    ],
+    "metrics": [
+      {
+        "id": "M1",
+        "metricKey": "mediana_primeira_resposta_min",
+        "label": "Mediana da primeira resposta",
+        "baseline": "228",
+        "baselineValue": 228,
+        "target": "90",
+        "targetValue": 90,
+        "targetComparator": "lte",
+        "unit": "min",
+        "classification": "evidence",
+        "sourceIds": [
+          "F02"
+        ],
+        "citations": [
+          {
+            "sourceId": "F02",
+            "locator": {
+              "type": "xlsx",
+              "sheetName": "dicionario",
+              "startRow": 5,
+              "endRow": 5
+            }
+          }
+        ],
+        "observations": [
+          {
+            "period": "2025-06",
+            "value": 286,
+            "displayValue": "286",
+            "classification": "evidence",
+            "sourceIds": [
+              "F02"
+            ],
+            "citations": [
+              {
+                "sourceId": "F02",
+                "locator": {
+                  "type": "xlsx",
+                  "sheetName": "historico_mensal",
+                  "startRow": 2,
+                  "endRow": 2
+                }
+              }
+            ]
+          },
+          {
+            "period": "2025-07",
+            "value": 278,
+            "displayValue": "278",
+            "classification": "evidence",
+            "sourceIds": [
+              "F02"
+            ],
+            "citations": [
+              {
+                "sourceId": "F02",
+                "locator": {
+                  "type": "xlsx",
+                  "sheetName": "historico_mensal",
+                  "startRow": 3,
+                  "endRow": 3
+                }
+              }
+            ]
+          },
+          {
+            "period": "2025-08",
+            "value": 291,
+            "displayValue": "291",
+            "classification": "evidence",
+            "sourceIds": [
+              "F02"
+            ],
+            "citations": [
+              {
+                "sourceId": "F02",
+                "locator": {
+                  "type": "xlsx",
+                  "sheetName": "historico_mensal",
+                  "startRow": 4,
+                  "endRow": 4
+                }
+              }
+            ]
+          },
+          {
+            "period": "2025-09",
+            "value": 275,
+            "displayValue": "275",
+            "classification": "evidence",
+            "sourceIds": [
+              "F02"
+            ],
+            "citations": [
+              {
+                "sourceId": "F02",
+                "locator": {
+                  "type": "xlsx",
+                  "sheetName": "historico_mensal",
+                  "startRow": 5,
+                  "endRow": 5
+                }
+              }
+            ]
+          },
+          {
+            "period": "2025-10",
+            "value": 267,
+            "displayValue": "267",
+            "classification": "evidence",
+            "sourceIds": [
+              "F02"
+            ],
+            "citations": [
+              {
+                "sourceId": "F02",
+                "locator": {
+                  "type": "xlsx",
+                  "sheetName": "historico_mensal",
+                  "startRow": 6,
+                  "endRow": 6
+                }
+              }
+            ]
+          },
+          {
+            "period": "2025-11",
+            "value": 272,
+            "displayValue": "272",
+            "classification": "evidence",
+            "sourceIds": [
+              "F02"
+            ],
+            "citations": [
+              {
+                "sourceId": "F02",
+                "locator": {
+                  "type": "xlsx",
+                  "sheetName": "historico_mensal",
+                  "startRow": 7,
+                  "endRow": 7
+                }
+              }
+            ]
+          },
+          {
+            "period": "2025-12",
+            "value": 258,
+            "displayValue": "258",
+            "classification": "evidence",
+            "sourceIds": [
+              "F02"
+            ],
+            "citations": [
+              {
+                "sourceId": "F02",
+                "locator": {
+                  "type": "xlsx",
+                  "sheetName": "historico_mensal",
+                  "startRow": 8,
+                  "endRow": 8
+                }
+              }
+            ]
+          },
+          {
+            "period": "2026-01",
+            "value": 263,
+            "displayValue": "263",
+            "classification": "evidence",
+            "sourceIds": [
+              "F02"
+            ],
+            "citations": [
+              {
+                "sourceId": "F02",
+                "locator": {
+                  "type": "xlsx",
+                  "sheetName": "historico_mensal",
+                  "startRow": 9,
+                  "endRow": 9
+                }
+              }
+            ]
+          },
+          {
+            "period": "2026-02",
+            "value": 249,
+            "displayValue": "249",
+            "classification": "evidence",
+            "sourceIds": [
+              "F02"
+            ],
+            "citations": [
+              {
+                "sourceId": "F02",
+                "locator": {
+                  "type": "xlsx",
+                  "sheetName": "historico_mensal",
+                  "startRow": 10,
+                  "endRow": 10
+                }
+              }
+            ]
+          },
+          {
+            "period": "2026-03",
+            "value": 242,
+            "displayValue": "242",
+            "classification": "evidence",
+            "sourceIds": [
+              "F02"
+            ],
+            "citations": [
+              {
+                "sourceId": "F02",
+                "locator": {
+                  "type": "xlsx",
+                  "sheetName": "historico_mensal",
+                  "startRow": 11,
+                  "endRow": 11
+                }
+              }
+            ]
+          },
+          {
+            "period": "2026-04",
+            "value": 235,
+            "displayValue": "235",
+            "classification": "evidence",
+            "sourceIds": [
+              "F02"
+            ],
+            "citations": [
+              {
+                "sourceId": "F02",
+                "locator": {
+                  "type": "xlsx",
+                  "sheetName": "historico_mensal",
+                  "startRow": 12,
+                  "endRow": 12
+                }
+              }
+            ]
+          },
+          {
+            "period": "2026-05",
+            "value": 228,
+            "displayValue": "228",
+            "classification": "evidence",
+            "sourceIds": [
+              "F02"
+            ],
+            "citations": [
+              {
+                "sourceId": "F02",
+                "locator": {
+                  "type": "xlsx",
+                  "sheetName": "historico_mensal",
+                  "startRow": 13,
+                  "endRow": 13
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "M2",
+        "metricKey": "propostas_sem_followup_5d",
+        "label": "Propostas sem acompanhamento há 5 dias",
+        "baseline": "28",
+        "baselineValue": 28,
+        "target": "10",
+        "targetValue": 10,
+        "targetComparator": "lte",
+        "unit": "propostas",
+        "classification": "evidence",
+        "sourceIds": [
+          "F02"
+        ],
+        "citations": [
+          {
+            "sourceId": "F02",
+            "locator": {
+              "type": "xlsx",
+              "sheetName": "dicionario",
+              "startRow": 10,
+              "endRow": 10
+            }
+          }
+        ],
+        "observations": [
+          {
+            "period": "2025-06",
+            "value": 39,
+            "displayValue": "39",
+            "classification": "evidence",
+            "sourceIds": [
+              "F02"
+            ],
+            "citations": [
+              {
+                "sourceId": "F02",
+                "locator": {
+                  "type": "xlsx",
+                  "sheetName": "historico_mensal",
+                  "startRow": 2,
+                  "endRow": 2
+                }
+              }
+            ]
+          },
+          {
+            "period": "2025-07",
+            "value": 37,
+            "displayValue": "37",
+            "classification": "evidence",
+            "sourceIds": [
+              "F02"
+            ],
+            "citations": [
+              {
+                "sourceId": "F02",
+                "locator": {
+                  "type": "xlsx",
+                  "sheetName": "historico_mensal",
+                  "startRow": 3,
+                  "endRow": 3
+                }
+              }
+            ]
+          },
+          {
+            "period": "2025-08",
+            "value": 41,
+            "displayValue": "41",
+            "classification": "evidence",
+            "sourceIds": [
+              "F02"
+            ],
+            "citations": [
+              {
+                "sourceId": "F02",
+                "locator": {
+                  "type": "xlsx",
+                  "sheetName": "historico_mensal",
+                  "startRow": 4,
+                  "endRow": 4
+                }
+              }
+            ]
+          },
+          {
+            "period": "2025-09",
+            "value": 36,
+            "displayValue": "36",
+            "classification": "evidence",
+            "sourceIds": [
+              "F02"
+            ],
+            "citations": [
+              {
+                "sourceId": "F02",
+                "locator": {
+                  "type": "xlsx",
+                  "sheetName": "historico_mensal",
+                  "startRow": 5,
+                  "endRow": 5
+                }
+              }
+            ]
+          },
+          {
+            "period": "2025-10",
+            "value": 35,
+            "displayValue": "35",
+            "classification": "evidence",
+            "sourceIds": [
+              "F02"
+            ],
+            "citations": [
+              {
+                "sourceId": "F02",
+                "locator": {
+                  "type": "xlsx",
+                  "sheetName": "historico_mensal",
+                  "startRow": 6,
+                  "endRow": 6
+                }
+              }
+            ]
+          },
+          {
+            "period": "2025-11",
+            "value": 34,
+            "displayValue": "34",
+            "classification": "evidence",
+            "sourceIds": [
+              "F02"
+            ],
+            "citations": [
+              {
+                "sourceId": "F02",
+                "locator": {
+                  "type": "xlsx",
+                  "sheetName": "historico_mensal",
+                  "startRow": 7,
+                  "endRow": 7
+                }
+              }
+            ]
+          },
+          {
+            "period": "2025-12",
+            "value": 33,
+            "displayValue": "33",
+            "classification": "evidence",
+            "sourceIds": [
+              "F02"
+            ],
+            "citations": [
+              {
+                "sourceId": "F02",
+                "locator": {
+                  "type": "xlsx",
+                  "sheetName": "historico_mensal",
+                  "startRow": 8,
+                  "endRow": 8
+                }
+              }
+            ]
+          },
+          {
+            "period": "2026-01",
+            "value": 35,
+            "displayValue": "35",
+            "classification": "evidence",
+            "sourceIds": [
+              "F02"
+            ],
+            "citations": [
+              {
+                "sourceId": "F02",
+                "locator": {
+                  "type": "xlsx",
+                  "sheetName": "historico_mensal",
+                  "startRow": 9,
+                  "endRow": 9
+                }
+              }
+            ]
+          },
+          {
+            "period": "2026-02",
+            "value": 31,
+            "displayValue": "31",
+            "classification": "evidence",
+            "sourceIds": [
+              "F02"
+            ],
+            "citations": [
+              {
+                "sourceId": "F02",
+                "locator": {
+                  "type": "xlsx",
+                  "sheetName": "historico_mensal",
+                  "startRow": 10,
+                  "endRow": 10
+                }
+              }
+            ]
+          },
+          {
+            "period": "2026-03",
+            "value": 30,
+            "displayValue": "30",
+            "classification": "evidence",
+            "sourceIds": [
+              "F02"
+            ],
+            "citations": [
+              {
+                "sourceId": "F02",
+                "locator": {
+                  "type": "xlsx",
+                  "sheetName": "historico_mensal",
+                  "startRow": 11,
+                  "endRow": 11
+                }
+              }
+            ]
+          },
+          {
+            "period": "2026-04",
+            "value": 29,
+            "displayValue": "29",
+            "classification": "evidence",
+            "sourceIds": [
+              "F02"
+            ],
+            "citations": [
+              {
+                "sourceId": "F02",
+                "locator": {
+                  "type": "xlsx",
+                  "sheetName": "historico_mensal",
+                  "startRow": 12,
+                  "endRow": 12
+                }
+              }
+            ]
+          },
+          {
+            "period": "2026-05",
+            "value": 28,
+            "displayValue": "28",
+            "classification": "evidence",
+            "sourceIds": [
+              "F02"
+            ],
+            "citations": [
+              {
+                "sourceId": "F02",
+                "locator": {
+                  "type": "xlsx",
+                  "sheetName": "historico_mensal",
+                  "startRow": 13,
+                  "endRow": 13
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "M3",
+        "metricKey": "tempo_medio_preparo_min",
+        "label": "Tempo médio de preparo — amostra",
+        "baseline": "12",
+        "baselineValue": 12,
+        "target": "7",
+        "targetValue": 7,
+        "targetComparator": "lte",
+        "unit": "min",
+        "classification": "evidence",
+        "sourceIds": [
+          "F02"
+        ],
+        "citations": [
+          {
+            "sourceId": "F02",
+            "locator": {
+              "type": "xlsx",
+              "sheetName": "dicionario",
+              "startRow": 11,
+              "endRow": 11
+            }
+          }
+        ],
+        "observations": [
+          {
+            "period": "2025-06",
+            "value": 15,
+            "displayValue": "15",
+            "classification": "evidence",
+            "sourceIds": [
+              "F02"
+            ],
+            "citations": [
+              {
+                "sourceId": "F02",
+                "locator": {
+                  "type": "xlsx",
+                  "sheetName": "historico_mensal",
+                  "startRow": 2,
+                  "endRow": 2
+                }
+              }
+            ]
+          },
+          {
+            "period": "2025-07",
+            "value": 15,
+            "displayValue": "15",
+            "classification": "evidence",
+            "sourceIds": [
+              "F02"
+            ],
+            "citations": [
+              {
+                "sourceId": "F02",
+                "locator": {
+                  "type": "xlsx",
+                  "sheetName": "historico_mensal",
+                  "startRow": 3,
+                  "endRow": 3
+                }
+              }
+            ]
+          },
+          {
+            "period": "2025-08",
+            "value": 16,
+            "displayValue": "16",
+            "classification": "evidence",
+            "sourceIds": [
+              "F02"
+            ],
+            "citations": [
+              {
+                "sourceId": "F02",
+                "locator": {
+                  "type": "xlsx",
+                  "sheetName": "historico_mensal",
+                  "startRow": 4,
+                  "endRow": 4
+                }
+              }
+            ]
+          },
+          {
+            "period": "2025-09",
+            "value": 15,
+            "displayValue": "15",
+            "classification": "evidence",
+            "sourceIds": [
+              "F02"
+            ],
+            "citations": [
+              {
+                "sourceId": "F02",
+                "locator": {
+                  "type": "xlsx",
+                  "sheetName": "historico_mensal",
+                  "startRow": 5,
+                  "endRow": 5
+                }
+              }
+            ]
+          },
+          {
+            "period": "2025-10",
+            "value": 14,
+            "displayValue": "14",
+            "classification": "evidence",
+            "sourceIds": [
+              "F02"
+            ],
+            "citations": [
+              {
+                "sourceId": "F02",
+                "locator": {
+                  "type": "xlsx",
+                  "sheetName": "historico_mensal",
+                  "startRow": 6,
+                  "endRow": 6
+                }
+              }
+            ]
+          },
+          {
+            "period": "2025-11",
+            "value": 14,
+            "displayValue": "14",
+            "classification": "evidence",
+            "sourceIds": [
+              "F02"
+            ],
+            "citations": [
+              {
+                "sourceId": "F02",
+                "locator": {
+                  "type": "xlsx",
+                  "sheetName": "historico_mensal",
+                  "startRow": 7,
+                  "endRow": 7
+                }
+              }
+            ]
+          },
+          {
+            "period": "2025-12",
+            "value": 14,
+            "displayValue": "14",
+            "classification": "evidence",
+            "sourceIds": [
+              "F02"
+            ],
+            "citations": [
+              {
+                "sourceId": "F02",
+                "locator": {
+                  "type": "xlsx",
+                  "sheetName": "historico_mensal",
+                  "startRow": 8,
+                  "endRow": 8
+                }
+              }
+            ]
+          },
+          {
+            "period": "2026-01",
+            "value": 13,
+            "displayValue": "13",
+            "classification": "evidence",
+            "sourceIds": [
+              "F02"
+            ],
+            "citations": [
+              {
+                "sourceId": "F02",
+                "locator": {
+                  "type": "xlsx",
+                  "sheetName": "historico_mensal",
+                  "startRow": 9,
+                  "endRow": 9
+                }
+              }
+            ]
+          },
+          {
+            "period": "2026-02",
+            "value": 13,
+            "displayValue": "13",
+            "classification": "evidence",
+            "sourceIds": [
+              "F02"
+            ],
+            "citations": [
+              {
+                "sourceId": "F02",
+                "locator": {
+                  "type": "xlsx",
+                  "sheetName": "historico_mensal",
+                  "startRow": 10,
+                  "endRow": 10
+                }
+              }
+            ]
+          },
+          {
+            "period": "2026-03",
+            "value": 13,
+            "displayValue": "13",
+            "classification": "evidence",
+            "sourceIds": [
+              "F02"
+            ],
+            "citations": [
+              {
+                "sourceId": "F02",
+                "locator": {
+                  "type": "xlsx",
+                  "sheetName": "historico_mensal",
+                  "startRow": 11,
+                  "endRow": 11
+                }
+              }
+            ]
+          },
+          {
+            "period": "2026-04",
+            "value": 12,
+            "displayValue": "12",
+            "classification": "evidence",
+            "sourceIds": [
+              "F02"
+            ],
+            "citations": [
+              {
+                "sourceId": "F02",
+                "locator": {
+                  "type": "xlsx",
+                  "sheetName": "historico_mensal",
+                  "startRow": 12,
+                  "endRow": 12
+                }
+              }
+            ]
+          },
+          {
+            "period": "2026-05",
+            "value": 12,
+            "displayValue": "12",
+            "classification": "evidence",
+            "sourceIds": [
+              "F02"
+            ],
+            "citations": [
+              {
+                "sourceId": "F02",
+                "locator": {
+                  "type": "xlsx",
+                  "sheetName": "historico_mensal",
+                  "startRow": 13,
+                  "endRow": 13
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "M4",
+        "metricKey": "mensagens_sem_revisao",
+        "label": "Mensagens sem revisão — 96 conversas",
+        "baseline": "0",
+        "baselineValue": 0,
+        "target": "0",
+        "targetValue": 0,
+        "targetComparator": "eq",
+        "unit": "mensagens",
+        "classification": "rule",
+        "observations": [],
+        "sourceIds": [
+          "F04"
+        ],
+        "citations": [
+          {
+            "sourceId": "F04",
+            "locator": {
+              "type": "markdown",
+              "startLine": 114,
+              "endLine": 127,
+              "section": "Contagem observada no conjunto sintético"
+            }
+          }
+        ]
+      }
+    ],
+    "limitations": [
+      {
+        "id": "L1",
+        "description": "Dados sintéticos de apresentação. Metas são hipóteses; não há resultado de piloto. As 21 medições de preparo não representam todas as propostas.",
+        "validationQuestion": "A comparação futura preserva definição, recorte e método?",
+        "sourceIds": [
+          "F01",
+          "F02",
+          "F03",
+          "F04"
+        ],
+        "citations": [
+          {
+            "sourceId": "F01",
+            "locator": {
+              "type": "markdown",
+              "startLine": 71,
+              "endLine": 89,
+              "section": "Limites de autonomia"
+            }
+          },
+          {
+            "sourceId": "F02",
+            "locator": {
+              "type": "xlsx",
+              "sheetName": "dicionario",
+              "startRow": 9,
+              "endRow": 10
+            }
+          },
+          {
+            "sourceId": "F03",
+            "locator": {
+              "type": "xlsx",
+              "sheetName": "dicionario",
+              "startRow": 5,
+              "endRow": 8
+            }
+          },
+          {
+            "sourceId": "F04",
+            "locator": {
+              "type": "markdown",
+              "startLine": 147,
+              "endLine": 175,
+              "section": "Amostra sintética de preparo manual de propostas"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "sourceId": "F01",
+      "fileId": "source-1",
+      "fileName": "01-briefing_da_empresa.md",
+      "extension": "md",
+      "sha256": "a70572a49a9f346aa91515c81c1a5a66d4b525bdf0198ce46c9563cb58775021"
+    },
+    {
+      "sourceId": "F02",
+      "fileId": "source-2",
+      "fileName": "02-atendimento_e_propostas_maio.xlsx",
+      "extension": "xlsx",
+      "sha256": "724b2d5a8ef889f1e2e3d24ae1789c988e989d992c00b16af3ba688d98b5bc83"
+    },
+    {
+      "sourceId": "F03",
+      "fileId": "source-3",
+      "fileName": "03-ordens_de_servico_maio.xlsx",
+      "extension": "xlsx",
+      "sha256": "aab106617745b1888066f52fe21ca98f7bcc7e10f90a042c0300d86b51f61e6b"
+    },
+    {
+      "sourceId": "F04",
+      "fileId": "source-4",
+      "fileName": "04-feedbacks_e_rotina_maio.md",
+      "extension": "md",
+      "sha256": "7fc21672408892e0a4b86e6f2e47d7d1b050175f4c212ab85d07d503f0370611"
+    }
+  ],
+  "status": "draft"
+}

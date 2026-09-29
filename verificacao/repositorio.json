@@ -1,0 +1,10 @@
+{
+  "name": "business-mission-control",
+  "version": "1.0.0",
+  "tag": "v1.0.0",
+  "topics": [
+    "openai",
+    "codex"
+  ],
+  "description": "Material do aluno da NoCode: construa um Business Mission Control com OpenAI Codex, dados sintéticos e revisão humana."
+}

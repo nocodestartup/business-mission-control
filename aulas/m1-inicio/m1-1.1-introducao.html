@@ -1,0 +1,644 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <meta name="description" content="Material da Aula 1.1 do Codex Course: percorra o fluxo de trabalho completo do Business Mission Control, do acesso ao histórico aprovado.">
+    <meta name="theme-color" content="#171815">
+    <title>Aula 1.1 — O que você vai construir | Codex Course</title>
+    <link rel="icon" href="../recursos/bmc-reference/favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="m1-system.css?v=20260824d">
+  </head>
+  <body data-lesson="1.1">
+    <a class="skip-link" href="#conteudo">Ir para o conteúdo</a>
+
+    <div class="page-shell">
+      <header class="site-nav">
+        <div class="nav-inner">
+          <div class="brand-cluster">
+            <div class="publisher-brand">
+              <img src="../recursos/brand/logo-nocode.png" alt="NoCode StartUp" width="242" height="33">
+            </div>
+            <span class="brand-divider" aria-hidden="true"></span>
+            <a class="brand" href="m1-1.1-introducao.html" aria-label="Codex Course, início do módulo 1">
+              <span class="brand-mark codex-brand-mark" aria-hidden="true">
+                <img src="../recursos/brand/codex-mark.png" alt="" width="640" height="640">
+                <span class="codex-word">CODEX</span>
+              </span>
+              <span class="brand-label">Curso · Módulo 1</span>
+            </a>
+          </div>
+
+          <nav class="lesson-nav" aria-label="Aulas do módulo 1">
+            <a href="m1-1.1-introducao.html" aria-current="page" aria-label="Aula 1.1, introdução">1.1</a>
+            <a href="m1-1.2-pensar-em-passos.html" aria-label="Aula 1.2, pensar em passos">1.2</a>
+            <a href="m1-1.3-app-navegador-cli-ide.html" aria-label="Aula 1.3, superfícies do Codex">1.3</a>
+          </nav>
+        </div>
+        <div class="nav-progress" aria-hidden="true"></div>
+      </header>
+
+      <main id="conteudo">
+        <section class="lesson-hero" data-hero>
+          <div class="container hero-grid">
+            <div class="hero-copy" data-hero-copy>
+              <p class="lesson-id">Aula 1.1 · Introdução</p>
+              <h1>Pare de só pedir.<br>Aprenda a entregar.</h1>
+              <p class="hero-lead">
+                Na primeira aula, você percorre o fluxo de trabalho que construiremos: entrar, abrir a Lume, enviar quatro fontes, gerar, conferir, revisar, aprovar e reabrir o relatório.
+              </p>
+              <div class="hero-actions">
+                <a class="button" href="#escopo-produto">Percorrer o fluxo <span aria-hidden="true">↓</span></a>
+                <a class="button secondary" href="#stack">Conhecer a estrutura</a>
+              </div>
+            </div>
+
+            <div class="hero-visual" data-hero-visual>
+              <figure class="media-frame project-preview" data-scale-media>
+                <img
+                  src="../recursos/bmc-reference/og.png"
+                  alt="Visão editorial do Business Mission Control com fila de decisão, matriz de oportunidades, evidências e plano de 30 dias"
+                  width="1734"
+                  height="877"
+                  fetchpriority="high"
+                >
+                <figcaption class="media-caption">
+                  <strong>Business Mission Control</strong>
+                  <span>Mesa de decisão operacional</span>
+                </figcaption>
+              </figure>
+              <aside class="hero-aside-note">
+                <strong>O ponto central</strong>
+                O resultado só fica aprovado depois que uma pessoa confere a fonte, salva a revisão e assume explicitamente a decisão.
+              </aside>
+            </div>
+          </div>
+        </section>
+
+        <section class="chapter mission-brief-section paper" id="resultado" aria-labelledby="mission-brief-title">
+          <div class="container">
+            <div class="twelve-grid">
+              <div class="chapter-heading">
+                <p class="section-kicker">Contexto inicial da missão · Caso Lume</p>
+                <h2 id="mission-brief-title">Uma decisão útil deixa <span class="accent-word">vestígios verificáveis.</span></h2>
+              </div>
+              <p class="chapter-intro">
+                Antes de falar em tecnologia, veja o que o laboratório precisa entregar: uma prioridade que outra pessoa consiga conferir, questionar e testar.
+              </p>
+            </div>
+
+            <hr class="chapter-rule">
+
+            <article class="mission-brief" data-reveal>
+              <header class="mission-brief-header">
+                <div>
+                  <span class="mission-code">MISSÃO 01 · ATENDIMENTO</span>
+                  <h3>Decidir qual oportunidade deve virar o primeiro piloto.</h3>
+                </div>
+                <span class="mission-state">Decisão pronta para revisão</span>
+              </header>
+
+              <div class="mission-trace" aria-label="Rastro resumido da decisão">
+                <div class="mission-trace-step">
+                  <span>01 · Sinal</span>
+                  <strong>3h48</strong>
+                  <p>Mediana da primeira resposta.</p>
+                </div>
+                <div class="mission-trace-step">
+                  <span>02 · Evidência</span>
+                  <strong>2 fontes</strong>
+                  <p>Contexto inicial e dados de atendimento.</p>
+                </div>
+                <div class="mission-trace-step">
+                  <span>03 · Decisão</span>
+                  <strong>Priorizar O1</strong>
+                  <p>Maior equilíbrio entre impacto e velocidade.</p>
+                </div>
+                <div class="mission-trace-step">
+                  <span>04 · Próximo teste</span>
+                  <strong>30 contatos</strong>
+                  <p>Validar a triagem antes de ampliar.</p>
+                </div>
+              </div>
+
+              <footer class="mission-brief-footer">
+                <p><strong>O aprendizado:</strong> a IA ajuda a organizar o caso; a pessoa continua responsável pela leitura, pela prioridade e pelo teste.</p>
+                <a class="text-link" href="#rastro">Abrir o rastro completo <span aria-hidden="true">↓</span></a>
+              </footer>
+            </article>
+          </div>
+        </section>
+
+        <section class="chapter stack-chapter" id="stack" aria-labelledby="stack-title">
+          <div class="container">
+            <div class="twelve-grid">
+              <div class="chapter-heading">
+                <h2 id="stack-title">A estrutura separa <span class="accent-word">construção de operação.</span></h2>
+              </div>
+              <p class="chapter-intro">
+                As Skills — instruções especializadas do Codex — orientam o trabalho durante as aulas. Depois da publicação, o Sites hospeda a experiência, preserva identidade e arquivos, enquanto uma interface de programação (API) gera os relatórios para revisão humana.
+              </p>
+            </div>
+
+            <hr class="chapter-rule">
+
+            <div class="stack-system">
+              <article class="stack-codex">
+                <div class="stack-codex-logo" aria-label="Codex">
+                  <img src="../recursos/brand/codex-mark.png" alt="" width="640" height="640">
+                  <span>CODEX</span>
+                </div>
+                <div>
+                  <h3>Você conduz no aplicativo para desktop.</h3>
+                  <p>O Codex organiza o contexto, aplica as Skills, constrói o produto e apresenta cada mudança para aprovação.</p>
+                </div>
+                <span class="stack-owner">camada que o aluno opera</span>
+              </article>
+
+              <div class="stack-course-layer" aria-label="Recursos usados ao longo do curso">
+                <article class="stack-node">
+                  <svg viewBox="0 0 32 32" aria-hidden="true">
+                    <path d="M4.5 9.5h8l2.5 3h12.5v12.5a2.5 2.5 0 0 1-2.5 2.5H7a2.5 2.5 0 0 1-2.5-2.5z"></path>
+                    <path d="M4.5 12.5h23"></path>
+                  </svg>
+                  <div><strong>Projeto + arquivos-base</strong><span>Contexto inicial, regras e dados sintéticos no mesmo projeto.</span></div>
+                </article>
+                <article class="stack-node">
+                  <svg viewBox="0 0 32 32" aria-hidden="true">
+                    <rect x="4.5" y="4.5" width="9" height="9" rx="2"></rect>
+                    <rect x="18.5" y="4.5" width="9" height="9" rx="2"></rect>
+                    <rect x="11.5" y="18.5" width="9" height="9" rx="2"></rect>
+                    <path d="M13.5 9h5M9 13.5v3l7 2M23 13.5v3l-7 2"></path>
+                  </svg>
+                  <div><strong>Skills aplicadas</strong><span>Pesquisa, construção, direção visual, publicação e testes.</span></div>
+                </article>
+                <article class="stack-node">
+                  <svg viewBox="0 0 32 32" aria-hidden="true">
+                    <rect x="3.5" y="5.5" width="25" height="21" rx="3"></rect>
+                    <path d="M3.5 11.5h25M9 8.5h.1M13 8.5h.1M20 17h4M20 21h4M8 17h8v5H8z"></path>
+                  </svg>
+                  <div><strong>Sites + serviços gerenciados</strong><span>Hospedagem, identidade, banco e arquivos sem publicação externa.</span></div>
+                </article>
+              </div>
+
+              <article class="stack-output">
+                <div class="stack-output-head">
+                  <span>entrega do curso</span>
+                  <strong>Business Mission Control</strong>
+                </div>
+                <div class="stack-window" aria-hidden="true">
+                  <div class="stack-window-bar"><i></i><i></i><i></i><span>mission-control.site</span></div>
+                  <div class="stack-app-mini">
+                    <div class="stack-app-side">
+                      <b>MC</b>
+                      <i></i><i></i><i></i><i></i>
+                    </div>
+                    <div class="stack-app-main">
+                      <small>Empresa ativa · Lume Manutenção Comercial</small>
+                      <strong>Fontes da empresa</strong>
+                      <div class="stack-app-actions"><span>4 fontes prontas</span><b>Gerar rascunho</b></div>
+                      <div class="stack-app-file"><i>MD</i><span>01-briefing_da_empresa.md</span><b>pronto</b></div>
+                      <div class="stack-app-file"><i>XLSX</i><span>02-atendimento_e_propostas_maio.xlsx</span><b>pronto</b></div>
+                    </div>
+                  </div>
+                </div>
+                <p>Acesso, Lume, F01–F04, rascunho revisável, aprovação explícita e histórico persistente.</p>
+              </article>
+
+              <div class="stack-foundation">
+                <div class="stack-foundation-copy">
+                  <strong>Base técnica gerenciada</strong>
+                  <span>O Codex implementa esta camada. O aluno não cria infraestrutura nem programa cada integração à mão.</span>
+                </div>
+                <div class="stack-tech-list" aria-label="Tecnologias da implementação de referência">
+                  <span><b class="react-symbol" aria-hidden="true"><i></i><i></i><i></i></b>React</span>
+                  <span><b class="ts-symbol" aria-hidden="true">TS</b>TypeScript</span>
+                  <span><b class="bolt-symbol" aria-hidden="true"></b>Vinext + Vite</span>
+                  <span><b class="tech-symbol api-symbol" aria-hidden="true">AI</b>OpenAI API</span>
+                  <span><b class="tech-symbol data-symbol" aria-hidden="true">DB</b>Sites · D1 + R2</span>
+                </div>
+              </div>
+
+              <p class="stack-decision">
+                <strong>Decisão de arquitetura:</strong> Cloudflare não será uma ferramenta do percurso do aluno. Não haverá conta nem publicação separada: hospedagem, identidade, banco D1 e arquivos R2 ficam sob o fluxo gerenciado pelo Sites.
+              </p>
+              <p class="stack-decision api-requirement">
+                <strong>Pré-requisito para os relatórios:</strong> o Sites hospeda e armazena, mas a análise será feita no servidor por uma integração com a OpenAI Responses API, usando uma chave configurada como segredo do Site.
+              </p>
+            </div>
+
+            <details class="advanced-details skills-details" data-progressive-details open>
+              <summary>
+                <span>Leitura opcional</span>
+                <strong>Ver as Skills e suas responsabilidades</strong>
+                <small>5 recursos de construção e validação</small>
+              </summary>
+              <div class="advanced-details-content">
+                <div class="skills-system" aria-labelledby="skills-title">
+                  <div class="skills-intro">
+                    <div>
+                      <h3 id="skills-title">Skills que usaremos no projeto</h3>
+                      <p>Cada Skill tem uma responsabilidade observável. Elas ajudam o Codex a construir e validar o produto; não são executadas pelo visitante do Site.</p>
+                    </div>
+                    <a href="https://learn.chatgpt.com/docs/skills-and-plugins" target="_blank" rel="noopener noreferrer">Entender Skills e plugins <span aria-hidden="true">↗</span></a>
+                  </div>
+
+                  <div class="skills-ledger">
+                    <a class="skill-row" href="https://learn.chatgpt.com/docs/build-skills" target="_blank" rel="noopener noreferrer">
+                      <span class="skill-index">01</span>
+                      <span class="skill-name"><strong>openai-docs</strong><small>Confere recursos, limites e decisões na documentação oficial antes da construção.</small></span>
+                      <span class="skill-role">Arquitetura</span>
+                      <span class="skill-open">Abrir <i aria-hidden="true">↗</i></span>
+                    </a>
+                    <a class="skill-row" href="https://learn.chatgpt.com/docs/sites" target="_blank" rel="noopener noreferrer">
+                      <span class="skill-index">02</span>
+                      <span class="skill-name"><strong>sites:sites-building</strong><small>Transforma o escopo aprovado em telas, fluxos, formulários e estados funcionais.</small></span>
+                      <span class="skill-role">Construção</span>
+                      <span class="skill-open">Abrir <i aria-hidden="true">↗</i></span>
+                    </a>
+                    <a class="skill-row" href="https://learn.chatgpt.com/docs/sites#understand-projects-versions-and-deployments" target="_blank" rel="noopener noreferrer">
+                      <span class="skill-index">03</span>
+                      <span class="skill-name"><strong>sites:sites-hosting</strong><small>Prepara versões, conecta os recursos do Sites e conduz a publicação controlada.</small></span>
+                      <span class="skill-role">Publicação</span>
+                      <span class="skill-open">Abrir <i aria-hidden="true">↗</i></span>
+                    </a>
+                    <a class="skill-row" href="https://github.com/pbakaus/impeccable" target="_blank" rel="noopener noreferrer">
+                      <span class="skill-index">04</span>
+                      <span class="skill-name"><strong>impeccable</strong><small>Orienta hierarquia, clareza, responsividade e qualidade visual da experiência.</small></span>
+                      <span class="skill-role">Design</span>
+                      <span class="skill-open">Abrir <i aria-hidden="true">↗</i></span>
+                    </a>
+                    <a class="skill-row" href="https://playwright.dev/docs/intro" target="_blank" rel="noopener noreferrer">
+                      <span class="skill-index">05</span>
+                      <span class="skill-name"><strong>playwright</strong><small>Testa acesso, navegação, envio de arquivos, geração de relatório e comportamento em celulares.</small></span>
+                      <span class="skill-role">Validação</span>
+                      <span class="skill-open">Abrir <i aria-hidden="true">↗</i></span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </details>
+          </div>
+        </section>
+
+        <section class="chapter product-scope paper" id="escopo-produto" aria-labelledby="scope-title">
+          <div class="container">
+            <div class="twelve-grid">
+              <div class="chapter-heading">
+                <h2 id="scope-title">Do acesso ao histórico, <span class="accent-word">um fluxo verificável.</span></h2>
+              </div>
+              <p class="chapter-intro">
+                Antes de construir, veja os oito passos que provam a entrega. A primeira aula termina com a versão revisada, aprovada e reaberta depois de recarregar o navegador.
+              </p>
+            </div>
+
+            <hr class="chapter-rule">
+
+            <div class="scope-flow" aria-label="Fluxo funcional do Business Mission Control">
+              <div class="scope-step">
+                <span>01</span>
+                <svg viewBox="0 0 32 32" aria-hidden="true"><circle cx="16" cy="11" r="5"></circle><path d="M7 27c.7-6 3.7-9 9-9s8.3 3 9 9M23 8l3 3 4-5"></path></svg>
+                <div><strong>Entrar + abrir a Lume</strong><small>ChatGPT confirma a identidade; a empresa ativa confirma o escopo e o papel de administrador.</small></div>
+              </div>
+              <div class="scope-step">
+                <span>02</span>
+                <svg viewBox="0 0 32 32" aria-hidden="true"><circle cx="11" cy="11" r="4"></circle><circle cx="23" cy="13" r="3"></circle><path d="M3 27c.6-5.4 3.3-8 8-8s7.4 2.6 8 8M19 21c3.9 0 6.2 2 6.8 6M25 5v6M22 8h6"></path></svg>
+                <div><strong>Enviar F01–F04</strong><small>Dois Markdown e duas planilhas ficam prontos e selecionados para a análise.</small></div>
+              </div>
+              <div class="scope-step">
+                <span>03</span>
+                <svg viewBox="0 0 32 32" aria-hidden="true"><path d="M5 8h8l3 3h11v15H5zM16 16v7M12.5 19.5 16 16l3.5 3.5"></path></svg>
+                <div><strong>Gerar + conferir</strong><small>O relatório nasce como rascunho; uma recomendação volta ao arquivo e ao localizador.</small></div>
+              </div>
+              <div class="scope-step">
+                <span>04</span>
+                <svg viewBox="0 0 32 32" aria-hidden="true"><path d="M6 4h20v24H6zM10 10h12M10 15h8M10 20h12"></path><path d="m22 18 2 2 4-5"></path></svg>
+                <div><strong>Revisar + aprovar + reabrir</strong><small>A pessoa edita, confirma a aprovação e recupera a versão imutável no histórico.</small></div>
+              </div>
+            </div>
+
+            <details class="advanced-details product-details" data-progressive-details open>
+              <summary>
+                <span>Exploração visual</span>
+                <strong>Ver a anatomia do produto</strong>
+                <small>acesso, Lume, F01–F04, rascunho e histórico</small>
+              </summary>
+              <div class="advanced-details-content">
+                <div class="product-blueprint">
+                  <div class="login-preview" role="img" aria-label="Tela de acesso do Business Mission Control com Sign in with ChatGPT">
+                <div class="login-brand"><span>MC</span><strong>Business<br>Mission Control</strong></div>
+                <div class="login-copy">
+                  <small>Acesso seguro</small>
+                  <strong>Entre no ambiente da sua empresa.</strong>
+                  <p>Use sua identidade do ChatGPT. O Mission Control não armazena uma nova senha.</p>
+                </div>
+                <span class="login-action"><img src="../recursos/brand/codex-mark.png" alt="" width="640" height="640">Entrar com ChatGPT</span>
+                <small class="login-note">O acesso ao Site e o papel dentro da empresa são controles separados.</small>
+                  </div>
+
+                  <div class="app-blueprint" role="img" aria-label="Área interna do Business Mission Control com Lume ativa, quatro fontes prontas, relatório aprovado e histórico">
+                <div class="app-blueprint-bar"><i></i><i></i><i></i><span>mission-control.site/lume</span><b>Você · Administrador</b></div>
+                <div class="app-blueprint-body">
+                  <aside>
+                    <strong>MC</strong>
+                    <span>Visão geral</span>
+                    <span class="is-active">Fontes</span>
+                    <span>Relatórios</span>
+                    <span>Histórico</span>
+                  </aside>
+                  <div class="app-blueprint-main">
+                    <header><div><small>Empresa ativa</small><strong>Lume Manutenção Comercial</strong></div><span>Administrador</span></header>
+                    <div class="blueprint-grid">
+                      <section class="blueprint-panel team-panel">
+                        <div class="blueprint-panel-head"><strong>Estado do fluxo</strong><span>4/4</span></div>
+                        <div class="member-row"><i>01</i><span><b>Fontes</b><small>F01–F04 prontas</small></span><em>Feito</em></div>
+                        <div class="member-row"><i>02</i><span><b>Revisão</b><small>Título salvo por uma pessoa</small></span><em>Feito</em></div>
+                        <div class="member-row"><i>03</i><span><b>Aprovação</b><small>Versão imutável</small></span><em>Feito</em></div>
+                        <div class="member-row"><i>04</i><span><b>Histórico</b><small>Versão reaberta</small></span><em>Feito</em></div>
+                      </section>
+                      <section class="blueprint-panel sources-panel">
+                        <div class="blueprint-panel-head"><strong>Fontes preservadas</strong><span>4 fontes</span></div>
+                        <div class="source-row"><i>F01</i><span>01-briefing_da_empresa.md</span><b>Pronto</b></div>
+                        <div class="source-row"><i>F02</i><span>02-atendimento_e_propostas_maio.xlsx</span><b>Pronto</b></div>
+                        <div class="source-row"><i>F03</i><span>03-ordens_de_servico_maio.xlsx</span><b>Pronto</b></div>
+                        <div class="source-row"><i>F04</i><span>04-feedbacks_e_rotina_maio.md</span><b>Pronto</b></div>
+                        <p>Exemplo visual: os IDs são atribuídos por relatório. Confira sempre o nome associado a cada ID na versão real.</p>
+                      </section>
+                      <section class="blueprint-panel report-panel">
+                        <div class="blueprint-panel-head"><strong>Relatório ativo</strong><span>Aprovado</span></div>
+                        <p>Triagem assistida: primeiro piloto com revisão humana.</p>
+                        <span class="report-action">Abrir histórico</span>
+                        <small>O título revisado, as fontes e a aprovação permanecem na versão aprovada.</small>
+                      </section>
+                    </div>
+                  </div>
+                </div>
+                  </div>
+                </div>
+
+                <div class="runtime-strip" aria-label="Responsabilidades da arquitetura do produto">
+                  <span><strong>Identidade</strong>Sign in with ChatGPT</span>
+                  <span><strong>Usuários e metadados</strong>Sites D1</span>
+                  <span><strong>Arquivos da empresa</strong>Sites R2</span>
+                  <span><strong>Relatórios rastreáveis</strong>OpenAI Responses API</span>
+                </div>
+
+                <footer class="mission-brief-footer" aria-label="Critério de conclusão do fluxo">
+                  <p><strong>Critério de conclusão:</strong> percorra os oito passos na mesma sessão e confirme que a versão aprovada continua íntegra depois de recarregar a página.</p>
+                </footer>
+              </div>
+            </details>
+          </div>
+        </section>
+
+        <section class="chapter paper trace-lab-section" id="rastro">
+          <div class="container">
+            <div class="twelve-grid">
+              <div class="chapter-heading">
+                <p class="section-kicker">Laboratório de rastreabilidade</p>
+                <h2>Abra uma decisão e <span class="accent-word">audite o rastro.</span></h2>
+              </div>
+              <p class="chapter-intro">
+                O Mission Control conecta um sinal da operação à oportunidade escolhida, à fonte que sustenta a leitura e ao teste que precisa acontecer depois.
+              </p>
+            </div>
+
+            <hr class="chapter-rule">
+
+            <div class="trace-layout" data-tabs>
+              <div class="trace-tabs" role="tablist" aria-label="Oportunidades do caso Lume">
+                <button class="trace-tab" type="button" role="tab" id="tab-o1" aria-controls="panel-o1" aria-selected="true">
+                  <strong>O1</strong>
+                  <span>Triagem e primeira resposta</span>
+                </button>
+                <button class="trace-tab" type="button" role="tab" id="tab-o3" aria-controls="panel-o3" aria-selected="false">
+                  <strong>O3</strong>
+                  <span>Acompanhamento de propostas</span>
+                </button>
+                <button class="trace-tab" type="button" role="tab" id="tab-o4" aria-controls="panel-o4" aria-selected="false">
+                  <strong>O4</strong>
+                  <span>Conferência da ordem</span>
+                </button>
+              </div>
+
+              <article class="trace-panel is-active" id="panel-o1" role="tabpanel" aria-labelledby="tab-o1">
+                <header class="trace-header">
+                  <div>
+                    <span class="trace-code">O1 · ATENDIMENTO</span>
+                    <h3>Triar novos contatos e preparar a primeira resposta</h3>
+                  </div>
+                  <span class="trace-status">Implementar primeiro</span>
+                </header>
+                <div class="trace-path" aria-label="Rastro da oportunidade O1">
+                  <div class="trace-step"><svg class="trace-step-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 18V6M4 18h16M7 14l4-4 3 2 5-6"></path></svg><strong>Sinal</strong><span>Primeira resposta com mediana de 3h48.</span></div>
+                  <div class="trace-step"><svg class="trace-step-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 3h8l4 4v14H7zM15 3v5h4M4 7v14h11"></path></svg><strong>Fontes</strong><span>Contexto inicial da empresa e dados de atendimento.</span></div>
+                  <div class="trace-step"><svg class="trace-step-icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8"></circle><circle cx="12" cy="12" r="3"></circle><path d="M12 2v3M22 12h-3M12 22v-3M2 12h3"></path></svg><strong>Hipótese</strong><span>Reduzir pela metade o tempo mediano.</span></div>
+                  <div class="trace-step"><svg class="trace-step-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h15M14 7l5 5-5 5M5 18h5"></path></svg><strong>Próxima ação</strong><span>Testar a triagem em 30 contatos históricos.</span></div>
+                </div>
+              </article>
+
+              <article class="trace-panel" id="panel-o3" role="tabpanel" aria-labelledby="tab-o3">
+                <header class="trace-header">
+                  <div>
+                    <span class="trace-code">O3 · COMERCIAL</span>
+                    <h3>Criar fila e rascunhos de acompanhamento</h3>
+                  </div>
+                  <span class="trace-status">Implementar primeiro</span>
+                </header>
+                <div class="trace-path" aria-label="Rastro da oportunidade O3">
+                  <div class="trace-step"><svg class="trace-step-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 18V6M4 18h16M7 14l4-4 3 2 5-6"></path></svg><strong>Sinal</strong><span>28 propostas sem acompanhamento após cinco dias.</span></div>
+                  <div class="trace-step"><svg class="trace-step-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 3h8l4 4v14H7zM15 3v5h4M4 7v14h11"></path></svg><strong>Fontes</strong><span>Atendimento, propostas e registros da rotina.</span></div>
+                  <div class="trace-step"><svg class="trace-step-icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8"></circle><circle cx="12" cy="12" r="3"></circle><path d="M12 2v3M22 12h-3M12 22v-3M2 12h3"></path></svg><strong>Hipótese</strong><span>Reduzir a fila para menos de dez propostas.</span></div>
+                  <div class="trace-step"><svg class="trace-step-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h15M14 7l5 5-5 5M5 18h5"></path></svg><strong>Próxima ação</strong><span>Separar propostas abertas há três, cinco e sete dias.</span></div>
+                </div>
+              </article>
+
+              <article class="trace-panel" id="panel-o4" role="tabpanel" aria-labelledby="tab-o4">
+                <header class="trace-header">
+                  <div>
+                    <span class="trace-code">O4 · OPERAÇÃO</span>
+                    <h3>Conferir os dados necessários da ordem de serviço</h3>
+                  </div>
+                  <span class="trace-status">Pilotar</span>
+                </header>
+                <div class="trace-path" aria-label="Rastro da oportunidade O4">
+                  <div class="trace-step"><svg class="trace-step-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 18V6M4 18h16M7 14l4-4 3 2 5-6"></path></svg><strong>Sinal</strong><span>Ordens incompletas e visitas de retorno.</span></div>
+                  <div class="trace-step"><svg class="trace-step-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 3h8l4 4v14H7zM15 3v5h4M4 7v14h11"></path></svg><strong>Fontes</strong><span>Contexto inicial e registros das ordens de serviço.</span></div>
+                  <div class="trace-step"><svg class="trace-step-icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8"></circle><circle cx="12" cy="12" r="3"></circle><path d="M12 2v3M22 12h-3M12 22v-3M2 12h3"></path></svg><strong>Hipótese</strong><span>Reduzir em 40% os inícios com dados incompletos.</span></div>
+                  <div class="trace-step"><svg class="trace-step-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h15M14 7l5 5-5 5M5 18h5"></path></svg><strong>Próxima ação</strong><span>Testar uma lista mínima em 20 novas ordens.</span></div>
+                </div>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <div class="principle-band" aria-label="Método do curso">
+          <span>Planejar</span><i aria-hidden="true"></i>
+          <span>Construir</span><i aria-hidden="true"></i>
+          <span>Testar</span><i aria-hidden="true"></i>
+          <span>Iterar</span>
+        </div>
+
+        <section class="chapter">
+          <div class="container">
+            <div class="twelve-grid">
+              <div class="chapter-heading">
+                <h2>Uma entrega,<br>três leituras.</h2>
+              </div>
+              <p class="chapter-intro">
+                As perspectivas abaixo pertencem ao caso fictício. Elas mostram por que a mesma interface precisa servir à decisão, à operação e à revisão.
+              </p>
+            </div>
+
+            <hr class="chapter-rule">
+
+            <div class="perspective-layout" data-carousel aria-roledescription="carrossel" aria-label="Perspectivas sobre o Mission Control">
+              <div class="perspective-slides" aria-live="polite">
+                <article class="perspective-slide is-active" data-carousel-slide>
+                  <p class="perspective-role">Proprietária da Lume · perspectiva sintética</p>
+                  <p class="perspective-quote">“Quero saber onde agir primeiro sem perder o motivo da escolha.”</p>
+                  <p class="perspective-note">A camada executiva precisa revelar prioridade, risco e próximo passo sem esconder a origem da análise.</p>
+                </article>
+                <article class="perspective-slide" data-carousel-slide>
+                  <p class="perspective-role">Gerente de operação · perspectiva sintética</p>
+                  <p class="perspective-quote">“Preciso enxergar o teste, o responsável e o que não pode ser automatizado.”</p>
+                  <p class="perspective-note">O plano precisa caber na rotina e preservar revisão humana nas decisões que afetam clientes e equipe.</p>
+                </article>
+                <article class="perspective-slide" data-carousel-slide>
+                  <p class="perspective-role">Analista · perspectiva sintética</p>
+                  <p class="perspective-quote">“Uma recomendação só é útil quando consigo voltar à fonte.”</p>
+                  <p class="perspective-note">A rastreabilidade separa dado observado, inferência construída e hipótese que ainda será verificada.</p>
+                </article>
+              </div>
+              <div class="perspective-controls">
+                <span class="carousel-index" data-carousel-index>01 / 03</span>
+                <div class="perspective-route" aria-label="Três leituras da entrega">
+                  <div class="perspective-marker is-active" data-carousel-marker>
+                    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 20V8l8-4 8 4v12M8 20v-5h8v5M9 10h.1M12 10h.1M15 10h.1"></path></svg>
+                    <span><strong>Decisão</strong><small>prioridade e risco</small></span>
+                  </div>
+                  <div class="perspective-marker" data-carousel-marker>
+                    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16v12H4zM8 4v6M16 4v6M8 14h3M13 14h3"></path></svg>
+                    <span><strong>Operação</strong><small>teste e responsável</small></span>
+                  </div>
+                  <div class="perspective-marker" data-carousel-marker>
+                    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4h14v16H5zM8 8h8M8 12h5M8 16h8"></path></svg>
+                    <span><strong>Evidência</strong><small>origem da recomendação</small></span>
+                  </div>
+                </div>
+                <div class="carousel-buttons">
+                  <button class="icon-button" type="button" data-carousel-prev aria-label="Perspectiva anterior">←</button>
+                  <button class="icon-button" type="button" data-carousel-next aria-label="Próxima perspectiva">→</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="chapter paper" id="caminho">
+          <div class="container scroll-story">
+            <div class="story-heading">
+              <h2>Do pedido à decisão.</h2>
+              <p>
+                O curso não começa tentando adivinhar a interface final. Ele constrói clareza em quatro movimentos que podem ser revisados.
+              </p>
+            </div>
+
+            <div class="story-panels">
+              <article class="story-panel">
+                <span class="story-number">01</span>
+                <div class="story-visual context-visual" role="img" aria-label="Quatro arquivos essenciais convergem para um contexto de projeto aprovado">
+                  <div class="context-sources" aria-hidden="true">
+                    <span><i>MD</i><b>contexto inicial</b></span>
+                    <span><i>XLSX</i><b>atendimento + propostas</b></span>
+                    <span><i>XLSX</i><b>ordens + agenda</b></span>
+                    <span><i>MD</i><b>retornos + rotina</b></span>
+                  </div>
+                  <svg class="context-flow" viewBox="0 0 120 92" aria-hidden="true"><path d="M2 8h28c20 0 22 38 42 38h45M2 33h34c18 0 18 13 36 13h45M2 59h34c18 0 18-13 36-13h45M2 84h28c20 0 22-38 42-38h45"></path><path d="m108 38 9 8-9 8"></path></svg>
+                  <div class="context-core" aria-hidden="true"><span>contexto aprovado</span><strong>1 projeto</strong><small>fontes + limites</small></div>
+                </div>
+                <div class="story-copy">
+                  <h3>Organizar o contexto</h3>
+                  <p>Definir o problema, reunir somente as fontes necessárias e declarar o que ainda não sabemos.</p>
+                </div>
+              </article>
+              <article class="story-panel">
+                <span class="story-number">02</span>
+                <div class="story-visual plan-visual" role="img" aria-label="Documento de direcionamento com escopo, limites e critérios de aceite confirmados">
+                  <div class="plan-sheet" aria-hidden="true">
+                    <div class="plan-sheet-head"><span>direcionamento.md</span><b>v1 aprovado</b></div>
+                    <div class="plan-row"><i></i><span><strong>Escopo</strong><small>o que entra na primeira versão</small></span></div>
+                    <div class="plan-row"><i></i><span><strong>Limites</strong><small>o que o agente não decide</small></span></div>
+                    <div class="plan-row"><i></i><span><strong>Critério de pronto</strong><small>como a entrega será verificada</small></span></div>
+                  </div>
+                  <span class="plan-verdict" aria-hidden="true"><b>3</b> decisões explícitas</span>
+                </div>
+                <div class="story-copy">
+                  <h3>Planejar com critério</h3>
+                  <p>Combinar escopo, limites e sinais observáveis que permitam dizer se a entrega ficou pronta.</p>
+                </div>
+              </article>
+              <article class="story-panel">
+                <span class="story-number">03</span>
+                <div class="story-visual build-visual" role="img" aria-label="Primeira versão funcional do Business Mission Control aberta em uma janela do navegador">
+                  <div class="build-browser" aria-hidden="true">
+                    <div class="build-browser-bar"><i></i><i></i><i></i><span>prévia</span></div>
+                    <div class="build-browser-body">
+                      <div class="build-side"><i></i><i></i><i></i><i></i></div>
+                      <div class="build-main"><b></b><span></span><div><i></i><i></i><i></i></div><em></em></div>
+                    </div>
+                  </div>
+                  <div class="build-status" aria-hidden="true"><i></i><span><strong>Versão 0.1 funcional</strong><small>visível antes de ficar perfeita</small></span></div>
+                </div>
+                <div class="story-copy">
+                  <h3>Construir para aprender</h3>
+                  <p>Criar uma primeira versão pequena, visível e suficiente para revelar decisões de produto e conteúdo.</p>
+                </div>
+              </article>
+              <article class="story-panel">
+                <span class="story-number">04</span>
+                <div class="story-visual test-visual" role="img" aria-label="Validação da entrega em desktop, celular, teclado e rastreabilidade das evidências">
+                  <div class="test-devices" aria-hidden="true">
+                    <div class="test-desktop"><span></span><i></i><i></i><i></i></div>
+                    <svg viewBox="0 0 56 56"><path d="M11 32a18 18 0 0 0 31 7M45 24a18 18 0 0 0-31-7"></path><path d="m9 24 2 8 8-2M47 32l-2-8-8 2"></path></svg>
+                    <div class="test-mobile"><span></span><i></i><i></i></div>
+                  </div>
+                  <div class="test-checks" aria-hidden="true">
+                    <span><i></i>Celular</span><span><i></i>Tab + foco</span><span><i></i>Rastro das fontes</span>
+                  </div>
+                </div>
+                <div class="story-copy">
+                  <h3>Testar e iterar</h3>
+                  <p>Comparar a experiência com dados, critérios e uso real; corrigir sem apagar o que já foi validado.</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="lesson-footer">
+        <div class="container">
+          <div class="footer-callout">
+            <h2>O Codex executa. Você conduz e decide.</h2>
+            <a class="footer-next" href="m1-1.2-pensar-em-passos.html">
+              <span>Próxima aula</span>
+              <strong>Pensar em passos <span aria-hidden="true">→</span></strong>
+            </a>
+          </div>
+          <div class="footer-meta">
+            <span>Codex Course · Módulo 1 · Material do aluno</span>
+            <nav aria-label="Links complementares">
+              <a href="../../projeto-inicial/README.md">Materiais do caso</a>
+              <a href="../../projeto-inicial/README.md">Kit sintético da Lume</a>
+            </nav>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/ScrollTrigger.min.js"></script>
+    <script src="m1-system.js?v=20260824d"></script>
+  </body>
+</html>

@@ -1,0 +1,295 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <meta name="description" content="Material da Aula 1.2 do Codex Course: transforme um pedido vago em entrada, regras, decisões e saída.">
+    <meta name="theme-color" content="#171815">
+    <title>Aula 1.2 — Pensar em passos | Codex Course</title>
+    <link rel="icon" href="../recursos/bmc-reference/favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="m1-system.css?v=20260824d">
+  </head>
+  <body data-lesson="1.2">
+    <a class="skip-link" href="#conteudo">Ir para o conteúdo</a>
+
+    <div class="page-shell">
+      <header class="site-nav">
+        <div class="nav-inner">
+          <div class="brand-cluster">
+            <div class="publisher-brand">
+              <img src="../recursos/brand/logo-nocode.png" alt="NoCode StartUp" width="242" height="33">
+            </div>
+            <span class="brand-divider" aria-hidden="true"></span>
+            <a class="brand" href="m1-1.1-introducao.html" aria-label="Codex Course, início do módulo 1">
+              <span class="brand-mark codex-brand-mark" aria-hidden="true">
+                <img src="../recursos/brand/codex-mark.png" alt="" width="640" height="640">
+                <span class="codex-word">CODEX</span>
+              </span>
+              <span class="brand-label">Curso · Módulo 1</span>
+            </a>
+          </div>
+
+          <nav class="lesson-nav" aria-label="Aulas do módulo 1">
+            <a href="m1-1.1-introducao.html" aria-label="Aula 1.1, introdução">1.1</a>
+            <a href="m1-1.2-pensar-em-passos.html" aria-current="page" aria-label="Aula 1.2, pensar em passos">1.2</a>
+            <a href="m1-1.3-app-navegador-cli-ide.html" aria-label="Aula 1.3, superfícies do Codex">1.3</a>
+          </nav>
+        </div>
+        <div class="nav-progress" aria-hidden="true"></div>
+      </header>
+
+      <main id="conteudo">
+        <section class="lesson-hero" data-hero>
+          <div class="container hero-grid">
+            <div class="hero-copy" data-hero-copy>
+              <p class="lesson-id">Aula 1.2 · Pensar em passos</p>
+              <h1>Antes de melhorar a instrução,<br>melhore o trabalho.</h1>
+              <p class="hero-lead">
+                Um pedido se torna executável quando deixa explícito o que entra, quais limites importam, que decisão precisa ser apoiada e como a saída será reconhecida.
+              </p>
+              <div class="hero-actions">
+                <a class="button" href="#mapa">Montar o mapa <span aria-hidden="true">↓</span></a>
+                <a class="button secondary" href="#exercicio">Ir para o exercício</a>
+              </div>
+            </div>
+
+            <div class="hero-visual" data-hero-visual>
+              <div class="prompt-board" data-scale-media>
+                <div class="prompt-before">
+                  <span>Pedido aberto</span>
+                  <p>Quero usar IA na minha empresa.</p>
+                </div>
+                <div class="prompt-divider" aria-hidden="true"></div>
+                <div class="prompt-after">
+                  <span>Trabalho executável</span>
+                  <p>Organizar dados sintéticos, priorizar oportunidades e produzir um plano rastreável de 30 dias.</p>
+                </div>
+              </div>
+              <aside class="hero-aside-note">
+                <strong>Antes de escrever uma instrução (prompt)</strong>
+                O que precisa estar claro para que outra pessoa consiga verificar a entrega?
+              </aside>
+            </div>
+          </div>
+        </section>
+
+        <section class="chapter paper" id="mapa">
+          <div class="container">
+            <div class="twelve-grid">
+              <div class="chapter-heading">
+                <h2>Quatro campos reduzem a <span class="accent-word">ambiguidade.</span></h2>
+              </div>
+              <p class="chapter-intro">
+                Percorra o fluxo. Cada estação acrescenta uma condição observável ao trabalho até que o pedido possa ser executado e revisado.
+              </p>
+            </div>
+
+            <hr class="chapter-rule">
+
+            <div class="logic-accordion logic-workbench" data-accordion data-workbench aria-label="Fluxo lógico do Business Mission Control">
+              <section class="logic-item is-active" data-accordion-item data-flow-step="entrada">
+                <button class="logic-trigger" id="logic-trigger-input" type="button" data-accordion-trigger aria-expanded="true" aria-controls="logic-input">
+                  <span class="logic-index">01</span>
+                  <span class="logic-label">Entrada</span>
+                  <small>fontes e contexto</small>
+                </button>
+                <div class="logic-content" id="logic-input" role="region" aria-labelledby="logic-trigger-input">
+                  <h3>O que o Codex precisa receber?</h3>
+                  <p>Fontes com origem e propósito suficientes para compreender o problema — não uma pilha de arquivos sem explicação.</p>
+                  <ul class="logic-list">
+                    <li><strong>Contexto inicial (briefing):</strong> equipe, canais, processo e limites de autonomia.</li>
+                    <li><strong>Atendimento e propostas:</strong> volume, espera e acompanhamento.</li>
+                    <li><strong>Ordens de serviço:</strong> completude, retorno e ajustes de agenda.</li>
+                    <li><strong>Retornos de clientes e rotina:</strong> padrões, recorrências e estimativas.</li>
+                  </ul>
+                </div>
+              </section>
+
+              <section class="logic-item" data-accordion-item data-flow-step="regras">
+                <button class="logic-trigger" id="logic-trigger-rules" type="button" data-accordion-trigger aria-expanded="false" aria-controls="logic-rules">
+                  <span class="logic-index">02</span>
+                  <span class="logic-label">Regras</span>
+                  <small>limites e revisão</small>
+                </button>
+                <div class="logic-content" id="logic-rules" role="region" aria-labelledby="logic-trigger-rules">
+                  <h3>Quais limites protegem a entrega?</h3>
+                  <p>As regras evitam interpretações incompatíveis com o caso e orientam escolhas de conteúdo, produto e autonomia.</p>
+                  <ul class="logic-list">
+                    <li><strong>Privacidade:</strong> usar somente dados sintéticos no curso.</li>
+                    <li><strong>Rastreabilidade:</strong> separar evidência, inferência e hipótese.</li>
+                    <li><strong>Autonomia:</strong> preservar revisão humana em ações sensíveis.</li>
+                    <li><strong>Honestidade:</strong> não inventar precisão nem prometer retorno.</li>
+                  </ul>
+                </div>
+              </section>
+
+              <section class="logic-item" data-accordion-item data-flow-step="decisoes">
+                <button class="logic-trigger" id="logic-trigger-decisions" type="button" data-accordion-trigger aria-expanded="false" aria-controls="logic-decisions">
+                  <span class="logic-index">03</span>
+                  <span class="logic-label">Decisões</span>
+                  <small>escolha apoiada</small>
+                </button>
+                <div class="logic-content" id="logic-decisions" role="region" aria-labelledby="logic-trigger-decisions">
+                  <h3>Que escolha a entrega precisa apoiar?</h3>
+                  <p>Uma boa experiência não mostra tudo. Ela organiza as informações necessárias para um conjunto claro de decisões.</p>
+                  <ul class="logic-list">
+                    <li><strong>Diagnóstico:</strong> onde está o gargalo mais relevante?</li>
+                    <li><strong>Prioridade:</strong> o que equilibra impacto, esforço, risco e velocidade?</li>
+                    <li><strong>Piloto:</strong> o que pode ser testado nos próximos 30 dias?</li>
+                    <li><strong>Responsabilidade:</strong> quem revisa e decide em cada etapa?</li>
+                  </ul>
+                </div>
+              </section>
+
+              <section class="logic-item" data-accordion-item data-flow-step="saida">
+                <button class="logic-trigger" id="logic-trigger-output" type="button" data-accordion-trigger aria-expanded="false" aria-controls="logic-output">
+                  <span class="logic-index">04</span>
+                  <span class="logic-label">Saída</span>
+                  <small>resultado verificável</small>
+                </button>
+                <div class="logic-content" id="logic-output" role="region" aria-labelledby="logic-trigger-output">
+                  <h3>Como reconhecer o resultado?</h3>
+                  <p>A saída precisa descrever uma entrega observável, não apenas adjetivos como “completa”, “moderna” ou “profissional”.</p>
+                  <ul class="logic-list">
+                    <li><strong>Formato:</strong> Site interativo em português.</li>
+                    <li><strong>Conteúdo:</strong> resumo, gargalos e oportunidades priorizadas.</li>
+                    <li><strong>Rastro:</strong> fontes, justificativas e hipóteses visíveis.</li>
+                    <li><strong>Ação:</strong> plano de piloto de 30 dias com responsáveis.</li>
+                  </ul>
+                </div>
+              </section>
+            </div>
+          </div>
+        </section>
+
+        <div class="principle-band" aria-label="Método do curso">
+          <span>Planejar</span><i aria-hidden="true"></i>
+          <span>Construir</span><i aria-hidden="true"></i>
+          <span>Testar</span><i aria-hidden="true"></i>
+          <span>Iterar</span>
+        </div>
+
+        <section class="chapter">
+          <div class="container scroll-story">
+            <div class="story-heading">
+              <h2>O método é um ciclo, não uma aposta.</h2>
+              <p>
+                Cada volta diminui uma parte da incerteza. A meta não é acertar tudo de primeira; é tornar cada escolha verificável.
+              </p>
+            </div>
+
+            <div class="story-panels">
+              <article class="story-panel dark">
+                <span class="story-number">01</span>
+                <h3>Planejar</h3>
+                <p>Combinar objetivo, fontes, limites e critério de pronto antes de permitir que a construção ganhe escala.</p>
+              </article>
+              <article class="story-panel dark">
+                <span class="story-number">02</span>
+                <h3>Construir</h3>
+                <p>Produzir a menor versão que torne a ideia visível e crie algo concreto para avaliar.</p>
+              </article>
+              <article class="story-panel dark">
+                <span class="story-number">03</span>
+                <h3>Testar</h3>
+                <p>Conferir dados, conteúdo, navegação, limites e experiência com o critério combinado no planejamento.</p>
+              </article>
+              <article class="story-panel dark">
+                <span class="story-number">04</span>
+                <h3>Iterar</h3>
+                <p>Corrigir o que ficou frágil, preservar o que já foi validado e iniciar uma nova volta mais informada.</p>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <section class="chapter paper" id="exercicio">
+          <div class="container">
+            <div class="twelve-grid">
+              <div class="chapter-heading">
+                <h2>Sua ideia, agora em formato <span class="accent-word">executável.</span></h2>
+              </div>
+              <p class="chapter-intro">
+                Escreva uma frase por campo. Dúvidas podem aparecer — registre-as em vez de preencher lacunas com suposições.
+              </p>
+            </div>
+
+            <hr class="chapter-rule">
+
+            <div class="exercise-workbench" data-exercise>
+              <div class="exercise-sheet">
+                <div class="exercise-field">
+                  <label for="field-input"><span>01</span>Entrada</label>
+                  <textarea id="field-input" data-map-field data-map-label="Entrada" placeholder="Quais fontes, informações ou exemplos o Codex precisa receber?"></textarea>
+                </div>
+                <div class="exercise-field">
+                  <label for="field-rules"><span>02</span>Regras</label>
+                  <textarea id="field-rules" data-map-field data-map-label="Regras" placeholder="O que não pode acontecer? O que exige sua revisão?"></textarea>
+                </div>
+                <div class="exercise-field">
+                  <label for="field-decision"><span>03</span>Decisão</label>
+                  <textarea id="field-decision" data-map-field data-map-label="Decisão" placeholder="Que escolha ou ação esta entrega precisa apoiar?"></textarea>
+                </div>
+                <div class="exercise-field">
+                  <label for="field-output"><span>04</span>Saída</label>
+                  <textarea id="field-output" data-map-field data-map-label="Saída" placeholder="Qual resultado observável indicará que o trabalho ficou pronto?"></textarea>
+                </div>
+                <div class="exercise-footer">
+                  <p class="copy-status" data-copy-status aria-live="polite">Seus textos ficam somente neste navegador.</p>
+                  <button class="button" type="button" data-copy-map>Copiar meu mapa</button>
+                </div>
+              </div>
+
+              <aside class="map-preview" aria-labelledby="map-preview-title">
+                <header>
+                  <span>Prévia da entrega</span>
+                  <h3 id="map-preview-title">Mapa de execução</h3>
+                </header>
+                <div class="map-preview-row" data-map-preview-row>
+                  <strong>Entrada</strong>
+                  <p data-map-preview-value="Entrada" data-empty-text="Defina as fontes e o contexto.">Defina as fontes e o contexto.</p>
+                </div>
+                <div class="map-preview-row" data-map-preview-row>
+                  <strong>Regras</strong>
+                  <p data-map-preview-value="Regras" data-empty-text="Registre limites e pontos de revisão.">Registre limites e pontos de revisão.</p>
+                </div>
+                <div class="map-preview-row" data-map-preview-row>
+                  <strong>Decisão</strong>
+                  <p data-map-preview-value="Decisão" data-empty-text="Declare a escolha que será apoiada.">Declare a escolha que será apoiada.</p>
+                </div>
+                <div class="map-preview-row" data-map-preview-row>
+                  <strong>Saída</strong>
+                  <p data-map-preview-value="Saída" data-empty-text="Descreva o resultado observável.">Descreva o resultado observável.</p>
+                </div>
+                <footer>O mapa não executa o trabalho: ele torna o trabalho discutível antes da execução.</footer>
+              </aside>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="lesson-footer">
+        <div class="container">
+          <div class="footer-callout">
+            <h2>Pensar em passos é transformar dúvida em decisão.</h2>
+            <a class="footer-next" href="m1-1.3-app-navegador-cli-ide.html">
+              <span>Próxima aula</span>
+              <strong>Escolher o ambiente <span aria-hidden="true">→</span></strong>
+            </a>
+          </div>
+          <div class="footer-meta">
+            <span>Codex Course · Módulo 1 · Material do aluno</span>
+            <nav aria-label="Links complementares">
+              <a href="m1-1.1-introducao.html">Aula anterior</a>
+              <a href="../../projeto-inicial/README.md">Materiais do caso</a>
+            </nav>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/ScrollTrigger.min.js"></script>
+    <script src="m1-system.js?v=20260824d"></script>
+  </body>
+</html>

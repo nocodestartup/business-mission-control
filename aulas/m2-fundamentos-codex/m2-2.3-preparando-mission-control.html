@@ -1,0 +1,340 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <meta name="description" content="Material da Aula 2.3 do Codex Course: execute o preflight e inspecione o kit do Mission Control sem alterar arquivos.">
+    <meta name="theme-color" content="#171815">
+    <title>Aula 2.3: Preparando o Mission Control | Codex Course</title>
+    <link rel="icon" href="../recursos/bmc-reference/favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="m2-system.css?v=20260829a">
+  </head>
+  <body data-lesson="2.3">
+    <a class="skip-link" href="#conteudo">Ir para o conteúdo</a>
+
+    <div class="page-shell">
+      <header class="site-nav">
+        <div class="nav-inner">
+          <div class="brand-cluster">
+            <div class="publisher-brand">
+              <img src="../recursos/brand/logo-nocode.png" alt="NoCode StartUp" width="242" height="33">
+            </div>
+            <span class="brand-divider" aria-hidden="true"></span>
+            <a class="brand" href="m2-2.1-projetos-chats-arquivos.html" aria-label="Codex Course, início do módulo 2">
+              <span class="codex-brand-mark" aria-hidden="true">
+                <img src="../recursos/brand/codex-mark.png" alt="" width="640" height="640">
+                <span class="codex-word">CODEX</span>
+              </span>
+              <span class="brand-label">Curso · Módulo 2</span>
+            </a>
+          </div>
+
+          <nav class="lesson-nav" aria-label="Aulas do módulo 2">
+            <a href="m2-2.1-projetos-chats-arquivos.html" aria-label="Aula 2.1, projetos, tarefas e arquivos">2.1</a>
+            <a href="m2-2.2-modelos-raciocinio-permissoes.html" aria-label="Aula 2.2, modelos, raciocínio e permissões">2.2</a>
+            <a href="m2-2.3-preparando-mission-control.html" aria-current="page" aria-label="Aula 2.3, preparando o Mission Control">2.3</a>
+          </nav>
+        </div>
+        <div class="nav-progress" aria-hidden="true"></div>
+      </header>
+
+      <noscript>
+        <p class="no-script-note">O checklist e o prompt continuam disponíveis sem JavaScript. Nesse caso, marque os itens e copie o texto manualmente.</p>
+      </noscript>
+
+      <main id="conteudo">
+        <section class="lesson-hero">
+          <div class="container hero-grid">
+            <div class="hero-copy">
+              <p class="lesson-id">Aula 2.3 · Case: preparando o Mission Control</p>
+              <h1>Inspecione antes<br>de construir.</h1>
+              <p class="hero-lead">
+                Antes do primeiro pedido, confira o ambiente, as fontes, as permissões e o resultado esperado. Nesta etapa, queremos entender o material, sem editar ou construir nada.
+              </p>
+              <div class="hero-actions">
+                <a class="button" href="#preflight">Executar o preflight <span aria-hidden="true">↓</span></a>
+                <a class="button secondary" href="#prompt">Abrir o prompt</a>
+              </div>
+              <p class="hero-note">Pergunta-âncora: como preparo o case antes de pedir para construir?</p>
+            </div>
+
+            <div class="hero-visual">
+              <div class="preflight-board" aria-label="Seis verificações antes da inspeção">
+                <div class="preflight-row">
+                  <span class="check-mark" aria-hidden="true">01</span>
+                  <strong>Projeto correto</strong>
+                  <small>missão</small>
+                </div>
+                <div class="preflight-row">
+                  <span class="check-mark" aria-hidden="true">02</span>
+                  <strong>Tarefa com resultado único</strong>
+                  <small>saída</small>
+                </div>
+                <div class="preflight-row">
+                  <span class="check-mark" aria-hidden="true">03</span>
+                  <strong>Pasta sintética restrita</strong>
+                  <small>limite</small>
+                </div>
+                <div class="preflight-row">
+                  <span class="check-mark" aria-hidden="true">04</span>
+                  <strong>Fontes inventariadas</strong>
+                  <small>entrada</small>
+                </div>
+                <div class="preflight-row">
+                  <span class="check-mark" aria-hidden="true">05</span>
+                  <strong>Autonomia controlada</strong>
+                  <small>acesso</small>
+                </div>
+                <div class="preflight-row">
+                  <span class="check-mark" aria-hidden="true">06</span>
+                  <strong>Nenhuma alteração</strong>
+                  <small>critério</small>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="chapter paper" id="preflight">
+          <div class="container">
+            <div class="twelve-grid">
+              <div class="chapter-heading">
+                <p class="eyebrow">Exercício · Seis verificações</p>
+                <h2>Confira estes seis pontos antes de <span class="accent-word">começar.</span></h2>
+              </div>
+              <p class="chapter-intro">
+                Marque cada item somente depois de conferi-lo no projeto. Essa checagem evita que uma tarefa simples comece com a pasta ou a permissão errada.
+              </p>
+            </div>
+
+            <hr class="chapter-rule">
+
+            <div class="preflight-layout" data-preflight>
+              <div class="preflight-checklist">
+                <label class="check-item">
+                  <input type="checkbox" data-preflight-check>
+                  <span>
+                    <strong>Projeto: Business Mission Control do Curso</strong>
+                    <small>Este trabalho continuará em outras tarefas do módulo.</small>
+                  </span>
+                </label>
+
+                <label class="check-item">
+                  <input type="checkbox" data-preflight-check>
+                  <span>
+                    <strong>Tarefa: Inspecionar o kit da Lume</strong>
+                    <small>O resultado desta tarefa é um inventário, não um diagnóstico ou Site.</small>
+                  </span>
+                </label>
+
+                <label class="check-item">
+                  <input type="checkbox" data-preflight-check>
+                  <span>
+                    <strong>Pasta: lume-manutencao-comercial/</strong>
+                    <small>Esta pasta contém somente o kit sintético distribuível.</small>
+                  </span>
+                </label>
+
+                <label class="check-item">
+                  <input type="checkbox" data-preflight-check>
+                  <span>
+                    <strong>Fontes: README, mapa lógico e arquivos 01–04</strong>
+                    <small>Você sabe por que cada item será usado na inspeção.</small>
+                  </span>
+                </label>
+
+                <label class="check-item">
+                  <input type="checkbox" data-preflight-check>
+                  <span>
+                    <strong>Autonomia: perfil equilibrado e aprovação ativa</strong>
+                    <small>Internet, outra pasta ou ações externas não são necessárias.</small>
+                  </span>
+                </label>
+
+                <label class="check-item">
+                  <input type="checkbox" data-preflight-check>
+                  <span>
+                    <strong>Critério: concluir sem alterar nenhum arquivo</strong>
+                    <small>Depois da resposta, a área de mudanças deve continuar vazia.</small>
+                  </span>
+                </label>
+              </div>
+
+              <aside class="preflight-meter" aria-labelledby="preflight-meter-title">
+                <span class="tag">Estado da bancada</span>
+                <h3 id="preflight-meter-title" class="top-gap-sm">Preflight</h3>
+                <div class="meter-number">
+                  <strong data-preflight-count>0/6</strong>
+                  <span>verificações</span>
+                </div>
+                <div class="meter-track" aria-hidden="true"><span data-preflight-track></span></div>
+                <div class="ready-badge" data-ready-badge>Ainda não executar</div>
+                <p class="preflight-status" data-preflight-status aria-live="polite">Faltam 6 verificações.</p>
+              </aside>
+            </div>
+          </div>
+        </section>
+
+        <div class="principle-band" aria-label="Limites da primeira inspeção">
+          <span>Ler</span><i aria-hidden="true"></i>
+          <span>Inventariar</span><i aria-hidden="true"></i>
+          <span>Registrar dúvidas</span><i aria-hidden="true"></i>
+          <span>Não alterar</span>
+        </div>
+
+        <section class="chapter" id="prompt">
+          <div class="container">
+            <div class="twelve-grid">
+              <div class="chapter-heading">
+                <p class="eyebrow">Pedido de inspeção</p>
+                <h2>Diga o que ler, o que evitar e <span class="accent-word">como responder.</span></h2>
+              </div>
+              <p class="chapter-intro">
+                Copie o texto e leia tudo antes de enviar. Ajuste apenas os nomes se a sua pasta estiver organizada de outro jeito.
+              </p>
+            </div>
+
+            <hr class="chapter-rule">
+
+            <div class="prompt-shell">
+              <div>
+                <div class="prompt-card">
+                  <header>
+                    <span>inspecao-inicial.txt</span>
+                    <button class="copy-button" type="button" data-copy-source="inspection-prompt" data-default-label="Copiar prompt">Copiar prompt</button>
+                  </header>
+                  <pre id="inspection-prompt" data-inspection-prompt>Inspecione a pasta atual sem editar, criar, mover ou excluir arquivos.
+
+Leia primeiro README.md, mapa_logico_inicial.md e os quatro arquivos numerados de 01 a 04. Não calcule indicadores, não produza diagnóstico e não proponha a solução ainda.
+
+Responda com um inventário curto contendo:
+1. objetivo do case;
+2. audiência da futura entrega;
+3. função de cada fonte;
+4. regras e decisões que continuam humanas;
+5. lacunas ou conflitos que precisam de confirmação;
+6. itens que devem permanecer intactos.
+
+Separe os fatos encontrados nas fontes das perguntas que surgirem durante a leitura. Cite o arquivo usado em cada fato. Se uma informação não estiver disponível, diga que ela não foi encontrada, sem tentar adivinhar.
+
+Antes de concluir, confirme explicitamente que nenhum arquivo foi alterado.</pre>
+                </div>
+                <p class="copy-status" data-copy-feedback="inspection-prompt" aria-live="polite">Clique no botão para copiar. Depois, releia o texto antes de enviar.</p>
+              </div>
+
+              <aside class="prompt-anatomy" aria-label="Anatomia do pedido">
+                <article class="reveal">
+                  <strong>Verbo</strong>
+                  <span>Inspecionar, não construir.</span>
+                </article>
+                <article class="reveal">
+                  <strong>Entrada</strong>
+                  <span>README, mapa e fontes 01–04.</span>
+                </article>
+                <article class="reveal">
+                  <strong>Limites</strong>
+                  <span>Sem edição, cálculo ou diagnóstico.</span>
+                </article>
+                <article class="reveal">
+                  <strong>Saída</strong>
+                  <span>Seis itens curtos e verificáveis.</span>
+                </article>
+                <article class="reveal">
+                  <strong>Critério</strong>
+                  <span>Nenhum arquivo alterado.</span>
+                </article>
+              </aside>
+            </div>
+          </div>
+        </section>
+
+        <section class="chapter paper" id="revisao">
+          <div class="container">
+            <div class="twelve-grid">
+              <div class="chapter-heading">
+                <p class="eyebrow">Como conferir a resposta</p>
+                <h2>Antes de seguir, veja se a resposta cumpre os <span class="accent-word">seis pontos.</span></h2>
+              </div>
+              <p class="chapter-intro">
+                Um texto bem escrito ainda pode fugir do pedido. Use esta lista para conferir o conteúdo e os limites da inspeção.
+              </p>
+            </div>
+
+            <hr class="chapter-rule">
+
+            <div class="review-contract">
+              <article class="contract-card reveal">
+                <span class="index">01 / OBJETIVO</span>
+                <h3>Explica o objetivo</h3>
+                <p>Mostra o que o Business Mission Control deve apoiar sem escolher a solução final.</p>
+              </article>
+              <article class="contract-card reveal">
+                <span class="index">02 / AUDIÊNCIA</span>
+                <h3>Diz para quem é</h3>
+                <p>Mantém o foco em profissionais não técnicos, gestores e empreendedores.</p>
+              </article>
+              <article class="contract-card reveal">
+                <span class="index">03 / FONTES</span>
+                <h3>Mostra de onde vieram os fatos</h3>
+                <p>Liga cada fato ao arquivo usado e trata o mapa lógico apenas como referência.</p>
+              </article>
+              <article class="contract-card reveal">
+                <span class="index">04 / REGRAS</span>
+                <h3>Mantém decisões sensíveis com as pessoas</h3>
+                <p>Preço, agenda, mensagens externas, aprovações e compartilhamentos continuam sob revisão humana.</p>
+              </article>
+              <article class="contract-card reveal">
+                <span class="index">05 / LACUNAS</span>
+                <h3>Aponta o que falta</h3>
+                <p>Informações ausentes e conflitos aparecem como perguntas, não como palpites.</p>
+              </article>
+              <article class="contract-card reveal">
+                <span class="index">06 / INTEGRIDADE</span>
+                <h3>Confirma que nada mudou</h3>
+                <p>A resposta confirma o limite e a área de mudanças continua vazia.</p>
+              </article>
+            </div>
+
+            <div class="callout top-gap-md">
+              <p><strong>Se a resposta diagnosticar, construir ou editar:</strong> interrompa a tarefa, peça novamente um inventário somente de leitura e confira qualquer mudança antes de tentar de novo.</p>
+            </div>
+          </div>
+        </section>
+
+        <section class="chapter">
+          <div class="container">
+            <div class="ready-panel">
+              <div>
+                <p class="eyebrow">Saída do Módulo 2</p>
+                <h2>Ambiente preparado para planejar.</h2>
+                <p>Projeto, tarefa, pasta, fontes, permissões e inventário estão organizados. A escolha da solução fica para o próximo módulo.</p>
+              </div>
+              <div class="ready-badge">Pronto para o M3</div>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="lesson-footer">
+        <div class="container">
+          <div class="footer-callout">
+            <h2>Contexto organizado ainda não é plano. Agora podemos decidir o que será construído e como reconhecer o resultado.</h2>
+            <a class="footer-next" href="../../projeto-inicial/prompt_base_planejamento.md">
+              <span>Próximo material</span>
+              <strong>Abrir o prompt-base <span aria-hidden="true">→</span></strong>
+            </a>
+          </div>
+          <div class="footer-meta">
+            <span>Codex Course · Módulo 2 · Material do aluno</span>
+            <nav aria-label="Links complementares">
+              <a href="m2-2.2-modelos-raciocinio-permissoes.html">Aula anterior</a>
+              <a href="../../projeto-inicial/README.md">Rever o kit da Lume</a>
+            </nav>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script src="m2-system.js?v=20260829a"></script>
+  </body>
+</html>
